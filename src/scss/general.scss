@@ -1,0 +1,170 @@
+// Basic styles
+
+// 1) global sections
+
+body {
+  background-color: map-get($colors, black);
+}
+
+.global-container {
+  min-width: 1200px;
+  margin-top: 25px;
+}
+
+@media screen and (max-width: 414px) {
+  .global-container {
+    min-width: auto;
+  }
+}
+
+// 2) fonts
+
+@font-face {
+  font-family: "Roboto";
+  src: url(../fonts/Roboto/Roboto-Regular.ttf);
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url(../fonts/Roboto/Roboto-Bold.ttf);
+  font-weight: bold;
+}
+
+.common-font-rules {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #cacaca;
+}
+
+// 3) headings
+
+h1 {
+  font-size: 60px;
+  line-height: 90px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: map-get($colors, white);
+}
+
+h2 {
+  font-size: 38px;
+  line-height: 57px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: map-get($colors, white);
+}
+
+h3 {
+  font-size: 24px;
+  line-height: 45px;
+  font-weight: normal;
+  text-transform: uppercase;
+  color: map-get($colors, white);
+}
+
+h4 {
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: map-get($colors, white);
+}
+
+@media screen and (max-width: 414px) {
+  h1 {
+    font-size: 30px;
+    line-height: 45px;
+  }
+
+  h2 {
+    font-size: 18px;
+    line-height: 27px;
+  }
+
+  h3 {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: bold;
+  }
+
+  h4 {
+    line-height: 24px;
+  }
+}
+
+// 4) paragraphs
+
+@each $size in $sizes-list {
+  .fz-#{$size}px {
+    font-size: map-get($sizes-map, $size);
+    line-height: 150%;
+  }
+}
+
+// 5) atomic styles
+
+// 5.1) grid
+
+.grid {
+  display: grid;
+}
+
+// 5.2) flex
+
+.flex {
+  display: flex;
+}
+
+.ff-columnNowrap {
+  flex-flow: column nowrap;
+}
+
+.jc-sa {
+  justify-content: space-around;
+}
+
+.jc-sb {
+  justify-content: space-between;
+}
+
+.jc-se {
+  justify-content: space-evenly;
+}
+
+.ai-center {
+  align-items: center;
+}
+
+// 5.3) position
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+// 5.4) box styles
+
+// 5.5) font
+
+.tt-uppercase {
+  text-transform: uppercase;
+}
+
+.tt-capitalize {
+  text-transform: capitalize;
+}
+
+.fw-bold {
+  font-weight: bold;
+}
+
+// 5.6) colors
+
+.white {
+  color: white;
+}
