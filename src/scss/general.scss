@@ -17,6 +17,18 @@ body {
   }
 }
 
+@mixin mobileVersion-width_n_paddings {
+  width: 100%;
+  padding: 0 20px;
+}
+
+@media screen and (max-width: 414px) {
+  main {
+    @include mobileVersion-width_n_paddings;
+  }
+
+}
+
 // 2) fonts
 
 @font-face {
@@ -157,12 +169,24 @@ h4 {
 
 // 5.4) box styles
 
+.mr-50px {
+  margin-right: 50px;
+}
+
 .mb-30px {
   margin-bottom: 30px;
 }
 
+.mb-65px {
+  margin-bottom: 65px;
+}
+
 .mb-200px {
   margin-bottom: 200px;
+}
+
+.ml-50px {
+  margin-left: 50px;
 }
 
 // 5.5) font
@@ -193,9 +217,8 @@ h4 {
   color: white;
 }
 
-// 5.7) samples
-
-@mixin mobileVersion-width_n_paddings {
-  width: 100%;
-  padding: 0 20px;
+.orange {
+  color: map-get($colors, orange);
 }
+
+// 5.7) samples

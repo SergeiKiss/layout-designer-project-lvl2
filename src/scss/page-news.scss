@@ -1,0 +1,87 @@
+// Page-news styles
+
+// 1) main styles
+
+article#page-news {
+  padding-top: 100px;
+  margin: 0 120px;
+
+  h2 {
+    margin-bottom: 50px;
+  }
+
+  div {
+    div.news-footer {
+      position: relative;
+      left: 31px;
+
+      span.news-author {
+        position: relative;
+
+        &::before {
+          position: absolute;
+          top: -3px;
+          left: -30px;
+
+          display: block;
+
+          width: 19px;
+          height: 19px;
+
+          background-image: url('../images/avatar.png');
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: 19px;
+
+          content: "";
+        }
+      }
+
+      time {
+        position: relative;
+        left: 10px;
+      }
+    }
+  }
+
+  a {
+    width: 135px;
+
+    button.btn-to-album {
+      width: 135px;
+      height: 53px;
+      border: 1px solid #cacaca;
+      border-radius: 5px;
+
+      color: #cacaca;
+      background-color: transparent;
+
+      cursor: pointer;
+    }
+  }
+}
+
+@media screen and (max-width: 414px) {
+  article#page-news {
+    margin: 0;
+
+    div.news-item {
+      flex-wrap: wrap;
+
+      div {
+        gap: 3vh;
+
+        margin: 0;
+      }
+
+      img {
+        width: 100%;
+        margin-bottom: 50px;
+
+        &.order-1 {
+          order: -1;
+        }
+      }
+    }
+  }
+}

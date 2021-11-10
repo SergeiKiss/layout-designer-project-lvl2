@@ -67,6 +67,12 @@ body {
     min-width: auto;
   }
 }
+@media screen and (max-width: 414px) {
+  main {
+    width: 100%;
+    padding: 0 20px;
+  }
+}
 @font-face {
   font-family: "Roboto";
   src: url(../fonts/Roboto/Roboto-Regular.ttf);
@@ -177,6 +183,11 @@ h4 {
   line-height: 150%;
 }
 
+.fz-12px {
+  font-size: 12px;
+  line-height: 150%;
+}
+
 .fz-11px {
   font-size: 11px;
   line-height: 150%;
@@ -226,12 +237,24 @@ h4 {
   position: absolute;
 }
 
+.mr-50px {
+  margin-right: 50px;
+}
+
 .mb-30px {
   margin-bottom: 30px;
 }
 
+.mb-65px {
+  margin-bottom: 65px;
+}
+
 .mb-200px {
   margin-bottom: 200px;
+}
+
+.ml-50px {
+  margin-left: 50px;
 }
 
 .tt-uppercase {
@@ -256,6 +279,10 @@ h4 {
 
 .white {
   color: white;
+}
+
+.orange {
+  color: #f89202;
 }
 
 header#page-description {
@@ -432,11 +459,71 @@ article#page-pricing div.pricing-items div.pricing-item p.pricing-footer {
   top: 75px;
   width: 318px;
 }
+article#page-pricing p {
+  max-width: 1200px;
+}
+
+article#page-news {
+  padding-top: 100px;
+  margin: 0 120px;
+}
+article#page-news h2 {
+  margin-bottom: 50px;
+}
+article#page-news div div.news-footer {
+  position: relative;
+  left: 31px;
+}
+article#page-news div div.news-footer span.news-author {
+  position: relative;
+}
+article#page-news div div.news-footer span.news-author::before {
+  position: absolute;
+  top: -3px;
+  left: -30px;
+  display: block;
+  width: 19px;
+  height: 19px;
+  background-image: url("../images/avatar.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 19px;
+  content: "";
+}
+article#page-news div div.news-footer time {
+  position: relative;
+  left: 10px;
+}
+article#page-news a {
+  width: 135px;
+}
+article#page-news a button.btn-to-album {
+  width: 135px;
+  height: 53px;
+  border: 1px solid #cacaca;
+  border-radius: 5px;
+  color: #cacaca;
+  background-color: transparent;
+  cursor: pointer;
+}
 
 @media screen and (max-width: 414px) {
-  main {
+  article#page-news {
+    margin: 0;
+  }
+  article#page-news div.news-item {
+    flex-wrap: wrap;
+  }
+  article#page-news div.news-item div {
+    gap: 3vh;
+    margin: 0;
+  }
+  article#page-news div.news-item img {
     width: 100%;
-    padding: 0 20px;
+    margin-bottom: 50px;
+  }
+  article#page-news div.news-item img.order-1 {
+    order: -1;
   }
 }
 

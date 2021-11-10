@@ -62,13 +62,9 @@ article#page-pricing {
       }
     }
   }
+  p {
+    max-width: 1200px;
+  }
 }
 
 // 2) mobile styles
-
-@media screen and (max-width: 414px) {
-  main {
-    @include mobileVersion-width_n_paddings;
-  }
-
-}
