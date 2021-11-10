@@ -11,8 +11,6 @@ header#page-description {
   div.logo-n-navigation {
     top: 25px;
 
-    height: 170px;
-
     .logo-name {
       position: relative;
     }
@@ -104,6 +102,8 @@ header#page-description {
 
         background-color: map-get($colors, green);
 
+        cursor: pointer;
+
         p {
           font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
           font-size: 13.3px;
@@ -119,8 +119,7 @@ header#page-description {
 
 @media screen and (max-width: 414px) {
   header#page-description {
-    width: 100%;
-    padding: 0 20px;
+    @include mobileVersion-width_n_paddings;
 
     div.logo-n-navigation {
       flex-flow: column nowrap;
@@ -149,7 +148,7 @@ header#page-description {
 
     div.headings-n-forms {
       top: 100px;
-     
+
       div {
         h1 {
           text-align: center;
