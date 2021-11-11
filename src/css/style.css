@@ -237,6 +237,10 @@ h4 {
   position: absolute;
 }
 
+.mt-16px {
+  margin-top: 16px;
+}
+
 .mr-50px {
   margin-right: 50px;
 }
@@ -465,7 +469,7 @@ article#page-pricing p {
 
 article#page-news {
   padding-top: 100px;
-  margin: 0 120px;
+  margin: 0 10vw;
 }
 article#page-news h2 {
   margin-bottom: 50px;
@@ -523,6 +527,55 @@ article#page-news a button.btn-to-album {
     margin-bottom: 50px;
   }
   article#page-news div.news-item img.order-1 {
+    order: -1;
+  }
+}
+article#page-app {
+  padding-top: 100px;
+  margin: 0 10vw;
+}
+article#page-app h2 {
+  margin-bottom: 50px;
+}
+article#page-app div {
+  gap: 10%;
+}
+article#page-app div div {
+  position: relative;
+  right: 4.5%;
+}
+article#page-app div div p {
+  max-width: 600px;
+}
+article#page-app div div a button {
+  width: 131px;
+  height: 53px;
+  border: none;
+  border-radius: 32px;
+  cursor: pointer;
+  color: #fff;
+  background-color: #95390c;
+}
+article#page-app img[alt="iphone image"] {
+  position: relative;
+  right: 2.7%;
+  width: 333px;
+  height: 278px;
+}
+
+@media screen and (max-width: 414px) {
+  article#page-app {
+    margin: 0;
+  }
+  article#page-app div {
+    flex-flow: column nowrap;
+    gap: 0;
+  }
+  article#page-app div div {
+    right: 0;
+  }
+  article#page-app div img[alt="iphone image"] {
+    right: 0;
     order: -1;
   }
 }

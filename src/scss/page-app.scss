@@ -1,0 +1,67 @@
+// Page-app styles
+
+// 1) main styles
+
+article#page-app {
+  padding-top: 100px;
+  margin: 0 10vw;
+
+  h2 {
+    margin-bottom: 50px;
+  }
+
+  div {
+    gap: 10%;
+
+    div {
+      position: relative;
+      right: 4.5%;
+      p {
+        max-width: 600px;
+      }
+
+      a {
+        button {
+          width: 131px;
+          height: 53px;
+          border: none;
+          border-radius: 32px;
+
+          cursor: pointer;
+
+          color: #fff;
+          background-color: map-get($colors, red);
+        }
+      }
+    }
+  }
+  img[alt="iphone image"] {
+    position: relative;
+    right: 2.7%;
+
+    width: 333px;
+    height: 278px;
+  }
+}
+
+// 2) mobile styles
+
+@media screen and (max-width: 414px) {
+  article#page-app {
+    margin: 0;
+    div {
+      flex-flow: column nowrap;
+      gap: 0;
+
+      div {
+        right: 0;
+      }
+
+      img[alt="iphone image"] {
+        right: 0;
+
+        order: -1;
+      }
+    }
+  }
+}
