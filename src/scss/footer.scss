@@ -1,0 +1,52 @@
+// Footer styles
+
+// 1) main styles
+
+footer {
+  margin-top: 100px;
+
+  nav {
+    margin: 3rem 0 2rem 0;
+
+    div.subscribe-buttons {
+      width: 160px;
+    }
+  }
+
+  div.footer-footer {
+    border-top: solid 1px #cacaca;
+
+    ul {
+      gap: 1%;
+
+      margin: 40px 0 50px 10%;
+    }
+  }
+}
+
+// 2) mobile styles
+
+@media screen and (max-width: 414px) {
+  footer {
+    width: 100%;
+
+    nav {
+      flex-flow: column nowrap;
+
+      padding: 0 20px;
+
+      h4 {
+        margin-top: 30px;
+      }
+    }
+
+    div.footer-footer {
+      ul {
+        flex-flow: column nowrap;
+        gap: 3vh;
+
+        margin: 40px 0 50px 20px;
+      }
+    }
+  }
+}

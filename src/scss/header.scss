@@ -120,7 +120,7 @@ header#page-description {
 
 @media screen and (max-width: 414px) {
   header#page-description {
-    @include mobileVersion-width_n_paddings;
+    @include mobileVersion-paddings;
 
     div.logo-n-navigation {
       flex-flow: column nowrap;

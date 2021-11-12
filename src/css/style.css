@@ -57,6 +57,12 @@ body {
   background-color: #08020d;
 }
 
+@media screen and (max-width: 414px) {
+  html,
+body {
+    overflow-x: hidden;
+  }
+}
 .global-container {
   min-width: 1200px;
   margin-top: 25px;
@@ -69,7 +75,6 @@ body {
 }
 @media screen and (max-width: 414px) {
   main {
-    width: 100%;
     padding: 0 20px;
   }
 }
@@ -245,6 +250,10 @@ h4 {
   margin-right: 50px;
 }
 
+.mb-15px {
+  margin-bottom: 15px;
+}
+
 .mb-30px {
   margin-bottom: 30px;
 }
@@ -287,6 +296,14 @@ h4 {
 
 .orange {
   color: #f89202;
+}
+
+.gray {
+  color: #e0e0e0;
+}
+
+.bg-gradient {
+  background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
 }
 
 header#page-description {
@@ -375,7 +392,6 @@ header#page-description div.headings-n-forms form button[type=submit] p {
 
 @media screen and (max-width: 414px) {
   header#page-description {
-    width: 100%;
     padding: 0 20px;
   }
   header#page-description div.logo-n-navigation {
@@ -577,6 +593,40 @@ article#page-app img[alt="iphone image"] {
   article#page-app div img[alt="iphone image"] {
     right: 0;
     order: -1;
+  }
+}
+footer {
+  margin-top: 100px;
+}
+footer nav {
+  margin: 3rem 0 2rem 0;
+}
+footer nav div.subscribe-buttons {
+  width: 160px;
+}
+footer div.footer-footer {
+  border-top: solid 1px #cacaca;
+}
+footer div.footer-footer ul {
+  gap: 1%;
+  margin: 40px 0 50px 10%;
+}
+
+@media screen and (max-width: 414px) {
+  footer {
+    width: 100%;
+  }
+  footer nav {
+    flex-flow: column nowrap;
+    padding: 0 20px;
+  }
+  footer nav h4 {
+    margin-top: 30px;
+  }
+  footer div.footer-footer ul {
+    flex-flow: column nowrap;
+    gap: 3vh;
+    margin: 40px 0 50px 20px;
   }
 }
 
