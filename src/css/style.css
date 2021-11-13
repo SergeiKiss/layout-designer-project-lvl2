@@ -53,6 +53,11 @@ a {
   color: #fff;
 }
 
+button {
+  border: none;
+  padding: 0;
+}
+
 body {
   background-color: #08020d;
 }
@@ -308,7 +313,14 @@ h4 {
 
 header#page-description {
   height: 750px;
+}
+header#page-description.main-page-desc {
   background-image: url("../images/banner.png");
+  background-position: center;
+  background-size: cover;
+}
+header#page-description.artist-page-desc {
+  background-image: url("../images/Morten Harket.png");
   background-position: center;
   background-size: cover;
 }
@@ -389,6 +401,64 @@ header#page-description div.headings-n-forms form button[type=submit] p {
   font-size: 13.3px;
   color: #ffffff;
 }
+header#page-description div.artistName-n-fans {
+  top: 200px;
+  left: 120px;
+  max-width: 1000px;
+}
+header#page-description div.artistName-n-fans p.fans-quantity {
+  margin-top: 15px;
+}
+header#page-description div.artistName-n-fans div.fans-buttons {
+  top: 50px;
+}
+header#page-description div.artistName-n-fans div.fans-buttons a button {
+  width: 200px;
+  height: 62px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+header#page-description div.artistName-n-fans div.fans-buttons a button.mix-button {
+  margin-right: 1.5rem;
+  background-color: #5328a1;
+}
+header#page-description div.artistName-n-fans div.fans-buttons a button.mix-button span {
+  left: 67px;
+  top: 21px;
+}
+header#page-description div.artistName-n-fans div.fans-buttons a button.mix-button span::before {
+  position: absolute;
+  right: 50px;
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-image: url("../images/play-button.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 20px;
+  filter: invert(1);
+  content: "";
+}
+header#page-description div.artistName-n-fans div.fans-buttons a button.to-favorites-button {
+  background-color: #95390c;
+}
+header#page-description div.artistName-n-fans div.fans-buttons a button.to-favorites-button span {
+  left: 67px;
+  top: 21px;
+}
+header#page-description div.artistName-n-fans div.fans-buttons a button.to-favorites-button span::before {
+  position: absolute;
+  right: 107px;
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-image: url("../images/heart.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 20px;
+  filter: invert(1);
+  content: "";
+}
 
 @media screen and (max-width: 414px) {
   header#page-description {
@@ -396,6 +466,7 @@ header#page-description div.headings-n-forms form button[type=submit] p {
   }
   header#page-description div.logo-n-navigation {
     flex-flow: column nowrap;
+    gap: 2vh;
   }
   header#page-description div.logo-n-navigation .logo-name {
     left: 40px;
@@ -403,10 +474,16 @@ header#page-description div.headings-n-forms form button[type=submit] p {
   }
   header#page-description div.logo-n-navigation nav ul {
     flex-flow: column nowrap;
+    justify-content: center;
     right: 0;
   }
   header#page-description div.logo-n-navigation nav ul li {
+    height: 16px;
     margin: 0;
+  }
+  header#page-description div.logo-n-navigation nav ul li a {
+    position: relative;
+    bottom: 7px;
   }
   header#page-description div.logo-n-navigation input[type=search] {
     width: 100%;
@@ -431,6 +508,14 @@ header#page-description div.headings-n-forms form button[type=submit] p {
   }
   header#page-description div.headings-n-forms form button[type=submit] {
     width: 100%;
+  }
+  header#page-description div.artistName-n-fans {
+    top: 55px;
+    left: 0;
+  }
+  header#page-description div.artistName-n-fans div.fans-buttons a button.mix-button {
+    margin-right: 0;
+    margin-bottom: 1.5rem;
   }
 }
 article#page-pricing {

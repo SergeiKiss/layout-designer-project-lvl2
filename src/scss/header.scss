@@ -4,10 +4,19 @@
 header#page-description {
   height: 750px;
 
-  background-image: url('../images/banner.png');
-  background-position: center;
-  background-size: cover;
+  &.main-page-desc {
+    background-image: url('../images/banner.png');
+    background-position: center;
+    background-size: cover;
+  }
 
+  &.artist-page-desc {
+    background-image: url('../images/Morten\ Harket.png');
+    background-position: center;
+    background-size: cover;
+  }
+
+  // 1.1) main page
   div.logo-n-navigation {
     top: 25px;
 
@@ -114,6 +123,92 @@ header#page-description {
       }
     }
   }
+
+  // 1.2) artist page
+
+  div.artistName-n-fans {
+    top: 200px;
+    left: 120px;
+
+    max-width: 1000px;
+
+    p.fans-quantity {
+      margin-top: 15px;
+    }
+
+    div.fans-buttons {
+      top: 50px;
+
+      a {
+        button {
+          width: 200px;
+          height: 62px;
+          border-radius: 5px;
+
+          cursor: pointer;
+
+          &.mix-button {
+            margin-right: 1.5rem;
+
+            background-color: map-get($colors, purple);
+
+            span {
+              left: 67px;
+              top: 21px;
+            }
+            
+            span::before {
+              position: absolute;
+              right: 50px;
+  
+              display: block;
+    
+              width: 20px;
+              height: 20px;
+    
+              background-image: url('../images/play-button.svg');
+              background-position: center;
+              background-repeat: no-repeat;
+              background-size: 20px;
+
+              filter: invert(1);
+    
+              content: "";
+            }
+
+          }
+  
+          &.to-favorites-button {
+            background-color: map-get($colors, red);
+
+            span {
+              left: 67px;
+              top: 21px;
+            }
+
+            span::before {
+              position: absolute;
+              right: 107px;
+  
+              display: block;
+    
+              width: 20px;
+              height: 20px;
+    
+              background-image: url('../images/heart.svg');
+              background-position: center;
+              background-repeat: no-repeat;
+              background-size: 20px;
+
+              filter: invert(1);
+    
+              content: "";
+            }
+          }
+        }
+      }
+    }
+  }
 }
 
 // 2) mobile styles
@@ -124,6 +219,7 @@ header#page-description {
 
     div.logo-n-navigation {
       flex-flow: column nowrap;
+      gap: 2vh;
 
       .logo-name {
         left: 40px;
@@ -134,10 +230,18 @@ header#page-description {
       nav {
         ul {
           flex-flow: column nowrap;
+          justify-content: center;
+
           right: 0;
 
           li {
+            height: 16px;
             margin: 0;
+
+            a {
+              position: relative;
+              bottom: 7px;
+            }
           }
         }
       }
@@ -173,6 +277,20 @@ header#page-description {
 
         button[type="submit"] {
           width: 100%;
+        }
+      }
+    }
+
+    div.artistName-n-fans {
+      top: 55px;
+      left: 0;
+
+      div.fans-buttons {
+        a {
+          button.mix-button {
+            margin-right: 0;
+            margin-bottom: 1.5rem;
+          }
         }
       }
     }
