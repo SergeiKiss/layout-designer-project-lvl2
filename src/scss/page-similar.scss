@@ -1,0 +1,39 @@
+// 1) main styles
+
+article#page-similar {
+  margin: 0 10vw;
+
+  div.similar-items-container {
+    row-gap: 25px;
+    column-gap: 50px;
+
+    div.similar-item {
+      img {
+        width: 250px;
+        height: 250px;
+      }
+    }
+  }
+}
+
+// 2) mobile styles
+
+@media screen and (max-width: 414px) {
+  article#page-similar {
+    margin: 0;
+
+    div.similar-items-container {
+      div.similar-item {
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        flex: 1 1 0;
+
+        img {
+          width: 137px;
+          height: 137px;
+        }
+      }
+    }
+  }
+}
