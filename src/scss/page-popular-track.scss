@@ -1,0 +1,41 @@
+// 1) main styles
+
+article#page-popular-track {
+  margin: 0 10vw;
+
+  div.popular-tracks-container {
+    row-gap: 25px;
+    column-gap: 50px;
+
+    div.popular-track {
+      gap: 15px;
+
+      width: 38vw;
+
+      img {
+        width: 55px;
+        height: 55px;
+      }
+
+      div.track-info {
+        width: 100%;
+      }
+    }
+  }
+}
+
+// 2) mobile styles
+
+@media screen and (max-width: 414px) {
+  article#page-popular-track {
+    margin: 0;
+
+    div.popular-tracks-container {
+      flex-flow: column nowrap;
+
+      div.popular-track {
+        width: 100%;
+      }
+    }
+  }
+}

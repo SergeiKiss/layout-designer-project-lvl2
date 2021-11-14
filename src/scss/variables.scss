@@ -1,5 +1,6 @@
-$colors: (
-  black: #08020d,
+// color
+
+$colors: (black: #08020d,
   dark: #3c3b3d,
   white: #ffffff,
   dark-gray: #cacaca,
@@ -7,13 +8,13 @@ $colors: (
   red: #95390c,
   green: #34c176,
   purple: #5328a1,
-  orange: #f89202
-);
+  orange: #f89202);
+
+// font size
 
 $sizes-list: (64, 56, 48, 40, 32, 24, 16, 13, 12, 11);
 
-$sizes-map: (
-  64: 64px,
+$sizes-map: (64: 64px,
   56: 56px,
   48: 48px,
   40: 40px,
@@ -23,4 +24,22 @@ $sizes-map: (
   13: 12.8px,
   12: 12px,
   11: 11px,
-  );
+);
+
+// margin
+
+// 1) margin-top
+
+$margin-top-list: (16, 100);
+
+// 2) margin-right
+
+$margin-right-list: (50);
+
+// 3) margin-bottom
+
+$margin-bottom-list: (15, 30, 50, 65, 200);
+
+// 4) margin-left
+
+$margin-left-list: (50);

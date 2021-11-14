@@ -175,32 +175,28 @@ h4 {
 
 // 5.4) box styles
 
-.mt-16px {
-  margin-top: 16px;
+@each $size in $margin-top-list {
+  .mt-#{$size}px {
+    margin-top: #{$size}px;
+  }
 }
 
-.mr-50px {
-  margin-right: 50px;
+@each $size in $margin-right-list {
+  .mr-#{$size}px {
+    margin-right: #{$size}px;
+  }
 }
 
-.mb-15px {
-  margin-bottom: 15px;
+@each $size in $margin-bottom-list {
+  .mb-#{$size}px {
+    margin-bottom: #{$size}px;
+  }
 }
 
-.mb-30px {
-  margin-bottom: 30px;
-}
-
-.mb-65px {
-  margin-bottom: 65px;
-}
-
-.mb-200px {
-  margin-bottom: 200px;
-}
-
-.ml-50px {
-  margin-left: 50px;
+@each $size in $margin-left-list {
+  .ml-#{$size}px {
+    margin-left: #{$size}px;
+  }
 }
 
 // 5.5) font

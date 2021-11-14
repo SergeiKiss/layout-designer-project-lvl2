@@ -156,28 +156,28 @@ header#page-description {
               left: 67px;
               top: 21px;
             }
-            
+
             span::before {
               position: absolute;
               right: 50px;
-  
+
               display: block;
-    
+
               width: 20px;
               height: 20px;
-    
+
               background-image: url('../images/play-button.svg');
               background-position: center;
               background-repeat: no-repeat;
               background-size: 20px;
 
               filter: invert(1);
-    
+
               content: "";
             }
 
           }
-  
+
           &.to-favorites-button {
             background-color: map-get($colors, red);
 
@@ -189,19 +189,19 @@ header#page-description {
             span::before {
               position: absolute;
               right: 107px;
-  
+
               display: block;
-    
+
               width: 20px;
               height: 20px;
-    
+
               background-image: url('../images/heart.svg');
               background-position: center;
               background-repeat: no-repeat;
               background-size: 20px;
 
               filter: invert(1);
-    
+
               content: "";
             }
           }
