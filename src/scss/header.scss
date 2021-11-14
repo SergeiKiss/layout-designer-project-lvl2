@@ -43,8 +43,10 @@ header#page-description {
     }
 
     nav {
+      right: 15%;
+
       ul {
-        right: 15%;
+        bottom: 2px;
 
         li {
           margin: 0 5%;
@@ -220,6 +222,7 @@ header#page-description {
     div.logo-n-navigation {
       flex-flow: column nowrap;
       gap: 2vh;
+      align-items: start;
 
       .logo-name {
         left: 40px;
@@ -228,11 +231,11 @@ header#page-description {
       }
 
       nav {
+        right: 0;
+
         ul {
           flex-flow: column nowrap;
           justify-content: center;
-
-          right: 0;
 
           li {
             height: 16px;
@@ -250,6 +253,8 @@ header#page-description {
         width: 100%;
       }
     }
+
+    // 2.1) main page
 
     div.headings-n-forms {
       top: 100px;
@@ -280,6 +285,8 @@ header#page-description {
         }
       }
     }
+
+    // 2.2) artist page
 
     div.artistName-n-fans {
       top: 55px;
