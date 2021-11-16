@@ -93,7 +93,6 @@ header#page-description {
 
     p {
       min-width: 1200px;
-      margin-bottom: 1.5rem;
     }
 
     form {
@@ -229,6 +228,7 @@ header#page-description {
 
 @media screen and (max-width: 414px) {
   header#page-description {
+    height: 853px;
     @include mobileVersion-paddings;
 
     div.logo-n-navigation {
@@ -267,8 +267,6 @@ header#page-description {
 
     div.headings-n-forms {
       top: 100px;
-
-      height: 853px;
 
       div.main-headings {
         min-width: 0;

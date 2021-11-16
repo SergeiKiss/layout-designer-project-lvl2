@@ -409,7 +409,6 @@ header#page-description div.headings-n-forms div.main-headings {
 }
 header#page-description div.headings-n-forms p {
   min-width: 1200px;
-  margin-bottom: 1.5rem;
 }
 header#page-description div.headings-n-forms form {
   max-width: 570px;
@@ -502,6 +501,7 @@ header#page-description div.artistName-n-fans div.fans-buttons a button.to-favor
 
 @media screen and (max-width: 414px) {
   header#page-description {
+    height: 853px;
     padding: 0 20px;
   }
   header#page-description div.logo-n-navigation {
@@ -531,7 +531,6 @@ header#page-description div.artistName-n-fans div.fans-buttons a button.to-favor
   }
   header#page-description div.headings-n-forms {
     top: 100px;
-    height: 853px;
   }
   header#page-description div.headings-n-forms div.main-headings {
     min-width: 0;
