@@ -247,8 +247,16 @@ h4 {
   position: absolute;
 }
 
+.mt-15px {
+  margin-top: 15px;
+}
+
 .mt-16px {
   margin-top: 16px;
+}
+
+.mt-20px {
+  margin-top: 20px;
 }
 
 .mt-25px {
