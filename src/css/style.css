@@ -411,7 +411,9 @@ header#page-description div.headings-n-forms {
   height: 400px;
 }
 header#page-description div.headings-n-forms div.main-headings {
-  min-width: 1200px;
+  position: relative;
+  left: 121px;
+  width: 1200px;
 }
 header#page-description div.headings-n-forms p {
   min-width: 1200px;

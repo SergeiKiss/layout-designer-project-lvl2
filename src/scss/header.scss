@@ -91,7 +91,10 @@ header#page-description {
     height: 400px;
 
     div.main-headings {
-      min-width: 1200px;
+      position: relative;
+      left: 121px;
+
+      width: 1200px;
     }
 
     p {
