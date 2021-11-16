@@ -407,7 +407,7 @@ header#page-description div.logo-n-navigation input[type=search]::placeholder {
   line-height: 15px;
 }
 header#page-description div.headings-n-forms {
-  top: 140px;
+  top: 145px;
   height: 400px;
 }
 header#page-description div.headings-n-forms div.main-headings {
@@ -536,7 +536,7 @@ header#page-description div.artistName-n-fans div.fans-buttons a button.to-favor
     width: 100%;
   }
   header#page-description div.headings-n-forms {
-    top: 105px;
+    top: 108px;
   }
   header#page-description div.headings-n-forms div.main-headings {
     min-width: 0;
