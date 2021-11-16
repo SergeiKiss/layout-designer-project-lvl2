@@ -92,7 +92,6 @@ header#page-description {
 
     div.main-headings {
       min-width: 1200px;
-      height: 200px;
     }
 
     p {
@@ -100,6 +99,9 @@ header#page-description {
     }
 
     form {
+      position: relative;
+      top: 15px;
+      left: 437px;
       max-width: 570px;
 
       input {
