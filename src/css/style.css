@@ -251,6 +251,10 @@ h4 {
   margin-top: 16px;
 }
 
+.mt-25px {
+  margin-top: 25px;
+}
+
 .mt-100px {
   margin-top: 100px;
 }
@@ -366,6 +370,7 @@ header#page-description div.logo-n-navigation nav ul {
   bottom: 2px;
 }
 header#page-description div.logo-n-navigation nav ul li {
+  height: 16px;
   margin: 0 5%;
 }
 header#page-description div.logo-n-navigation input[type=search] {
@@ -386,6 +391,12 @@ header#page-description div.logo-n-navigation input[type=search]::placeholder {
 header#page-description div.headings-n-forms {
   top: 150px;
   height: 400px;
+}
+header#page-description div.headings-n-forms div.main-headings {
+  min-width: 1200px;
+}
+header#page-description div.headings-n-forms p {
+  min-width: 1200px;
 }
 header#page-description div.headings-n-forms form {
   max-width: 570px;
@@ -420,7 +431,7 @@ header#page-description div.headings-n-forms form button[type=submit] {
 header#page-description div.artistName-n-fans {
   top: 200px;
   left: 120px;
-  max-width: 1000px;
+  max-width: 1200px;
 }
 header#page-description div.artistName-n-fans p.fans-quantity {
   margin-top: 15px;
@@ -487,7 +498,6 @@ header#page-description div.artistName-n-fans div.fans-buttons a button.to-favor
   }
   header#page-description div.logo-n-navigation .logo-name {
     left: 40px;
-    width: 80%;
   }
   header#page-description div.logo-n-navigation nav {
     right: 0;
@@ -497,7 +507,6 @@ header#page-description div.artistName-n-fans div.fans-buttons a button.to-favor
     justify-content: center;
   }
   header#page-description div.logo-n-navigation nav ul li {
-    height: 16px;
     margin: 0;
   }
   header#page-description div.logo-n-navigation nav ul li a {
