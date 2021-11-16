@@ -407,7 +407,7 @@ header#page-description div.logo-n-navigation input[type=search]::placeholder {
   line-height: 15px;
 }
 header#page-description div.headings-n-forms {
-  top: 145px;
+  top: 150px;
   height: 400px;
 }
 header#page-description div.headings-n-forms div.main-headings {
@@ -416,7 +416,9 @@ header#page-description div.headings-n-forms div.main-headings {
   width: 1200px;
 }
 header#page-description div.headings-n-forms p {
-  min-width: 1200px;
+  position: relative;
+  left: 121px;
+  width: 1200px;
 }
 header#page-description div.headings-n-forms form {
   position: relative;

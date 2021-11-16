@@ -86,7 +86,7 @@ header#page-description {
   }
 
   div.headings-n-forms {
-    top: 145px;
+    top: 150px;
 
     height: 400px;
 
@@ -98,7 +98,10 @@ header#page-description {
     }
 
     p {
-      min-width: 1200px;
+      position: relative;
+      left: 121px;
+
+      width: 1200px;
     }
 
     form {
