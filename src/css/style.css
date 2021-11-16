@@ -353,10 +353,12 @@ header#page-description.artist-page-desc {
   background-size: cover;
 }
 header#page-description div.logo-n-navigation {
+  gap: 90px;
   top: 25px;
 }
 header#page-description div.logo-n-navigation .logo-name {
   position: relative;
+  left: 42px;
 }
 header#page-description div.logo-n-navigation .logo-name::before {
   position: absolute;
@@ -558,7 +560,7 @@ header#page-description div.artistName-n-fans div.fans-buttons a button.to-favor
   header#page-description div.artistName-n-fans {
     top: 55px;
     left: 0;
-    height: 730px;
+    height: 500px;
   }
   header#page-description div.artistName-n-fans div.fans-buttons a button.mix-button {
     margin-right: 0;

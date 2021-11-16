@@ -18,10 +18,13 @@ header#page-description {
 
   // 1.1) main page
   div.logo-n-navigation {
+    gap: 90px;
+  
     top: 25px;
 
     .logo-name {
       position: relative;
+      left: 42px;
     }
 
     .logo-name::before {
@@ -306,7 +309,7 @@ header#page-description {
       top: 55px;
       left: 0;
 
-      height: 730px;
+      height: 500px;
 
       div.fans-buttons {
         a {
