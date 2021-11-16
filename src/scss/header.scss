@@ -51,6 +51,11 @@ header#page-description {
         li {
           height: 16px;
           margin: 0 5%;
+
+          a {
+            position: relative;
+            bottom: 7px;
+          }
         }
       }
     }
@@ -262,13 +267,17 @@ header#page-description {
     div.headings-n-forms {
       top: 100px;
 
-      div {
+      div.main-headings {
+        min-width: 0;
+
         h1 {
           text-align: center;
         }
       }
 
       p {
+        min-width: 0;
+
         text-align: center;
       }
 

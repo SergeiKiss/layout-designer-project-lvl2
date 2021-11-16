@@ -373,6 +373,10 @@ header#page-description div.logo-n-navigation nav ul li {
   height: 16px;
   margin: 0 5%;
 }
+header#page-description div.logo-n-navigation nav ul li a {
+  position: relative;
+  bottom: 7px;
+}
 header#page-description div.logo-n-navigation input[type=search] {
   width: 248px;
   height: 25px;
@@ -519,10 +523,14 @@ header#page-description div.artistName-n-fans div.fans-buttons a button.to-favor
   header#page-description div.headings-n-forms {
     top: 100px;
   }
-  header#page-description div.headings-n-forms div h1 {
+  header#page-description div.headings-n-forms div.main-headings {
+    min-width: 0;
+  }
+  header#page-description div.headings-n-forms div.main-headings h1 {
     text-align: center;
   }
   header#page-description div.headings-n-forms p {
+    min-width: 0;
     text-align: center;
   }
   header#page-description div.headings-n-forms form {
