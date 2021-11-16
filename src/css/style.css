@@ -349,6 +349,8 @@ h4 {
 
 header#page-description {
   height: 750px;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 header#page-description.main-page-desc {
   background-image: url("../images/banner.png");
@@ -412,8 +414,6 @@ header#page-description div.logo-n-navigation input[type=search]::placeholder {
 }
 header#page-description div.headings-n-forms {
   height: 400px;
-  padding-top: 200px;
-  padding-bottom: 200px;
 }
 header#page-description div.headings-n-forms div.main-headings {
   position: relative;

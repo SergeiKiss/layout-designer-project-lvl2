@@ -3,6 +3,8 @@
 // 1) main styles
 header#page-description {
   height: 750px;
+  padding-top: 200px;
+  padding-bottom: 200px;
 
   &.main-page-desc {
     background-image: url('../images/banner.png');
@@ -87,8 +89,6 @@ header#page-description {
 
   div.headings-n-forms {
     height: 400px;
-    padding-top: 200px;
-    padding-bottom: 200px;
 
     div.main-headings {
       position: relative;
