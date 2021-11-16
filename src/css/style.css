@@ -348,7 +348,7 @@ h4 {
 }
 
 header#page-description {
-  height: 750px;
+  height: 350px;
   padding-top: 200px;
   padding-bottom: 200px;
 }
@@ -363,6 +363,7 @@ header#page-description.artist-page-desc {
   background-size: cover;
 }
 header#page-description div.logo-n-navigation {
+  top: 50px;
   left: 120px;
   gap: 90px;
   width: 1200px;
@@ -414,6 +415,7 @@ header#page-description div.logo-n-navigation input[type=search]::placeholder {
   line-height: 15px;
 }
 header#page-description div.headings-n-forms {
+  bottom: 33px;
   height: 400px;
 }
 header#page-description div.headings-n-forms div.main-headings {
