@@ -409,6 +409,7 @@ header#page-description div.headings-n-forms div.main-headings {
 }
 header#page-description div.headings-n-forms p {
   min-width: 1200px;
+  margin-bottom: 1.5rem;
 }
 header#page-description div.headings-n-forms form {
   max-width: 570px;
@@ -530,6 +531,7 @@ header#page-description div.artistName-n-fans div.fans-buttons a button.to-favor
   }
   header#page-description div.headings-n-forms {
     top: 100px;
+    height: 853px;
   }
   header#page-description div.headings-n-forms div.main-headings {
     min-width: 0;
@@ -539,6 +541,7 @@ header#page-description div.artistName-n-fans div.fans-buttons a button.to-favor
   }
   header#page-description div.headings-n-forms p {
     min-width: 0;
+    margin-bottom: 15px;
     text-align: center;
   }
   header#page-description div.headings-n-forms form {
@@ -556,6 +559,7 @@ header#page-description div.artistName-n-fans div.fans-buttons a button.to-favor
   header#page-description div.artistName-n-fans {
     top: 55px;
     left: 0;
+    height: 730px;
   }
   header#page-description div.artistName-n-fans div.fans-buttons a button.mix-button {
     margin-right: 0;
