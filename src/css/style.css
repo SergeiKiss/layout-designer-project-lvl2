@@ -363,8 +363,9 @@ header#page-description.artist-page-desc {
   background-size: cover;
 }
 header#page-description div.logo-n-navigation {
+  left: 120px;
   gap: 90px;
-  top: 25px;
+  width: 1200px;
 }
 header#page-description div.logo-n-navigation .logo-name {
   position: relative;
