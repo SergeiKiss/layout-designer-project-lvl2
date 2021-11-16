@@ -91,10 +91,14 @@ header#page-description {
     height: 400px;
 
     div.main-headings {
+      position: relative;
+      top: 5px;
       min-width: 1200px;
     }
 
     p {
+      position: relative;
+      top: 5px;
       min-width: 1200px;
     }
 
