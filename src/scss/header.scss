@@ -19,7 +19,7 @@ header#page-description {
   // 1.1) main page
   div.logo-n-navigation {
     gap: 90px;
-  
+
     top: 25px;
 
     .logo-name {
@@ -86,8 +86,9 @@ header#page-description {
   }
 
   div.headings-n-forms {
-    padding: 200px auto;
     height: 400px;
+    padding-top: 200px;
+    padding-bottom: 200px;
 
     div.main-headings {
       position: relative;

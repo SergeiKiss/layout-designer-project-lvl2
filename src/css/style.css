@@ -411,8 +411,9 @@ header#page-description div.logo-n-navigation input[type=search]::placeholder {
   line-height: 15px;
 }
 header#page-description div.headings-n-forms {
-  padding: 200px auto;
   height: 400px;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 header#page-description div.headings-n-forms div.main-headings {
   position: relative;
