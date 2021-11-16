@@ -411,9 +411,13 @@ header#page-description div.headings-n-forms {
   height: 400px;
 }
 header#page-description div.headings-n-forms div.main-headings {
+  position: relative;
+  top: 5px;
   min-width: 1200px;
 }
 header#page-description div.headings-n-forms p {
+  position: relative;
+  top: 5px;
   min-width: 1200px;
 }
 header#page-description div.headings-n-forms form {
