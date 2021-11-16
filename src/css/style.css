@@ -407,23 +407,16 @@ header#page-description div.logo-n-navigation input[type=search]::placeholder {
   line-height: 15px;
 }
 header#page-description div.headings-n-forms {
-  top: 150px;
+  top: 145px;
   height: 400px;
 }
 header#page-description div.headings-n-forms div.main-headings {
-  position: relative;
-  left: 121px;
-  width: 1200px;
+  min-width: 1200px;
 }
 header#page-description div.headings-n-forms p {
-  position: relative;
-  left: 121px;
-  width: 1200px;
+  min-width: 1200px;
 }
 header#page-description div.headings-n-forms form {
-  position: relative;
-  top: 15px;
-  left: 437px;
   max-width: 570px;
 }
 header#page-description div.headings-n-forms form input {
