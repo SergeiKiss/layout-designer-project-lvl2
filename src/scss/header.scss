@@ -88,7 +88,7 @@ header#page-description {
         color: #fff;
 
         &[type="text"] {
-          margin-right: 24px;
+          margin-right: 1.5rem;
         }
 
         width: 42.98%;
@@ -110,18 +110,15 @@ header#page-description {
         height: 57px;
         border: none;
         border-radius: 5px;
-        margin: 20px 0;
 
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        font-size: 13.3px;
+
+        color: map-get($colors, white);
         background-color: map-get($colors, green);
 
         cursor: pointer;
 
-        p {
-          font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-          font-size: 13.3px;
-
-          color: map-get($colors, white);
-        }
       }
     }
   }
