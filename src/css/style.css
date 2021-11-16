@@ -420,6 +420,8 @@ header#page-description div.logo-n-navigation input[type=search]::placeholder {
 }
 header#page-description div.headings-n-forms {
   bottom: 28px;
+  left: 120px;
+  width: 1200px;
   height: 400px;
 }
 header#page-description div.headings-n-forms div.main-headings {
