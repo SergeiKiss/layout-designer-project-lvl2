@@ -491,10 +491,10 @@ header#page-description div.artistName-n-fans div.fans-buttons a button.mix-butt
   height: 20px;
   filter: invert(1);
 }
-header#page-description div.artistName-n-fans div.fans-buttons a button.to-favorites-button {
+header#page-description div.artistName-n-fans div.fans-buttons a button.favorite-button {
   background-color: #95390c;
 }
-header#page-description div.artistName-n-fans div.fans-buttons a button.to-favorites-button img {
+header#page-description div.artistName-n-fans div.fans-buttons a button.favorite-button img {
   width: 20px;
   height: 20px;
   filter: invert(1);
