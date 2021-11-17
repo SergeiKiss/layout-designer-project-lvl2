@@ -475,26 +475,26 @@ header#page-description div.artistName-n-fans p.fans-quantity {
 header#page-description div.artistName-n-fans div.fans-buttons {
   top: 50px;
 }
-header#page-description div.artistName-n-fans div.fans-buttons a button {
+header#page-description div.artistName-n-fans div.fans-buttons button {
   width: 200px;
   height: 62px;
   padding: 20px 30px;
   border-radius: 5px;
   cursor: pointer;
 }
-header#page-description div.artistName-n-fans div.fans-buttons a button.mix-button {
+header#page-description div.artistName-n-fans div.fans-buttons button.mix-button {
   margin-right: 1.5rem;
   background-color: #5328a1;
 }
-header#page-description div.artistName-n-fans div.fans-buttons a button.mix-button img {
+header#page-description div.artistName-n-fans div.fans-buttons button.mix-button img {
   width: 20px;
   height: 20px;
   filter: invert(1);
 }
-header#page-description div.artistName-n-fans div.fans-buttons a button.favorite-button {
+header#page-description div.artistName-n-fans div.fans-buttons button.favorite-button {
   background-color: #95390c;
 }
-header#page-description div.artistName-n-fans div.fans-buttons a button.favorite-button img {
+header#page-description div.artistName-n-fans div.fans-buttons button.favorite-button img {
   width: 20px;
   height: 20px;
   filter: invert(1);
