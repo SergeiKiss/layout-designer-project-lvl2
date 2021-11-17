@@ -576,7 +576,7 @@ header#page-description div.artistName-n-fans div.fans-buttons button.favorite-b
   }
   header#page-description div.artistName-n-fans p {
     position: relative;
-    top: 2px;
+    top: 4px;
   }
   header#page-description div.artistName-n-fans div.fans-buttons {
     top: 50px;
@@ -587,11 +587,11 @@ header#page-description div.artistName-n-fans div.fans-buttons button.favorite-b
   }
   header#page-description div.artistName-n-fans div.fans-buttons button.mix-button img {
     position: relative;
-    right: 50px;
+    right: 45px;
   }
   header#page-description div.artistName-n-fans div.fans-buttons button.favorite-button img {
     position: relative;
-    right: 23px;
+    right: 18px;
   }
 }
 article#page-pricing {
