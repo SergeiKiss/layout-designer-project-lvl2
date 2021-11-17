@@ -3,6 +3,7 @@
 // 1) main styles
 
 article#page-pricing {
+  height: 908px;
   padding-top: 100px;
 
   h2 {
@@ -37,10 +38,14 @@ article#page-pricing {
       }
 
       h3 {
+        width: 318px;
+        height: 66px;
         line-height: 36px;
       }
 
       p.pricing-value {
+        width: 318px;
+        height: 66px;
         margin-bottom: 16px;
       }
 
