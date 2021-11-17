@@ -646,7 +646,7 @@ article#page-pricing div.pricing-items div.pricing-item p.pricing-value {
 }
 article#page-pricing div.pricing-items div.pricing-item a.btn-checkout {
   position: relative;
-  bottom: 10px;
+  bottom: 15px;
   display: block;
   width: 256px;
   height: 24px;
@@ -659,7 +659,7 @@ article#page-pricing div.pricing-items div.pricing-item a.btn-checkout p {
   color: #fff;
 }
 article#page-pricing div.pricing-items div.pricing-item p.pricing-footer {
-  top: 60px;
+  top: 50px;
   width: 318px;
 }
 article#page-pricing p {
