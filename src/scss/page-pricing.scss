@@ -3,7 +3,6 @@
 // 1) main styles
 
 article#page-pricing {
-  height: 908px;
   padding-top: 100px;
 
   h2 {
@@ -39,7 +38,6 @@ article#page-pricing {
 
       h3 {
         width: 318px;
-        height: 66px;
         line-height: 36px;
       }
 
@@ -51,8 +49,8 @@ article#page-pricing {
 
       a.btn-checkout {
         display: block;
-        width: 318px;
-        height: 66px;
+        width: 256px;
+        height: 15px;
         border: 1px solid #fff;
         border-radius: 5px;
 

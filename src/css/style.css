@@ -603,7 +603,6 @@ header#page-description div.artistName-n-fans div.fans-buttons button.favorite-b
   }
 }
 article#page-pricing {
-  height: 908px;
   padding-top: 100px;
 }
 article#page-pricing h2 {
@@ -633,7 +632,6 @@ article#page-pricing div.pricing-items div.pricing-item.bg-premium {
 }
 article#page-pricing div.pricing-items div.pricing-item h3 {
   width: 318px;
-  height: 66px;
   line-height: 36px;
 }
 article#page-pricing div.pricing-items div.pricing-item p.pricing-value {
@@ -643,8 +641,8 @@ article#page-pricing div.pricing-items div.pricing-item p.pricing-value {
 }
 article#page-pricing div.pricing-items div.pricing-item a.btn-checkout {
   display: block;
-  width: 318px;
-  height: 66px;
+  width: 256px;
+  height: 15px;
   border: 1px solid #fff;
   border-radius: 5px;
   background-color: transparent;
