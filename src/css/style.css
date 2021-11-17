@@ -569,7 +569,7 @@ header#page-description div.artistName-n-fans div.fans-buttons button.favorite-b
     width: 100%;
   }
   header#page-description div.artistName-n-fans {
-    top: 20px;
+    top: 23px;
     left: 0;
     margin-top: 0;
     height: 500px;
@@ -577,7 +577,7 @@ header#page-description div.artistName-n-fans div.fans-buttons button.favorite-b
   header#page-description div.artistName-n-fans div.fans-buttons {
     top: 50px;
   }
-  header#page-description div.artistName-n-fans div.fans-buttons a button.mix-button {
+  header#page-description div.artistName-n-fans div.fans-buttons button.mix-button {
     margin-right: 0;
     margin-bottom: 1.5rem;
   }

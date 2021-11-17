@@ -301,7 +301,7 @@ header#page-description {
     // 2.2) artist page
 
     div.artistName-n-fans {
-      top: 20px;
+      top: 23px;
       left: 0;
 
       margin-top: 0;
@@ -311,11 +311,10 @@ header#page-description {
       div.fans-buttons {
         top: 50px;
 
-        a {
-          button.mix-button {
-            margin-right: 0;
-            margin-bottom: 1.5rem;
-          }
+
+        button.mix-button {
+          margin-right: 0;
+          margin-bottom: 1.5rem;
         }
       }
     }
