@@ -603,7 +603,7 @@ header#page-description div.artistName-n-fans div.fans-buttons button.favorite-b
   }
 }
 article#page-pricing {
-  width: 1200px;
+  width: 1240px;
   padding-top: 100px;
 }
 article#page-pricing h2 {
@@ -611,7 +611,7 @@ article#page-pricing h2 {
 }
 article#page-pricing div.pricing-items {
   width: 100%;
-  gap: 4%;
+  gap: 2%;
 }
 article#page-pricing div.pricing-items div.pricing-item {
   width: 368px;
