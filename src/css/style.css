@@ -536,7 +536,7 @@ header#page-description div.artistName-n-fans div.fans-buttons a button.to-favor
   header#page-description div.logo-n-navigation {
     left: 20px;
     flex-flow: column nowrap;
-    gap: 1.5vh;
+    gap: 1.7vh;
     align-items: start;
     width: 374px;
   }
@@ -577,7 +577,7 @@ header#page-description div.artistName-n-fans div.fans-buttons a button.to-favor
     text-align: center;
   }
   header#page-description div.headings-n-forms form {
-    bottom: -3px;
+    bottom: -6px;
     width: 100%;
   }
   header#page-description div.headings-n-forms form input {
@@ -594,6 +594,9 @@ header#page-description div.artistName-n-fans div.fans-buttons a button.to-favor
     left: 0;
     margin-top: 0;
     height: 500px;
+  }
+  header#page-description div.artistName-n-fans div.fans-buttons {
+    top: 60px;
   }
   header#page-description div.artistName-n-fans div.fans-buttons a button.mix-button {
     margin-right: 0;
