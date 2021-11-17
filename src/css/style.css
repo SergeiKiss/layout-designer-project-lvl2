@@ -603,6 +603,7 @@ header#page-description div.artistName-n-fans div.fans-buttons button.favorite-b
   }
 }
 article#page-pricing {
+  width: 1200px;
   padding-top: 100px;
 }
 article#page-pricing h2 {
