@@ -631,6 +631,8 @@ article#page-pricing div.pricing-items div.pricing-item.bg-standart {
   background-image: url(../images/subscribe_2.png);
 }
 article#page-pricing div.pricing-items div.pricing-item.bg-premium {
+  position: relative;
+  right: 10px;
   background-image: url(../images/subscribe_3.png);
 }
 article#page-pricing div.pricing-items div.pricing-item h3 {
@@ -646,7 +648,7 @@ article#page-pricing div.pricing-items div.pricing-item p.pricing-value {
 }
 article#page-pricing div.pricing-items div.pricing-item a.btn-checkout {
   position: relative;
-  bottom: 15px;
+  bottom: 18px;
   display: block;
   width: 256px;
   height: 24px;

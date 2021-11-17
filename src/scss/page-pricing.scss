@@ -36,6 +36,8 @@ article#page-pricing {
       }
 
       &.bg-premium {
+        position: relative;
+        right: 10px;
         background-image: url(../images/subscribe_3.png);
       }
 
@@ -54,7 +56,7 @@ article#page-pricing {
 
       a.btn-checkout {
         position: relative;
-        bottom: 15px;
+        bottom: 18px;
         display: block;
         width: 256px;
         height: 24px;
