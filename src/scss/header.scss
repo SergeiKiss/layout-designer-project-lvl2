@@ -308,6 +308,11 @@ header#page-description {
 
       height: 500px;
 
+      p {
+        position: relative;
+        top: 2px;
+      }
+
       div.fans-buttons {
         top: 50px;
 
@@ -315,6 +320,18 @@ header#page-description {
         button.mix-button {
           margin-right: 0;
           margin-bottom: 1.5rem;
+
+          img {
+            position: relative;
+            right: 50px;
+          }
+        }
+
+        button.favorite-button {
+          img {
+            position: relative;
+            right: 23px;
+          }
         }
       }
     }

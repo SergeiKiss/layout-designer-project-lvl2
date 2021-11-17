@@ -574,12 +574,24 @@ header#page-description div.artistName-n-fans div.fans-buttons button.favorite-b
     margin-top: 0;
     height: 500px;
   }
+  header#page-description div.artistName-n-fans p {
+    position: relative;
+    top: 2px;
+  }
   header#page-description div.artistName-n-fans div.fans-buttons {
     top: 50px;
   }
   header#page-description div.artistName-n-fans div.fans-buttons button.mix-button {
     margin-right: 0;
     margin-bottom: 1.5rem;
+  }
+  header#page-description div.artistName-n-fans div.fans-buttons button.mix-button img {
+    position: relative;
+    right: 50px;
+  }
+  header#page-description div.artistName-n-fans div.fans-buttons button.favorite-button img {
+    position: relative;
+    right: 23px;
   }
 }
 article#page-pricing {
