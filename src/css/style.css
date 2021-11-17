@@ -247,14 +247,6 @@ h4 {
   position: absolute;
 }
 
-.h-453px {
-  height: 453px;
-}
-
-.h-330px {
-  height: 330px;
-}
-
 .mt-5px {
   margin-top: 5px;
 }
@@ -535,6 +527,12 @@ header#page-description div.artistName-n-fans div.fans-buttons a button.to-favor
   header#page-description {
     padding: 200px 20px;
   }
+  header#page-description.main-page-desc {
+    height: 453px;
+  }
+  header#page-description.artist-page-desc {
+    height: 330px;
+  }
   header#page-description div.logo-n-navigation {
     left: 20px;
     flex-flow: column nowrap;
@@ -563,7 +561,7 @@ header#page-description div.artistName-n-fans div.fans-buttons a button.to-favor
     width: 100%;
   }
   header#page-description div.headings-n-forms {
-    top: 40px;
+    top: 45px;
     left: 0;
     width: 100%;
   }
@@ -592,7 +590,7 @@ header#page-description div.artistName-n-fans div.fans-buttons a button.to-favor
     width: 100%;
   }
   header#page-description div.artistName-n-fans {
-    top: 0;
+    top: 10px;
     left: 0;
     margin-top: 0;
     height: 500px;

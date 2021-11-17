@@ -177,14 +177,6 @@ h4 {
 
 // 5.4.1) width and height
 
-.h-453px {
-  height: 453px;
-}
-
-.h-330px {
-  height: 330px;
-}
-
 // 5.4.2) margin
 
 @each $size in $margin-top-list {

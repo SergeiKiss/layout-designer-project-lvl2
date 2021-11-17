@@ -243,6 +243,14 @@ header#page-description {
   header#page-description {
     padding: 200px 20px;
 
+    &.main-page-desc {
+      height: 453px;
+    }
+
+    &.artist-page-desc {
+      height: 330px;
+    }
+
 
     div.logo-n-navigation {
       left: 20px;
@@ -283,7 +291,7 @@ header#page-description {
     // 2.1) main page
 
     div.headings-n-forms {
-      top: 40px;
+      top: 45px;
       left: 0;
 
       width: 100%;
@@ -325,7 +333,7 @@ header#page-description {
     // 2.2) artist page
 
     div.artistName-n-fans {
-      top: 0;
+      top: 10px;
       left: 0;
 
       margin-top: 0;
