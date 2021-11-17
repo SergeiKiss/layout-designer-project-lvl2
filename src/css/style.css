@@ -623,7 +623,7 @@ article#page-pricing div.pricing-items div.pricing-item.bg-premium {
   background-image: url(../images/subscribe_3.png);
 }
 article#page-pricing div.pricing-items div.pricing-item h3 {
-  line-height: 36;
+  line-height: 36px;
 }
 article#page-pricing div.pricing-items div.pricing-item p.pricing-value {
   margin-bottom: 16px;
@@ -650,6 +650,7 @@ article#page-pricing p {
 @media screen and (max-width: 414) {
   article#page-pricing div.pricing-items div.pricing-item h3 {
     font-weight: 400;
+    line-height: 24px;
   }
 }
 article#page-news {
