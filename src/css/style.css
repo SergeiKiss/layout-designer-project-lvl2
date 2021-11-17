@@ -611,7 +611,6 @@ article#page-pricing h2 {
 }
 article#page-pricing div.pricing-items {
   width: 100%;
-  gap: 2%;
 }
 article#page-pricing div.pricing-items div.pricing-item {
   width: 368px;
@@ -657,6 +656,8 @@ article#page-pricing div.pricing-items div.pricing-item p.pricing-footer {
   width: 318px;
 }
 article#page-pricing p {
+  position: relative;
+  bottom: 35px;
   max-width: 1200px;
 }
 
