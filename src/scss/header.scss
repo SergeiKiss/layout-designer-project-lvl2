@@ -256,7 +256,7 @@ header#page-description {
       left: 20px;
 
       flex-flow: column nowrap;
-      gap: 1.7vh;
+      gap: 1.9vh;
       align-items: start;
 
       width: 374px;
@@ -291,7 +291,7 @@ header#page-description {
     // 2.1) main page
 
     div.headings-n-forms {
-      top: 45px;
+      top: 40px;
       left: 0;
 
       width: 100%;
@@ -333,7 +333,7 @@ header#page-description {
     // 2.2) artist page
 
     div.artistName-n-fans {
-      top: 10px;
+      top: 15px;
       left: 0;
 
       margin-top: 0;
@@ -341,7 +341,7 @@ header#page-description {
       height: 500px;
 
       div.fans-buttons {
-        top: 60px;
+        top: 55px;
 
         a {
           button.mix-button {
