@@ -47,6 +47,8 @@ article#page-pricing {
       }
 
       p.pricing-value {
+        position: relative;
+        top: 5px;
         width: 318px;
         height: 66px;
         margin-bottom: 16px;
