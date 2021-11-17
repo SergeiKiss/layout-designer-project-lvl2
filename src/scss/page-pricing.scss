@@ -4,6 +4,7 @@
 
 article#page-pricing {
   width: 1240px;
+  height: 840px;
   padding-top: 100px;
 
   h2 {
@@ -11,6 +12,8 @@ article#page-pricing {
   }
 
   div.pricing-items {
+    position: relative;
+    top: 10px;
     width: 100%;
 
     div.pricing-item {
@@ -72,7 +75,7 @@ article#page-pricing {
   }
   p {
     position: relative;
-    bottom: 35px;
+    bottom: 40px;
     max-width: 1200px;
   }
 }
