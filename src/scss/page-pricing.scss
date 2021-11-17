@@ -36,6 +36,10 @@ article#page-pricing {
         background-image: url(../images/subscribe_3.png);
       }
 
+      h3 {
+        line-height: 36;
+      }
+
       p.pricing-value {
         margin-bottom: 16px;
       }
@@ -68,3 +72,15 @@ article#page-pricing {
 }
 
 // 2) mobile styles
+
+@media screen and (max-width: 414) {
+  article#page-pricing {
+    div.pricing-items {
+      div.pricing-item {
+        h3 {
+          font-weight: 400;
+        }
+      }
+    }
+  }
+}

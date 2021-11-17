@@ -622,6 +622,9 @@ article#page-pricing div.pricing-items div.pricing-item.bg-standart {
 article#page-pricing div.pricing-items div.pricing-item.bg-premium {
   background-image: url(../images/subscribe_3.png);
 }
+article#page-pricing div.pricing-items div.pricing-item h3 {
+  line-height: 36;
+}
 article#page-pricing div.pricing-items div.pricing-item p.pricing-value {
   margin-bottom: 16px;
 }
@@ -644,6 +647,11 @@ article#page-pricing p {
   max-width: 1200px;
 }
 
+@media screen and (max-width: 414) {
+  article#page-pricing div.pricing-items div.pricing-item h3 {
+    font-weight: 400;
+  }
+}
 article#page-news {
   padding-top: 100px;
   margin: 0 10vw;
