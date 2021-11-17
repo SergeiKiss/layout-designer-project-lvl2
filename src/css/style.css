@@ -641,7 +641,7 @@ article#page-pricing div.pricing-items div.pricing-item h3 {
 }
 article#page-pricing div.pricing-items div.pricing-item p.pricing-value {
   position: relative;
-  top: 5px;
+  bottom: 5px;
   width: 318px;
   height: 66px;
   margin-bottom: 16px;
