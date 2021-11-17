@@ -169,6 +169,7 @@ header#page-description {
         button {
           width: 200px;
           height: 62px;
+          padding: 20px 30px;
           border-radius: 5px;
 
           cursor: pointer;
@@ -178,28 +179,11 @@ header#page-description {
 
             background-color: map-get($colors, purple);
 
-            span {
-              left: 67px;
-              top: 21px;
-            }
-
-            span::before {
-              position: absolute;
-              right: 50px;
-
-              display: block;
-
+            img {
               width: 20px;
               height: 20px;
 
-              background-image: url('../images/play-button.svg');
-              background-position: center;
-              background-repeat: no-repeat;
-              background-size: 20px;
-
               filter: invert(1);
-
-              content: "";
             }
 
           }
@@ -207,29 +191,13 @@ header#page-description {
           &.to-favorites-button {
             background-color: map-get($colors, red);
 
-            span {
-              left: 67px;
-              top: 21px;
-            }
-
-            span::before {
-              position: absolute;
-              right: 107px;
-
-              display: block;
-
+            img {               
               width: 20px;
               height: 20px;
 
-              background-image: url('../images/heart.svg');
-              background-position: center;
-              background-repeat: no-repeat;
-              background-size: 20px;
-
               filter: invert(1);
-
-              content: "";
             }
+            
           }
         }
       }
@@ -312,12 +280,14 @@ header#page-description {
       }
 
       form {
-        bottom: 0;
+        bottom: -3px;
 
         width: 100%;
 
         input {
           width: 92%;
+          height: 44px;
+          min-height: auto;
 
           &[type="text"] {
             margin-right: 0;
