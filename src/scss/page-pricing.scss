@@ -44,7 +44,8 @@ article#page-pricing {
         margin-bottom: 16px;
       }
 
-      button.btn-checkout {
+      a.btn-checkout {
+        display: block;
         width: 318px;
         height: 66px;
         border: 1px solid #fff;

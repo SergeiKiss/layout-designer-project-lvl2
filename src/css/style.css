@@ -628,7 +628,8 @@ article#page-pricing div.pricing-items div.pricing-item h3 {
 article#page-pricing div.pricing-items div.pricing-item p.pricing-value {
   margin-bottom: 16px;
 }
-article#page-pricing div.pricing-items div.pricing-item button.btn-checkout {
+article#page-pricing div.pricing-items div.pricing-item a.btn-checkout {
+  display: block;
   width: 318px;
   height: 66px;
   border: 1px solid #fff;
@@ -636,7 +637,7 @@ article#page-pricing div.pricing-items div.pricing-item button.btn-checkout {
   background-color: transparent;
   cursor: pointer;
 }
-article#page-pricing div.pricing-items div.pricing-item button.btn-checkout p {
+article#page-pricing div.pricing-items div.pricing-item a.btn-checkout p {
   color: #fff;
 }
 article#page-pricing div.pricing-items div.pricing-item p.pricing-footer {
