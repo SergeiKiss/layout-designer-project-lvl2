@@ -645,6 +645,8 @@ article#page-pricing div.pricing-items div.pricing-item p.pricing-value {
   margin-bottom: 16px;
 }
 article#page-pricing div.pricing-items div.pricing-item a.btn-checkout {
+  position: relative;
+  bottom: 10px;
   display: block;
   width: 256px;
   height: 24px;
