@@ -4,7 +4,7 @@
 
 article#page-pricing {
   width: 1240px;
-  height: 830px;
+  height: 810px;
   padding-top: 100px;
 
   h2 {
@@ -13,7 +13,7 @@ article#page-pricing {
 
   div.pricing-items {
     position: relative;
-    top: 20px;
+    top: 30px;
     width: 100%;
 
     div.pricing-item {
@@ -40,6 +40,8 @@ article#page-pricing {
       }
 
       h3 {
+        position: relative;
+        bottom: 30px;
         width: 318px;
         line-height: 36px;
       }
