@@ -525,13 +525,13 @@ header#page-description div.artistName-n-fans div.fans-buttons a button.to-favor
 
 @media screen and (max-width: 414px) {
   header#page-description {
-    height: 853px;
+    height: 453px;
     padding: 200px 20px;
   }
   header#page-description div.logo-n-navigation {
     left: 20px;
     flex-flow: column nowrap;
-    gap: 2vh;
+    gap: 1vh;
     align-items: start;
     width: 374px;
   }
