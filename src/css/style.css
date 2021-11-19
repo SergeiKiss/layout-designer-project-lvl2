@@ -673,10 +673,10 @@ article#page-pricing p {
 @media screen and (max-width: 414px) {
   article#page-pricing {
     width: 414px;
-    height: 2220px;
+    height: 2100px;
   }
   article#page-pricing h2 {
-    width: 100%;
+    width: 374px;
   }
   article#page-pricing div.pricing-items {
     flex-flow: column nowrap;
