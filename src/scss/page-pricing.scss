@@ -79,6 +79,7 @@ article#page-pricing {
       }
     }
   }
+
   p {
     position: relative;
     bottom: 40px;
@@ -90,7 +91,15 @@ article#page-pricing {
 
 @media screen and (max-width: 414px) {
   article#page-pricing {
+    width: 100%;
+
+    h2 {
+      width: 100%;
+    }
+
     div.pricing-items {
+      flex-flow: column nowrap;
+
       div.pricing-item {
         h3 {
           font-weight: 400;
