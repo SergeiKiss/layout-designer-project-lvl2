@@ -112,15 +112,16 @@ article#page-pricing {
         &.bg-premium {
           position: relative;
           top: 10px;
+
+          a.btn-checkout {
+            position: relative;
+            bottom: 0;
+          }
         }
 
         h3 {
           font-weight: 400;
           line-height: 24px;
-        }
-        a.btn-checkout {
-          position: relative;
-          bottom: 0;
         }
       }
     }
