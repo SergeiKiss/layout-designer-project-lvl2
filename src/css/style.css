@@ -679,11 +679,24 @@ article#page-pricing p {
     width: 374px;
   }
   article#page-pricing div.pricing-items {
+    top: 0;
     flex-flow: column nowrap;
   }
   article#page-pricing div.pricing-items div.pricing-item h3 {
+    bottom: 0;
     font-weight: 400;
     line-height: 24px;
+  }
+  article#page-pricing div.pricing-items div.pricing-item p.pricing-value {
+    position: relative;
+    bottom: 0;
+  }
+  article#page-pricing div.pricing-items div.pricing-item a.btn-checkout {
+    position: relative;
+    bottom: 0;
+  }
+  article#page-pricing div.pricing-items div.pricing-item p.pricing-footer {
+    top: 0;
   }
 }
 article#page-news {
