@@ -109,27 +109,35 @@ article#page-pricing {
           bottom: 10px;
         }
 
-        &.bg-premium {
-          position: relative;
-          top: 10px;
-
+        &.bg-standart {
           a.btn-checkout {
             position: relative;
-            bottom: 0;
+            top: 10px;
+          }
+
+          &.bg-premium {
+            position: relative;
+            top: 10px;
+
+            a.btn-checkout {
+              position: relative;
+              bottom: 0;
+            }
+          }
+
+          h3 {
+            font-weight: 400;
+            line-height: 24px;
           }
         }
-
-        h3 {
-          font-weight: 400;
-          line-height: 24px;
-        }
       }
-    }
 
-    p {
-      bottom: 0;
+      p {
+        bottom: -20px;
+        left: 10px;
 
-      width: 374px;
+        width: 374px;
+      }
     }
   }
 }

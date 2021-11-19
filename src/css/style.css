@@ -688,20 +688,25 @@ article#page-pricing p {
     position: relative;
     bottom: 10px;
   }
-  article#page-pricing div.pricing-items div.pricing-item.bg-premium {
+  article#page-pricing div.pricing-items div.pricing-item.bg-standart a.btn-checkout {
     position: relative;
     top: 10px;
   }
-  article#page-pricing div.pricing-items div.pricing-item.bg-premium a.btn-checkout {
+  article#page-pricing div.pricing-items div.pricing-item.bg-standart.bg-premium {
+    position: relative;
+    top: 10px;
+  }
+  article#page-pricing div.pricing-items div.pricing-item.bg-standart.bg-premium a.btn-checkout {
     position: relative;
     bottom: 0;
   }
-  article#page-pricing div.pricing-items div.pricing-item h3 {
+  article#page-pricing div.pricing-items div.pricing-item.bg-standart h3 {
     font-weight: 400;
     line-height: 24px;
   }
-  article#page-pricing p {
-    bottom: 0;
+  article#page-pricing div.pricing-items p {
+    bottom: -20px;
+    left: 10px;
     width: 374px;
   }
 }
