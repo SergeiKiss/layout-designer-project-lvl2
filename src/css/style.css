@@ -682,7 +682,7 @@ article#page-pricing p {
     flex-flow: column nowrap;
   }
   article#page-pricing div.pricing-items div.pricing-item {
-    margin-bottom: -50px;
+    margin-bottom: -30px;
   }
   article#page-pricing div.pricing-items div.pricing-item h3 {
     font-weight: 400;
