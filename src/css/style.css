@@ -684,9 +684,20 @@ article#page-pricing p {
   article#page-pricing div.pricing-items div.pricing-item {
     margin-bottom: -30px;
   }
+  article#page-pricing div.pricing-items div.pricing-item.bg-free {
+    position: relative;
+    bottom: 10px;
+  }
+  article#page-pricing div.pricing-items div.pricing-item.bg-premium {
+    position: relative;
+    top: 10px;
+  }
   article#page-pricing div.pricing-items div.pricing-item h3 {
     font-weight: 400;
     line-height: 24px;
+  }
+  article#page-pricing p {
+    bottom: 20px;
   }
 }
 article#page-news {

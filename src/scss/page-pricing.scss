@@ -103,11 +103,26 @@ article#page-pricing {
 
       div.pricing-item {
         margin-bottom: -30px;
+
+        &.bg-free {
+          position: relative;
+          bottom: 10px;
+        }
+
+        &.bg-premium {
+          position: relative;
+          top: 10px;
+        }
+
         h3 {
           font-weight: 400;
           line-height: 24px;
         }
       }
+    }
+
+    p {
+      bottom: 20px;
     }
   }
 }
