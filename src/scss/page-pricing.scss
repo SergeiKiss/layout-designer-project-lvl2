@@ -99,27 +99,12 @@ article#page-pricing {
     }
 
     div.pricing-items {
-      top: 0;
       flex-flow: column nowrap;
 
       div.pricing-item {
         h3 {
-          bottom: 0;
           font-weight: 400;
           line-height: 24px;
-        }
-        p.pricing-value {
-          position: relative;
-bottom: 0;
-        }
-  
-        a.btn-checkout {
-          position: relative;
-          bottom: 0;
-        }
-  
-        p.pricing-footer {
-          top: 0;
         }
       }
     }
