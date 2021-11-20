@@ -686,7 +686,7 @@ article#page-pricing p.pricing-desc-all {
   }
   article#page-pricing div.pricing-items div.pricing-item.bg-free {
     position: relative;
-    bottom: 20px;
+    bottom: 15px;
   }
   article#page-pricing div.pricing-items div.pricing-item.bg-free h3 {
     height: 24px;
