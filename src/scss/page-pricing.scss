@@ -106,7 +106,7 @@ article#page-pricing {
 
         &.bg-free {
           position: relative;
-          bottom: 30px;
+          bottom: 23px;
 
           h3 {
             height: 24px;
@@ -116,7 +116,7 @@ article#page-pricing {
         &.bg-standart {
           a.btn-checkout {
             position: relative;
-            top: -5px;
+            top: -8 px;
           }
         }
           
@@ -131,7 +131,8 @@ article#page-pricing {
 
             a.btn-checkout {
               position: relative;
-              bottom: -10px;
+              bottom: 0px;
+              margin-bottom: 20px;
             }
           }
 
@@ -143,6 +144,7 @@ article#page-pricing {
     }
     p.pricing-desc-all {
       bottom: -20px;
+      left: 5px;
 
       width: 374px;
     }
