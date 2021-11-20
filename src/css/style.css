@@ -689,13 +689,13 @@ article#page-pricing p.pricing-desc-all {
     bottom: 15px;
   }
   article#page-pricing div.pricing-items div.pricing-item.bg-free h3 {
-    width: 335px;
+    width: 330px;
     height: 24px;
   }
   article#page-pricing div.pricing-items div.pricing-item.bg-free p.pricing-value {
     position: relative;
     bottom: 30px;
-    width: 335px;
+    width: 330px;
   }
   article#page-pricing div.pricing-items div.pricing-item.bg-free a.btn-checkout {
     position: relative;
@@ -704,7 +704,7 @@ article#page-pricing p.pricing-desc-all {
   article#page-pricing div.pricing-items div.pricing-item.bg-free p.pricing-footer {
     position: relative;
     top: 65px;
-    width: 335px;
+    width: 330px;
   }
   article#page-pricing div.pricing-items div.pricing-item.bg-standart {
     position: relative;
@@ -717,7 +717,7 @@ article#page-pricing p.pricing-desc-all {
   article#page-pricing div.pricing-items div.pricing-item.bg-standart p.pricing-footer {
     position: relative;
     top: 55px;
-    width: 335px;
+    width: 330px;
   }
   article#page-pricing div.pricing-items div.pricing-item.bg-premium {
     position: relative;
@@ -725,7 +725,7 @@ article#page-pricing p.pricing-desc-all {
   }
   article#page-pricing div.pricing-items div.pricing-item.bg-premium h3 {
     height: 24px;
-    width: 335px;
+    width: 330px;
   }
   article#page-pricing div.pricing-items div.pricing-item.bg-premium a.btn-checkout {
     position: relative;
