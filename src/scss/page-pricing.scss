@@ -109,11 +109,13 @@ article#page-pricing {
           bottom: 15px;
 
           h3 {
+            position: relative;
+            top: 5px;
             height: 24px;
           }
           a.btn-checkout {
             position: relative;
-            top: 3px;
+            top: 8  px;
           }
           p.pricing-footer {
             position: relative;
@@ -123,11 +125,11 @@ article#page-pricing {
 
         &.bg-standart {
             position: relative;
-            top: 7px;
+            top: 12px;
 
           a.btn-checkout {
             position: relative;
-            top: -8px;
+            top: -13px;
           }
         }
           
