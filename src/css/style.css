@@ -693,7 +693,7 @@ article#page-pricing p.pricing-desc-all {
   }
   article#page-pricing div.pricing-items div.pricing-item.bg-free p.pricing-value {
     position: relative;
-    bottom: 5px;
+    bottom: 35px;
   }
   article#page-pricing div.pricing-items div.pricing-item.bg-free a.btn-checkout {
     position: relative;
@@ -701,7 +701,7 @@ article#page-pricing p.pricing-desc-all {
   }
   article#page-pricing div.pricing-items div.pricing-item.bg-free p.pricing-footer {
     position: relative;
-    top: 45px;
+    top: 55px;
   }
   article#page-pricing div.pricing-items div.pricing-item.bg-standart {
     position: relative;
