@@ -689,13 +689,15 @@ article#page-pricing p.pricing-desc-all {
     bottom: 15px;
   }
   article#page-pricing div.pricing-items div.pricing-item.bg-free h3 {
-    position: relative;
-    top: 5px;
     height: 24px;
+  }
+  article#page-pricing div.pricing-items div.pricing-item.bg-free p.pricing-value {
+    position: relative;
+    bottom: 5px;
   }
   article#page-pricing div.pricing-items div.pricing-item.bg-free a.btn-checkout {
     position: relative;
-    top: 8 px;
+    top: 8px;
   }
   article#page-pricing div.pricing-items div.pricing-item.bg-free p.pricing-footer {
     position: relative;
