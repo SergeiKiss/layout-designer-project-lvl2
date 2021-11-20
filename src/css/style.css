@@ -604,7 +604,7 @@ header#page-description div.artistName-n-fans div.fans-buttons button.favorite-b
 }
 article#page-pricing {
   width: 1240px;
-  height: 830px;
+  height: 810px;
   padding-top: 100px;
 }
 article#page-pricing h2 {
@@ -673,7 +673,7 @@ article#page-pricing p.pricing-desc-all {
 @media screen and (max-width: 414px) {
   article#page-pricing {
     width: 414px;
-    height: 2100px;
+    height: 2120px;
   }
   article#page-pricing h2 {
     width: 374px;
@@ -686,21 +686,27 @@ article#page-pricing p.pricing-desc-all {
   }
   article#page-pricing div.pricing-items div.pricing-item.bg-free {
     position: relative;
-    bottom: 20px;
+    bottom: 30px;
+  }
+  article#page-pricing div.pricing-items div.pricing-item.bg-free h3 {
+    height: 57px;
   }
   article#page-pricing div.pricing-items div.pricing-item.bg-standart a.btn-checkout {
     position: relative;
-    top: 5px;
+    top: -5px;
   }
-  article#page-pricing div.pricing-items div.pricing-item.bg-standart.bg-premium {
+  article#page-pricing div.pricing-items div.pricing-item.bg-premium {
     position: relative;
     top: 10px;
   }
-  article#page-pricing div.pricing-items div.pricing-item.bg-standart.bg-premium a.btn-checkout {
+  article#page-pricing div.pricing-items div.pricing-item.bg-premium h3 {
+    height: 57px;
+  }
+  article#page-pricing div.pricing-items div.pricing-item.bg-premium a.btn-checkout {
     position: relative;
     bottom: -10px;
   }
-  article#page-pricing div.pricing-items div.pricing-item.bg-standart h3 {
+  article#page-pricing div.pricing-items div.pricing-item h3 {
     font-weight: 400;
     line-height: 24px;
   }

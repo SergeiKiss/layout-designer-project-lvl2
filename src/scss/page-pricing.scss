@@ -4,7 +4,7 @@
 
 article#page-pricing {
   width: 1240px;
-  height: 830px;
+  height: 810px;
   padding-top: 100px;
 
   h2 {
@@ -92,7 +92,7 @@ article#page-pricing {
 @media screen and (max-width: 414px) {
   article#page-pricing {
     width: 414px;
-    height: 2100px;
+    height: 2120px;
 
     h2 {
       width: 374px;
@@ -106,18 +106,28 @@ article#page-pricing {
 
         &.bg-free {
           position: relative;
-          bottom: 20px;
+          bottom: 30px;
+
+          h3 {
+            height: 57px;
+          }
         }
 
         &.bg-standart {
           a.btn-checkout {
             position: relative;
-            top: 5px;
+            top: -5px;
           }
+        }
+          
 
           &.bg-premium {
             position: relative;
             top: 10px;
+
+            h3 {
+              height: 57px;
+            }
 
             a.btn-checkout {
               position: relative;
@@ -129,7 +139,6 @@ article#page-pricing {
             font-weight: 400;
             line-height: 24px;
           }
-        }
       }
     }
     p.pricing-desc-all {
