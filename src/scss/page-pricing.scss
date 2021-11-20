@@ -109,7 +109,7 @@ article#page-pricing {
           bottom: 15px;
 
           h3 {
-            width: 330px;
+            width: 323px;
             height: 24px;
           }
 
@@ -117,7 +117,7 @@ article#page-pricing {
             position: relative;
             bottom: 30px;
 
-            width: 330px;
+            width: 323px;
           }
 
           a.btn-checkout {
@@ -128,13 +128,18 @@ article#page-pricing {
           p.pricing-footer {
             position: relative;
             top: 65px;
-            width: 330px;
+            width: 323px;
           }
         }
 
         &.bg-standart {
           position: relative;
           top: 0px;
+
+          h3 {
+            position: relative;
+            
+          }
 
           a.btn-checkout {
             position: relative;
@@ -144,7 +149,7 @@ article#page-pricing {
           p.pricing-footer {
             position: relative;
             top: 55px;
-            width: 330px;
+            width: 323px;
           }
         }
 
@@ -155,7 +160,7 @@ article#page-pricing {
 
           h3 {
             height: 24px;
-            width: 330px;
+            width: 323px;
           }
 
           a.btn-checkout {
