@@ -104,6 +104,12 @@ article#page-pricing {
       div.pricing-item {
         margin-bottom: -30px;
 
+        h3,
+        p,
+        a {
+          width: 326px;
+        }
+
         &.bg-free {
           position: relative;
           bottom: 15px;
@@ -111,14 +117,17 @@ article#page-pricing {
           h3 {
             height: 24px;
           }
+
           p.pricing-value {
             position: relative;
             bottom: 30px;
           }
+
           a.btn-checkout {
             position: relative;
             top: -2px;
           }
+
           p.pricing-footer {
             position: relative;
             top: 65px;
@@ -126,41 +135,43 @@ article#page-pricing {
         }
 
         &.bg-standart {
-            position: relative;
-            top: 0px;
+          position: relative;
+          top: 0px;
 
           a.btn-checkout {
             position: relative;
             top: -5px;
           }
+
           p.pricing-footer {
             position: relative;
             top: 55px;
           }
         }
-          
 
-          &.bg-premium {
-            position: relative;
-            top: 10px;
 
-            h3 {
-              height: 24px;
-            }
-
-            a.btn-checkout {
-              position: relative;
-              bottom: 0px;
-              margin-bottom: 13px;
-            }
-          }
+        &.bg-premium {
+          position: relative;
+          top: 10px;
 
           h3 {
-            font-weight: 400;
-            line-height: 24px;
+            height: 24px;
           }
+
+          a.btn-checkout {
+            position: relative;
+            bottom: 0px;
+            margin-bottom: 13px;
+          }
+        }
+
+        h3 {
+          font-weight: 400;
+          line-height: 24px;
+        }
       }
     }
+
     p.pricing-desc-all {
       bottom: -20px;
       left: 20px;

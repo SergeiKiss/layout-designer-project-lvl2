@@ -684,6 +684,11 @@ article#page-pricing p.pricing-desc-all {
   article#page-pricing div.pricing-items div.pricing-item {
     margin-bottom: -30px;
   }
+  article#page-pricing div.pricing-items div.pricing-item h3,
+article#page-pricing div.pricing-items div.pricing-item p,
+article#page-pricing div.pricing-items div.pricing-item a {
+    width: 326px;
+  }
   article#page-pricing div.pricing-items div.pricing-item.bg-free {
     position: relative;
     bottom: 15px;
