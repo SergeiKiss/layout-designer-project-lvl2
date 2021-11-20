@@ -664,7 +664,7 @@ article#page-pricing div.pricing-items div.pricing-item p.pricing-footer {
   top: 50px;
   width: 318px;
 }
-article#page-pricing p {
+article#page-pricing p.pricing-desc-all {
   position: relative;
   bottom: 40px;
   max-width: 1200px;
@@ -704,7 +704,7 @@ article#page-pricing p {
     font-weight: 400;
     line-height: 24px;
   }
-  article#page-pricing p {
+  article#page-pricing p.pricing-desc-all {
     bottom: -20px;
     width: 374px;
   }

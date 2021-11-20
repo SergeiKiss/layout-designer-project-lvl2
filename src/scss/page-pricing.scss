@@ -80,7 +80,7 @@ article#page-pricing {
     }
   }
 
-  p {
+  p.pricing-desc-all {
     position: relative;
     bottom: 40px;
     max-width: 1200px;
@@ -132,7 +132,7 @@ article#page-pricing {
         }
       }
     }
-    p {
+    p.pricing-desc-all {
       bottom: -20px;
 
       width: 374px;
