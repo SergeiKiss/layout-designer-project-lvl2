@@ -718,13 +718,9 @@ article#page-pricing p.pricing-desc-all {
   article#page-pricing div.pricing-items div.pricing-item.bg-premium h3 {
     height: 24px;
   }
-  article#page-pricing div.pricing-items div.pricing-item.bg-premium p.prace-value {
-    position: relative;
-    bottom: 50px;
-  }
   article#page-pricing div.pricing-items div.pricing-item.bg-premium a.btn-checkout {
     position: relative;
-    bottom: 50px;
+    bottom: 0px;
     margin-bottom: 13px;
   }
   article#page-pricing div.pricing-items div.pricing-item h3 {
