@@ -604,7 +604,7 @@ header#page-description div.artistName-n-fans div.fans-buttons button.favorite-b
 }
 article#page-pricing {
   width: 1240px;
-  height: 810px;
+  height: 830px;
   padding-top: 100px;
 }
 article#page-pricing h2 {
@@ -686,11 +686,11 @@ article#page-pricing p.pricing-desc-all {
   }
   article#page-pricing div.pricing-items div.pricing-item.bg-free {
     position: relative;
-    bottom: 10px;
+    bottom: 20px;
   }
   article#page-pricing div.pricing-items div.pricing-item.bg-standart a.btn-checkout {
     position: relative;
-    top: 10px;
+    top: 5px;
   }
   article#page-pricing div.pricing-items div.pricing-item.bg-standart.bg-premium {
     position: relative;
@@ -698,7 +698,7 @@ article#page-pricing p.pricing-desc-all {
   }
   article#page-pricing div.pricing-items div.pricing-item.bg-standart.bg-premium a.btn-checkout {
     position: relative;
-    bottom: 0;
+    bottom: -10px;
   }
   article#page-pricing div.pricing-items div.pricing-item.bg-standart h3 {
     font-weight: 400;

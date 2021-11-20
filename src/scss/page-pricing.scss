@@ -4,7 +4,7 @@
 
 article#page-pricing {
   width: 1240px;
-  height: 810px;
+  height: 830px;
   padding-top: 100px;
 
   h2 {
@@ -106,13 +106,13 @@ article#page-pricing {
 
         &.bg-free {
           position: relative;
-          bottom: 10px;
+          bottom: 20px;
         }
 
         &.bg-standart {
           a.btn-checkout {
             position: relative;
-            top: 10px;
+            top: 5px;
           }
 
           &.bg-premium {
@@ -121,7 +121,7 @@ article#page-pricing {
 
             a.btn-checkout {
               position: relative;
-              bottom: 0;
+              bottom: -10px;
             }
           }
 
