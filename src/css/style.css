@@ -691,6 +691,10 @@ article#page-pricing p.pricing-desc-all {
   article#page-pricing div.pricing-items div.pricing-item.bg-free h3 {
     height: 24px;
   }
+  article#page-pricing div.pricing-items div.pricing-item.bg-standart {
+    position: relative;
+    top: 7px;
+  }
   article#page-pricing div.pricing-items div.pricing-item.bg-standart a.btn-checkout {
     position: relative;
     top: -8 px;
@@ -705,7 +709,7 @@ article#page-pricing p.pricing-desc-all {
   article#page-pricing div.pricing-items div.pricing-item.bg-premium a.btn-checkout {
     position: relative;
     bottom: 0px;
-    margin-bottom: 20px;
+    margin-bottom: 13px;
   }
   article#page-pricing div.pricing-items div.pricing-item h3 {
     font-weight: 400;
