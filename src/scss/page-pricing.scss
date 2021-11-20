@@ -117,17 +117,17 @@ article#page-pricing {
           }
           a.btn-checkout {
             position: relative;
-            top: 8px;
+            top: -2px;
           }
           p.pricing-footer {
             position: relative;
-            top: 60px;
+            top: 45px;
           }
         }
 
         &.bg-standart {
             position: relative;
-            top: 12px;
+            top: 10px;
 
           a.btn-checkout {
             position: relative;
@@ -159,7 +159,7 @@ article#page-pricing {
     }
     p.pricing-desc-all {
       bottom: -20px;
-      left: 15px;
+      left: 20px;
 
       width: 374px;
     }
