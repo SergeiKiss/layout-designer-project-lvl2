@@ -692,25 +692,27 @@ article#page-pricing p.pricing-desc-all {
   }
   article#page-pricing div.pricing-items div.pricing-item.bg-free h3 {
     position: relative;
-    bottom: 25px;
+    bottom: 25.5px;
     width: 323px;
     height: 26px;
   }
   article#page-pricing div.pricing-items div.pricing-item.bg-free p.pricing-value {
     position: relative;
     bottom: 30px;
-    width: 330px;
+    width: 325px;
+    height: 70px;
   }
   article#page-pricing div.pricing-items div.pricing-item.bg-free a.btn-checkout {
     position: relative;
     top: -2px;
-    width: 256px;
+    width: 260px;
+    height: 27px;
   }
   article#page-pricing div.pricing-items div.pricing-item.bg-free p.pricing-footer {
     position: relative;
     top: 65px;
-    width: 330px;
-    height: 57px;
+    width: 325px;
+    height: 63px;
   }
   article#page-pricing div.pricing-items div.pricing-item.bg-standart {
     position: relative;
