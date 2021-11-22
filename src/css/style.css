@@ -677,6 +677,7 @@ article#page-pricing p.pricing-desc-all {
   }
   article#page-pricing h2 {
     width: 374px;
+    left: 10px;
   }
   article#page-pricing div.pricing-items {
     flex-flow: column nowrap;
@@ -792,9 +793,6 @@ article#page-news a button.btn-to-album {
 @media screen and (max-width: 414px) {
   article#page-news {
     margin: 0;
-  }
-  article#page-news h2 {
-    left: 15px;
   }
   article#page-news div.news-item {
     flex-wrap: wrap;
