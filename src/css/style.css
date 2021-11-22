@@ -693,14 +693,14 @@ article#page-pricing p.pricing-desc-all {
   article#page-pricing div.pricing-items div.pricing-item.bg-free h3 {
     position: relative;
     bottom: 26.5px;
-    width: 323px;
+    width: 324px;
     height: 26px;
   }
   article#page-pricing div.pricing-items div.pricing-item.bg-free p.pricing-value {
     position: relative;
     bottom: 28px;
     width: 326px;
-    height: 57px;
+    height: 63px;
   }
   article#page-pricing div.pricing-items div.pricing-item.bg-free a.btn-checkout {
     position: relative;
