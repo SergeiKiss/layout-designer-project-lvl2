@@ -793,6 +793,9 @@ article#page-news a button.btn-to-album {
   article#page-news {
     margin: 0;
   }
+  article#page-news h2 {
+    left: 5px;
+  }
   article#page-news div.news-item {
     flex-wrap: wrap;
   }
