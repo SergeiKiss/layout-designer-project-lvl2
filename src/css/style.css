@@ -677,7 +677,7 @@ article#page-pricing p.pricing-desc-all {
   }
   article#page-pricing h2 {
     width: 374px;
-    left: 10px;
+    left: 20px;
     position: relative;
   }
   article#page-pricing div.pricing-items {
@@ -691,6 +691,8 @@ article#page-pricing p.pricing-desc-all {
     bottom: 15px;
   }
   article#page-pricing div.pricing-items div.pricing-item.bg-free h3 {
+    position: relative;
+    bottom: 3px;
     width: 323px;
     height: 24px;
   }
