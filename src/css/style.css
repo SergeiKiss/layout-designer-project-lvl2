@@ -784,7 +784,7 @@ article#page-news div.news-item div.news-item-content div.news-footer time {
   position: relative;
   left: 10px;
 }
-article#page-news div.news-item div.news-item-content a.btn-to-album {
+article#page-news div.news-item div.news-item-content a button.btn-to-album {
   padding: 16px 30px;
 }
 article#page-news a {

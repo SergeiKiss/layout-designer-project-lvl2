@@ -47,8 +47,11 @@ article#page-news {
           left: 10px;
         }
       }
-      a.btn-to-album {
-        padding: 16px 30px;
+
+      a {
+        button.btn-to-album {
+          padding: 16px 30px;
+        }
       }
     }
   }
