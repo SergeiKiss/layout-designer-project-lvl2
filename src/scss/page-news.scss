@@ -15,8 +15,13 @@ article#page-news {
   }
 
   div.news-item {
-    img[alt="Music to Be Murdered By - album cover"] {
-      left: 10px;
+    img {
+      width: 575px;
+      height: 286px;
+
+      // img[alt="Music to Be Murdered By - album cover"] {
+      //   left: 10px;
+      // }
     }
 
     div.news-item-content {
@@ -106,7 +111,8 @@ article#page-news {
       }
 
       img {
-        width: 100%;
+        width: 374px;
+        height: 186px;
         margin-bottom: 50px;
 
         &.order-1 {
