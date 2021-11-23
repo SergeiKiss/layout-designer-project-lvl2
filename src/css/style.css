@@ -803,6 +803,7 @@ article#page-news a button.btn-to-album {
 
 @media screen and (max-width: 414px) {
   article#page-news {
+    width: 414px;
     margin: 0;
   }
   article#page-news div.news-item {
