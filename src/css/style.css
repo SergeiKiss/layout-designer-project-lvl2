@@ -648,6 +648,7 @@ article#page-pricing div.pricing-items div.pricing-item a.btn-checkout {
   display: block;
   width: 256px;
   height: 24px;
+  padding: 20px 30px;
   border: 1px solid #fff;
   border-radius: 5px;
   background-color: transparent;
@@ -703,7 +704,6 @@ article#page-pricing p.pricing-desc-all {
     top: -7px;
     width: 263px;
     height: 25px;
-    padding: 20px 30px;
   }
   article#page-pricing div.pricing-items div.pricing-item.bg-free p.pricing-footer {
     position: relative;
