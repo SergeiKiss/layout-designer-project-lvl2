@@ -15,6 +15,10 @@ article#page-news {
   }
 
   div.news-item {
+    img[alt="Music to Be Murdered By - album cover"] {
+      left: 10px;
+    }
+
     div.news-item-content {
       h3 {
         font-size: 30px;

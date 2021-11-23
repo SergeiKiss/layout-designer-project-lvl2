@@ -761,6 +761,9 @@ article#page-news h2 {
   width: 1200px;
   margin-bottom: 50px;
 }
+article#page-news div.news-item img[alt="Music to Be Murdered By - album cover"] {
+  left: 10px;
+}
 article#page-news div.news-item div.news-item-content h3 {
   font-size: 30px;
 }
