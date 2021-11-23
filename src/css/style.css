@@ -703,6 +703,7 @@ article#page-pricing p.pricing-desc-all {
     top: -7px;
     width: 263px;
     height: 25px;
+    padding: 20px 30px;
   }
   article#page-pricing div.pricing-items div.pricing-item.bg-free p.pricing-footer {
     position: relative;
