@@ -765,6 +765,12 @@ article#page-news div.news-item img {
   width: 575px;
   height: 286px;
 }
+article#page-news div.news-item img img[alt="Music to Be Murdered By - album cover"] {
+  left: 10px;
+}
+article#page-news div.news-item img img[alt="Ordinary Man"] {
+  right: 10px;
+}
 article#page-news div.news-item div.news-item-content h3 {
   font-size: 30px;
 }
