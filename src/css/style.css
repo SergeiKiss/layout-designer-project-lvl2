@@ -756,6 +756,7 @@ article#page-news {
   margin: 0 10vw;
 }
 article#page-news h2 {
+  width: 95vw;
   margin-bottom: 50px;
 }
 article#page-news div.news-item div.news-item-content h3 {
