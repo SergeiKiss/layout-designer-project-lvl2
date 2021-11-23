@@ -756,7 +756,7 @@ article#page-news {
   margin: 0 10vw;
 }
 article#page-news h2 {
-  width: 90vw;
+  width: 1200px;
   margin-bottom: 50px;
 }
 article#page-news div.news-item div.news-item-content h3 {
@@ -806,6 +806,10 @@ article#page-news a button.btn-to-album {
   article#page-news {
     width: 414px;
     margin: 0;
+  }
+  article#page-news h2 {
+    width: 374px;
+    height: 27px;
   }
   article#page-news div.news-item {
     flex-wrap: wrap;
