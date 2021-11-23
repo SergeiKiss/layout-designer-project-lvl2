@@ -74,10 +74,15 @@ article#page-news {
     div.news-item {
       flex-wrap: wrap;
 
-      div {
+      div.news-item-content {
         gap: 3vh;
 
         margin: 0;
+
+        h3 {
+          font-size: 16px;
+          font-weight: normal;
+        }
       }
 
       img {
