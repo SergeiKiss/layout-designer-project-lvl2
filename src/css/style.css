@@ -772,7 +772,7 @@ article#page-news div.news-item img[alt="Music to Be Murdered By - album cover"]
 }
 article#page-news div.news-item img[alt="Ordinary Man"] {
   position: relative;
-  right: 20px;
+  bottom: 5px;
 }
 article#page-news div.news-item div.news-item-content {
   position: relative;
@@ -829,7 +829,7 @@ article#page-news div.news-item div.news-item-content button.btn-to-album {
 @media screen and (max-width: 414px) {
   article#page-news {
     width: 414px;
-    height: 1116px;
+    height: 1050px;
     margin: 0;
   }
   article#page-news h2 {
