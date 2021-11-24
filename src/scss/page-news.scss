@@ -85,18 +85,18 @@ article#page-news {
         }
       }
 
-        button.btn-to-album {
-          width: 135px;
-          height: 53px;
-          padding: 16px 30px;
-          border: 1px solid #cacaca;
-          border-radius: 5px;
-      
-          color: #cacaca;
-          background-color: transparent;
-      
-          cursor: pointer;
-        }
+      button.btn-to-album {
+        width: 135px;
+        height: 53px;
+        padding: 16px 30px;
+        border: 1px solid #cacaca;
+        border-radius: 5px;
+
+        color: #cacaca;
+        background-color: transparent;
+
+        cursor: pointer;
+      }
     }
   }
 }
@@ -114,6 +114,11 @@ article#page-news {
 
     div.news-item {
       flex-wrap: wrap;
+
+      &.news-item-mobile-2 {
+        position: relative;
+        bottom: 20px;
+      }
 
       div.news-item-content {
         bottom: 10px;
@@ -135,9 +140,14 @@ article#page-news {
 
           width: 374px;
         }
+
         div.news-footer {
           position: relative;
-          bottom: 10px;
+          bottom: 20px;
+        }
+        button.btn-to-album {
+          position: relative;
+          bottom: 20px;
         }
       }
 
@@ -155,15 +165,11 @@ article#page-news {
           bottom: 3px;
         }
 
-        // &[alt="Ordinary Man"] {
-
-        // }
+        &[alt="Ordinary Man"] {
+          left: 10px;
+        }
 
       }
-    }
-    div.news-item-mobile-2 {
-      position: relative;
-      bottom: 20px;
     }
   }
 }
