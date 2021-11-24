@@ -3,6 +3,7 @@
 // 1) main styles
 
 article#page-app {
+  width: 1240px;
   padding-top: 100px;
   margin: 0 10vw;
 
@@ -49,6 +50,7 @@ article#page-app {
 
 @media screen and (max-width: 414px) {
   article#page-app {
+    width: 414px;
     margin: 0;
     div {
       flex-flow: column nowrap;
