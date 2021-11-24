@@ -841,7 +841,7 @@ article#page-news div.news-item div.news-item-content button.btn-to-album {
   }
   article#page-news div.news-item.news-item-mobile-2 {
     position: relative;
-    bottom: 20px;
+    bottom: 25px;
   }
   article#page-news div.news-item div.news-item-content {
     bottom: 10px;
@@ -860,7 +860,7 @@ article#page-news div.news-item div.news-item-content button.btn-to-album {
   }
   article#page-news div.news-item div.news-item-content div.news-footer {
     position: relative;
-    bottom: 20px;
+    bottom: 30px;
   }
   article#page-news div.news-item div.news-item-content button.btn-to-album {
     position: relative;
@@ -879,7 +879,7 @@ article#page-news div.news-item div.news-item-content button.btn-to-album {
     bottom: 3px;
   }
   article#page-news div.news-item img[alt="Ordinary Man"] {
-    left: 10px;
+    left: 20px;
   }
 }
 article#page-app {
