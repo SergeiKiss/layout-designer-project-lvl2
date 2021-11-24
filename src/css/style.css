@@ -888,7 +888,7 @@ article#page-news div.news-item div.news-item-content button.btn-to-album {
 }
 article#page-app {
   width: 1240px;
-  height: 583px;
+  height: 385px;
   padding-top: 100px;
   margin: 0 10vw;
 }
@@ -928,7 +928,7 @@ article#page-app img[alt="iphone image"] {
 @media screen and (max-width: 414px) {
   article#page-app {
     width: 414px;
-    height: 615px;
+    height: 620px;
     margin: 0;
   }
   article#page-app h2 {
