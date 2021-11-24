@@ -752,6 +752,7 @@ article#page-pricing p.pricing-desc-all {
 }
 article#page-news {
   width: 1240px;
+  height: 744px;
   padding-top: 100px;
   margin: 0 10vw;
 }
@@ -762,8 +763,8 @@ article#page-news h2 {
   margin-bottom: 50px;
 }
 article#page-news div.news-item img {
-  width: 570px;
-  height: 280px;
+  width: 560px;
+  height: 277px;
 }
 article#page-news div.news-item img[alt="Music to Be Murdered By - album cover"] {
   position: relative;
@@ -840,7 +841,7 @@ article#page-news a button.btn-to-album {
   article#page-news div.news-item img {
     left: 0;
     width: 374px;
-    height: 186px;
+    height: 190px;
     margin-bottom: 50px;
   }
   article#page-news div.news-item img.order-1 {
