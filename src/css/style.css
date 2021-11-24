@@ -947,9 +947,12 @@ article#page-app img[alt="iphone image"] {
     right: 0;
     bottom: -15px;
   }
+  article#page-app div.page-app-item div.page-app-item-content p {
+    width: 374px;
+  }
   article#page-app div.page-app-item img[alt="iphone image"] {
     right: 0;
-    bottom: 10px;
+    bottom: 5px;
     order: -1;
   }
 }

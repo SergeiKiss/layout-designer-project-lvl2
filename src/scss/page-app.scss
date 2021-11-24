@@ -78,11 +78,15 @@ article#page-app {
       div.page-app-item-content {
         right: 0;
         bottom: -15px;
+
+        p {
+          width: 374px;
+        }
       }
 
       img[alt="iphone image"] {
         right: 0;
-        bottom: 10px;
+        bottom: 5px;
 
         order: -1;
       }
