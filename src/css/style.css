@@ -829,7 +829,7 @@ article#page-news div.news-item div.news-item-content button.btn-to-album {
 @media screen and (max-width: 414px) {
   article#page-news {
     width: 414px;
-    height: 1100px;
+    height: 1116px;
     margin: 0;
   }
   article#page-news h2 {
@@ -840,6 +840,7 @@ article#page-news div.news-item div.news-item-content button.btn-to-album {
     flex-wrap: wrap;
   }
   article#page-news div.news-item div.news-item-content {
+    bottom: 10px;
     gap: 3vh;
     margin: 0;
   }
