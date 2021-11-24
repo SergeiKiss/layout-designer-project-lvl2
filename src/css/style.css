@@ -906,6 +906,7 @@ article#page-app div div p {
 article#page-app div div a button {
   width: 131px;
   height: 53px;
+  padding: 16px 40px;
   border: none;
   border-radius: 32px;
   cursor: pointer;
