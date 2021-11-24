@@ -17,8 +17,8 @@ article#page-news {
 
   div.news-item {
     img {
-      width: 530px;
-      height: 285px;
+      width: 575px;
+      height: 286px;
 
       &[alt="Music to Be Murdered By - album cover"] {
         position: relative;
@@ -32,6 +32,8 @@ article#page-news {
     }
 
     div.news-item-content {
+      position: relative;
+      left: 30px;
       h3 {
         position: relative;
         bottom: 10px;
@@ -142,7 +144,7 @@ article#page-news {
         bottom: 5px;
         left: 0;
         width: 374px;
-        height: 190px;
+        height: 195px;
         margin-bottom: 50px;
 
         &.order-1 {
