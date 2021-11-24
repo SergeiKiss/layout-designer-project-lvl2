@@ -829,7 +829,7 @@ article#page-news div.news-item div.news-item-content button.btn-to-album {
 @media screen and (max-width: 414px) {
   article#page-news {
     width: 414px;
-    height: 1050px;
+    height: 1100px;
     margin: 0;
   }
   article#page-news h2 {
@@ -844,13 +844,13 @@ article#page-news div.news-item div.news-item-content button.btn-to-album {
     margin: 0;
   }
   article#page-news div.news-item div.news-item-content h3 {
-    bottom: 0;
+    top: 10px;
     width: 374px;
     font-size: 16px;
     font-weight: normal;
   }
   article#page-news div.news-item div.news-item-content p {
-    bottom: 0;
+    bottom: 10px;
     width: 374px;
   }
   article#page-news div.news-item img {

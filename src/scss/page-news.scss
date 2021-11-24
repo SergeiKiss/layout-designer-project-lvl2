@@ -104,7 +104,7 @@ article#page-news {
 @media screen and (max-width: 414px) {
   article#page-news {
     width: 414px;
-    height: 1050px;
+    height: 1100px;
     margin: 0;
 
     h2 {
@@ -121,7 +121,7 @@ article#page-news {
         margin: 0;
 
         h3 {
-          bottom: 0;
+          top: 10px;
 
           width: 374px;
 
@@ -130,7 +130,7 @@ article#page-news {
         }
 
         p {
-          bottom: 0;
+          bottom: 10px;
 
           width: 374px;
         }
