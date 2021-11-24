@@ -33,7 +33,7 @@ article#page-news {
 
     div.news-item-content {
       position: relative;
-      bottom: 3px;
+      bottom: 5px;
       left: 20px;
 
       h3 {
@@ -54,7 +54,7 @@ article#page-news {
 
       div.news-footer {
         position: relative;
-        bottom: 10px;
+        bottom: 20px;
         left: 31px;
 
         span.news-author {
@@ -148,7 +148,7 @@ article#page-news {
       img {
         left: 0;
         width: 374px;
-        height: 186px;
+        height: 180px;
         margin-bottom: 50px;
 
         &.order-1 {
