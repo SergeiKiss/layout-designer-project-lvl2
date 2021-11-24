@@ -764,7 +764,7 @@ article#page-news h2 {
 }
 article#page-news div.news-item img {
   width: 575px;
-  height: 286px;
+  height: 287px;
 }
 article#page-news div.news-item img[alt="Music to Be Murdered By - album cover"] {
   position: relative;
@@ -776,7 +776,7 @@ article#page-news div.news-item img[alt="Ordinary Man"] {
 }
 article#page-news div.news-item div.news-item-content {
   position: relative;
-  left: 30px;
+  left: 20px;
 }
 article#page-news div.news-item div.news-item-content h3 {
   position: relative;
@@ -857,10 +857,9 @@ article#page-news a button.btn-to-album {
     width: 374px;
   }
   article#page-news div.news-item img {
-    bottom: 5px;
     left: 0;
     width: 374px;
-    height: 195px;
+    height: 186px;
     margin-bottom: 50px;
   }
   article#page-news div.news-item img.order-1 {
