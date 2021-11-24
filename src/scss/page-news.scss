@@ -20,10 +20,12 @@ article#page-news {
       height: 286px;
 
       &[alt="Music to Be Murdered By - album cover"] {
+        position: relative;
         left: 10px;
       }
 
       &[alt="Ordinary Man"] {
+        position: relative;
         right: 10px;
       }
     }
