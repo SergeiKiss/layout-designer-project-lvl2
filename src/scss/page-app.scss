@@ -4,7 +4,7 @@
 
 article#page-app {
   width: 1240px;
-  height: 580px;
+  height: 583px;
   padding-top: 100px;
   margin: 0 10vw;
 
@@ -22,6 +22,7 @@ article#page-app {
     div {
       position: relative;
       right: 4.5%;
+
       p {
         max-width: 600px;
       }
@@ -42,6 +43,7 @@ article#page-app {
       }
     }
   }
+
   img[alt="iphone image"] {
     position: relative;
     right: 2.7%;
@@ -56,12 +58,13 @@ article#page-app {
 @media screen and (max-width: 414px) {
   article#page-app {
     width: 414px;
-    height: 842px;
+    height: 615px;
     margin: 0;
 
     h2 {
       width: 374px;
     }
+
     div.page-app-item {
       flex-flow: column nowrap;
       gap: 0;
