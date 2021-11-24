@@ -19,11 +19,11 @@ article#page-news {
       width: 575px;
       height: 286px;
 
-      img[alt="Music to Be Murdered By - album cover"] {
+      &[alt="Music to Be Murdered By - album cover"] {
         left: 10px;
       }
 
-      img[alt="Ordinary Man"] {
+      &[alt="Ordinary Man"] {
         right: 10px;
       }
     }
