@@ -4,11 +4,15 @@
 
 article#page-app {
   width: 1240px;
-  height: 583px;
+  height: 580px;
   padding-top: 100px;
   margin: 0 10vw;
 
   h2 {
+    position: relative;
+    left: 20px;
+
+    width: 1200px;
     margin-bottom: 50px;
   }
 
@@ -52,13 +56,17 @@ article#page-app {
 @media screen and (max-width: 414px) {
   article#page-app {
     width: 414px;
-    height: 822px;
+    height: 842px;
     margin: 0;
-    div {
+
+    h2 {
+      width: 374px;
+    }
+    div.page-app-item {
       flex-flow: column nowrap;
       gap: 0;
 
-      div {
+      div.page-app-item-content {
         right: 0;
       }
 

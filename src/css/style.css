@@ -888,11 +888,14 @@ article#page-news div.news-item div.news-item-content button.btn-to-album {
 }
 article#page-app {
   width: 1240px;
-  height: 583px;
+  height: 580px;
   padding-top: 100px;
   margin: 0 10vw;
 }
 article#page-app h2 {
+  position: relative;
+  left: 20px;
+  width: 1200px;
   margin-bottom: 50px;
 }
 article#page-app div {
@@ -925,17 +928,20 @@ article#page-app img[alt="iphone image"] {
 @media screen and (max-width: 414px) {
   article#page-app {
     width: 414px;
-    height: 822px;
+    height: 842px;
     margin: 0;
   }
-  article#page-app div {
+  article#page-app h2 {
+    width: 374px;
+  }
+  article#page-app div.page-app-item {
     flex-flow: column nowrap;
     gap: 0;
   }
-  article#page-app div div {
+  article#page-app div.page-app-item div.page-app-item-content {
     right: 0;
   }
-  article#page-app div img[alt="iphone image"] {
+  article#page-app div.page-app-item img[alt="iphone image"] {
     right: 0;
     order: -1;
   }
