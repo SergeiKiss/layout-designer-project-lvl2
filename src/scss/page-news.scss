@@ -33,15 +33,18 @@ article#page-news {
 
     div.news-item-content {
       position: relative;
+      bottom: 3px;
       left: 20px;
+
       h3 {
         position: relative;
         bottom: 10px;
-        
+
         width: 575px;
 
         font-size: 30px;
       }
+
       p {
         position: relative;
         bottom: 10px;
@@ -51,6 +54,7 @@ article#page-news {
 
       div.news-footer {
         position: relative;
+        bottom: 10px;
         left: 31px;
 
         span.news-author {
@@ -133,6 +137,7 @@ article#page-news {
           font-size: 16px;
           font-weight: normal;
         }
+
         p {
           bottom: 0;
 
@@ -149,6 +154,15 @@ article#page-news {
         &.order-1 {
           order: -1;
         }
+
+        &[alt="Music to Be Murdered By - album cover"] {
+          bottom: 3px;
+        }
+
+        // &[alt="Ordinary Man"] {
+
+        // }
+
       }
     }
   }

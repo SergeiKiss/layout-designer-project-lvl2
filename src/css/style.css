@@ -776,6 +776,7 @@ article#page-news div.news-item img[alt="Ordinary Man"] {
 }
 article#page-news div.news-item div.news-item-content {
   position: relative;
+  bottom: 3px;
   left: 20px;
 }
 article#page-news div.news-item div.news-item-content h3 {
@@ -791,6 +792,7 @@ article#page-news div.news-item div.news-item-content p {
 }
 article#page-news div.news-item div.news-item-content div.news-footer {
   position: relative;
+  bottom: 10px;
   left: 31px;
 }
 article#page-news div.news-item div.news-item-content div.news-footer span.news-author {
@@ -864,6 +866,9 @@ article#page-news a button.btn-to-album {
   }
   article#page-news div.news-item img.order-1 {
     order: -1;
+  }
+  article#page-news div.news-item img[alt="Music to Be Murdered By - album cover"] {
+    bottom: 3px;
   }
 }
 article#page-app {
