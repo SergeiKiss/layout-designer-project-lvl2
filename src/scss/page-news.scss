@@ -118,6 +118,11 @@ article#page-news {
       &.news-item-mobile-2 {
         position: relative;
         bottom: 25px;
+
+        & div.news-item-content {
+          position: relative;
+          bottom: 10px;
+        }
       }
 
       div.news-item-content {
@@ -143,11 +148,12 @@ article#page-news {
 
         div.news-footer {
           position: relative;
-          bottom: 30px;
+          bottom: 35px;
         }
         button.btn-to-album {
           position: relative;
           bottom: 20px;
+          left: 5px;
         }
       }
 
