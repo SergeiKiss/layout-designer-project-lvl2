@@ -4,7 +4,7 @@
 
 article#page-app {
   width: 1240px;
-  height: 385px;
+  height: 383px;
   padding-top: 100px;
   margin: 0 10vw;
 
@@ -16,12 +16,13 @@ article#page-app {
     margin-bottom: 50px;
   }
 
-  div {
+  div.page-app-item {
     gap: 10%;
 
-    div {
+    div.page-app-item-content {
       position: relative;
-      right: 4.5%;
+      right: 5%;
+      bottom: 30px;
 
       p {
         max-width: 600px;
@@ -58,7 +59,7 @@ article#page-app {
 @media screen and (max-width: 414px) {
   article#page-app {
     width: 414px;
-    height: 620px;
+    height: 623px;
     margin: 0;
 
     h2 {
@@ -71,6 +72,7 @@ article#page-app {
 
       div.page-app-item-content {
         right: 0;
+        bottom: -5px;
       }
 
       img[alt="iphone image"] {
