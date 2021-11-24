@@ -903,11 +903,15 @@ article#page-app div.page-app-item {
 }
 article#page-app div.page-app-item div.page-app-item-content {
   position: relative;
-  right: 5%;
-  bottom: 30px;
+  right: 6%;
+  bottom: 35px;
 }
 article#page-app div.page-app-item div.page-app-item-content p {
   max-width: 600px;
+}
+article#page-app div.page-app-item div.page-app-item-content p.page-app-p1 {
+  position: relative;
+  top: 5px;
 }
 article#page-app div.page-app-item div.page-app-item-content a button {
   width: 131px;
@@ -921,7 +925,7 @@ article#page-app div.page-app-item div.page-app-item-content a button {
 }
 article#page-app img[alt="iphone image"] {
   position: relative;
-  right: 2.7%;
+  right: 3%;
   width: 333px;
   height: 278px;
 }
@@ -929,7 +933,7 @@ article#page-app img[alt="iphone image"] {
 @media screen and (max-width: 414px) {
   article#page-app {
     width: 414px;
-    height: 623px;
+    height: 622px;
     margin: 0;
   }
   article#page-app h2 {
@@ -941,10 +945,11 @@ article#page-app img[alt="iphone image"] {
   }
   article#page-app div.page-app-item div.page-app-item-content {
     right: 0;
-    bottom: -5px;
+    bottom: -15px;
   }
   article#page-app div.page-app-item img[alt="iphone image"] {
     right: 0;
+    bottom: 10px;
     order: -1;
   }
 }

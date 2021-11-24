@@ -21,11 +21,16 @@ article#page-app {
 
     div.page-app-item-content {
       position: relative;
-      right: 5%;
-      bottom: 30px;
+      right: 6%;
+      bottom: 35px;
 
       p {
         max-width: 600px;
+
+        &.page-app-p1 {
+          position: relative;
+          top: 5px;
+        }
       }
 
       a {
@@ -47,7 +52,7 @@ article#page-app {
 
   img[alt="iphone image"] {
     position: relative;
-    right: 2.7%;
+    right: 3%;
 
     width: 333px;
     height: 278px;
@@ -59,7 +64,7 @@ article#page-app {
 @media screen and (max-width: 414px) {
   article#page-app {
     width: 414px;
-    height: 623px;
+    height: 622px;
     margin: 0;
 
     h2 {
@@ -72,11 +77,12 @@ article#page-app {
 
       div.page-app-item-content {
         right: 0;
-        bottom: -5px;
+        bottom: -15px;
       }
 
       img[alt="iphone image"] {
         right: 0;
+        bottom: 10px;
 
         order: -1;
       }
