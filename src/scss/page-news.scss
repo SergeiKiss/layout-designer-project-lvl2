@@ -135,6 +135,10 @@ article#page-news {
 
           width: 374px;
         }
+        div.news-footer {
+          position: relative;
+          bottom: 10px;
+        }
       }
 
       img {
@@ -156,6 +160,10 @@ article#page-news {
         // }
 
       }
+    }
+    div.news-item-mobile-2 {
+      position: relative;
+      bottom: 20px;
     }
   }
 }

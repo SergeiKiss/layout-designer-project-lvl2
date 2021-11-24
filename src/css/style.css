@@ -854,6 +854,10 @@ article#page-news div.news-item div.news-item-content button.btn-to-album {
     bottom: 10px;
     width: 374px;
   }
+  article#page-news div.news-item div.news-item-content div.news-footer {
+    position: relative;
+    bottom: 10px;
+  }
   article#page-news div.news-item img {
     left: 0;
     width: 374px;
@@ -865,6 +869,10 @@ article#page-news div.news-item div.news-item-content button.btn-to-album {
   }
   article#page-news div.news-item img[alt="Music to Be Murdered By - album cover"] {
     bottom: 3px;
+  }
+  article#page-news div.news-item-mobile-2 {
+    position: relative;
+    bottom: 20px;
   }
 }
 article#page-app {
