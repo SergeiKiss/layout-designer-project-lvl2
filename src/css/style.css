@@ -968,9 +968,16 @@ footer nav {
   top: 50px;
   margin: 3rem 0 2rem 0;
 }
+footer nav div.footer-item {
+  width: 310px;
+}
 footer nav div.footer-item h2 {
+  width: 310px;
   font-size: 18px;
   line-height: 27px;
+}
+footer nav div.footer-item ul {
+  width: 310px;
 }
 footer nav div.footer-item div.subscribe-buttons {
   width: 160px;
