@@ -974,7 +974,7 @@ footer nav div.footer-item div.subscribe-buttons {
   width: 160px;
 }
 footer div.footer-footer {
-  height: 113px;
+  height: 65px;
   border-top: solid 1px #cacaca;
 }
 footer div.footer-footer ul {
@@ -995,7 +995,7 @@ footer div.footer-footer ul {
     margin-top: 30px;
   }
   footer div.footer-footer {
-    height: 272px;
+    height: 200px;
   }
   footer div.footer-footer ul {
     flex-flow: column nowrap;
