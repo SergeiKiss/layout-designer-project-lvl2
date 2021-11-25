@@ -11,7 +11,7 @@ footer {
     position: relative;
     top: 50px;
 
-    gap: 20px;
+    gap: 40px;
     margin: 3rem 0 2rem 0;
 
     div.footer-item {
@@ -25,6 +25,7 @@ footer {
 
       ul {
         width: 270px;
+        height: 48*4px;
       }
 
       div.subscribe-buttons {

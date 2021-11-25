@@ -966,7 +966,7 @@ footer {
 footer nav {
   position: relative;
   top: 50px;
-  gap: 20px;
+  gap: 40px;
   margin: 3rem 0 2rem 0;
 }
 footer nav div.footer-item {
@@ -979,6 +979,7 @@ footer nav div.footer-item h2 {
 }
 footer nav div.footer-item ul {
   width: 270px;
+  height: 192px;
 }
 footer nav div.footer-item div.subscribe-buttons {
   width: 160px;
