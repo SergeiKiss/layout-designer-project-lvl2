@@ -959,6 +959,8 @@ article#page-app img[alt="iphone image"] {
   }
 }
 footer {
+  width: 1240px;
+  height: 387px;
   margin-top: 100px;
 }
 footer nav {
@@ -981,7 +983,8 @@ footer div.footer-footer ul {
 
 @media screen and (max-width: 414px) {
   footer {
-    width: 100%;
+    width: 414px;
+    height: 958px;
   }
   footer nav {
     flex-flow: column nowrap;
