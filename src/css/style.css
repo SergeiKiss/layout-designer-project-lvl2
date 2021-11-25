@@ -960,7 +960,7 @@ article#page-app img[alt="iphone image"] {
 }
 footer {
   width: 1440px;
-  height: 387px;
+  height: 385px;
   margin-top: 100px;
 }
 footer nav {
@@ -974,6 +974,7 @@ footer nav div.footer-item div.subscribe-buttons {
   width: 160px;
 }
 footer div.footer-footer {
+  width: 113px;
   border-top: solid 1px #cacaca;
 }
 footer div.footer-footer ul {
@@ -984,7 +985,7 @@ footer div.footer-footer ul {
 @media screen and (max-width: 414px) {
   footer {
     width: 414px;
-    height: 950px;
+    height: 955px;
   }
   footer nav {
     flex-flow: column nowrap;
@@ -992,6 +993,9 @@ footer div.footer-footer ul {
   }
   footer nav h4 {
     margin-top: 30px;
+  }
+  footer div.footer-footer {
+    width: 272px;
   }
   footer div.footer-footer ul {
     flex-flow: column nowrap;
