@@ -965,7 +965,7 @@ footer {
 }
 footer nav {
   position: relative;
-  top: 50px;
+  top: 55px;
   gap: 40px;
   margin: 3rem 0 2rem 0;
 }
@@ -986,7 +986,7 @@ footer nav div.footer-item div.subscribe-buttons {
 }
 footer div.footer-footer {
   position: relative;
-  top: 100px;
+  top: 50px;
   height: 65px;
   border-top: solid 1px #cacaca;
 }
@@ -1002,6 +1002,7 @@ footer div.footer-footer ul {
   }
   footer nav {
     flex-flow: column nowrap;
+    gap: 0;
     padding: 0 20px;
   }
   footer nav div.footer-item {
