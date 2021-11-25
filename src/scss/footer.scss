@@ -4,10 +4,12 @@
 
 footer {
   width: 1440px;
-  height: 385px;
+  height: 386px;
   margin-top: 100px;
 
   nav {
+    position: relative;
+    top: 50px;
     margin: 3rem 0 2rem 0;
 
     div.footer-item {
@@ -24,7 +26,7 @@ footer {
 
   div.footer-footer {
     position: relative;
-    top: 50px;
+    top: 100px;
     height: 65px;
     border-top: solid 1px #cacaca;
 
@@ -41,7 +43,7 @@ footer {
 @media screen and (max-width: 414px) {
   footer {
     width: 414px;
-    height: 955px;
+    height: 956px;
 
     nav {
       flex-flow: column nowrap;

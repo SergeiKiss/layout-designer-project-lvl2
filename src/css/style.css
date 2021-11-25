@@ -960,10 +960,12 @@ article#page-app img[alt="iphone image"] {
 }
 footer {
   width: 1440px;
-  height: 385px;
+  height: 386px;
   margin-top: 100px;
 }
 footer nav {
+  position: relative;
+  top: 50px;
   margin: 3rem 0 2rem 0;
 }
 footer nav div.footer-item h2 {
@@ -975,7 +977,7 @@ footer nav div.footer-item div.subscribe-buttons {
 }
 footer div.footer-footer {
   position: relative;
-  top: 50px;
+  top: 100px;
   height: 65px;
   border-top: solid 1px #cacaca;
 }
@@ -987,7 +989,7 @@ footer div.footer-footer ul {
 @media screen and (max-width: 414px) {
   footer {
     width: 414px;
-    height: 955px;
+    height: 956px;
   }
   footer nav {
     flex-flow: column nowrap;
