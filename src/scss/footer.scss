@@ -8,8 +8,15 @@ footer {
   nav {
     margin: 3rem 0 2rem 0;
 
-    div.subscribe-buttons {
-      width: 160px;
+    div.footer-item {
+      h2 {
+        font-size: 18px;
+        line-height: 27px;
+      }
+
+      div.subscribe-buttons {
+        width: 160px;
+      }
     }
   }
 
