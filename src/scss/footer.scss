@@ -57,19 +57,32 @@ footer {
 
       padding: 0 20px;
 
-      h4 {
-        margin-top: 30px;
+      div.footer-item {
+        width: 100%;
+
+        h2 {
+          width: 100%;
+        }
+
+        ul {
+          width: 100%;
+        }
+
+
+        h4 {
+          margin-top: 30px;
+        }
       }
-    }
 
-    div.footer-footer {
-      height: 200px;
+      div.footer-footer {
+        height: 200px;
 
-      ul {
-        flex-flow: column nowrap;
-        gap: 3vh;
+        ul {
+          flex-flow: column nowrap;
+          gap: 3vh;
 
-        margin: 40px 0 50px 20px;
+          margin: 40px 0 50px 20px;
+        }
       }
     }
   }

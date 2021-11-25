@@ -1002,13 +1002,22 @@ footer div.footer-footer ul {
     flex-flow: column nowrap;
     padding: 0 20px;
   }
-  footer nav h4 {
+  footer nav div.footer-item {
+    width: 100%;
+  }
+  footer nav div.footer-item h2 {
+    width: 100%;
+  }
+  footer nav div.footer-item ul {
+    width: 100%;
+  }
+  footer nav div.footer-item h4 {
     margin-top: 30px;
   }
-  footer div.footer-footer {
+  footer nav div.footer-footer {
     height: 200px;
   }
-  footer div.footer-footer ul {
+  footer nav div.footer-footer ul {
     flex-flow: column nowrap;
     gap: 3vh;
     margin: 40px 0 50px 20px;
