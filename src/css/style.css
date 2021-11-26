@@ -974,14 +974,14 @@ footer nav div.footer-item {
 }
 footer nav div.footer-item h2 {
   position: relative;
-  top: 11px;
+  top: 12px;
   width: 270px;
   font-size: 18px;
   line-height: 27px;
 }
 footer nav div.footer-item ul {
   width: 270px;
-  height: 182px;
+  height: 178px;
 }
 footer nav div.footer-item div.subscribe-buttons {
   width: 160px;
@@ -995,7 +995,7 @@ footer div.footer-footer {
 }
 footer div.footer-footer ul {
   position: relative;
-  right: 5px;
+  right: 10px;
   gap: 1%;
   margin: 40px 0 50px 10%;
 }
