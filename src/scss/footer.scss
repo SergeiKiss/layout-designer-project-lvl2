@@ -39,6 +39,10 @@ footer {
       .footer-item-contact {
         position: relative;
         top: 10px;
+
+        .footer-item-contact2, .footer-item-contact3 {
+          bottom: 3px;
+        }
       }
 
       div.subscribe-buttons {
