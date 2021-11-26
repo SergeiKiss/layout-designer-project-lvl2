@@ -980,6 +980,8 @@ footer nav div.footer-item h2 {
   line-height: 27px;
 }
 footer nav div.footer-item ul {
+  position: relative;
+  top: 5px;
   width: 270px;
   height: 178px;
 }
