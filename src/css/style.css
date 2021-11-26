@@ -983,7 +983,7 @@ footer nav div.footer-item ul {
   position: relative;
   top: 10px;
   width: 270px;
-  height: 192px;
+  height: 202px;
 }
 footer nav div.footer-item ul li {
   height: 19px;
@@ -1000,13 +1000,12 @@ footer nav div.footer-item div.subscribe-buttons {
 footer div.footer-footer {
   position: relative;
   right: 10px;
-  top: 10px;
   height: 65px;
   border-top: solid 1px #cacaca;
 }
 footer div.footer-footer ul {
   position: relative;
-  right: 10px;
+  right: 13px;
   gap: 1%;
   margin: 40px 0 50px 10%;
 }
