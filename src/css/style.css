@@ -985,7 +985,16 @@ footer nav div.footer-item ul {
   width: 270px;
   height: 178px;
 }
+footer nav div.footer-item ul li {
+  height: 19px;
+}
+footer nav div.footer-item .footer-item-contact {
+  position: relative;
+  top: 10px;
+}
 footer nav div.footer-item div.subscribe-buttons {
+  position: relative;
+  top: 10px;
   width: 160px;
 }
 footer div.footer-footer {

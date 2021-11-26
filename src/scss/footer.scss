@@ -30,9 +30,20 @@ footer {
         top: 10px;
         width: 270px;
         height: 178px;
+
+        li {
+          height: 19px;
+        }
+      }
+
+      .footer-item-contact {
+        position: relative;
+        top: 10px;
       }
 
       div.subscribe-buttons {
+        position: relative;
+        top: 10px;
         width: 160px;
       }
     }
