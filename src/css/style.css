@@ -974,7 +974,7 @@ footer nav div.footer-item {
 }
 footer nav div.footer-item h2 {
   position: relative;
-  top: 10px;
+  top: 9px;
   width: 270px;
   font-size: 18px;
   line-height: 27px;
@@ -989,6 +989,7 @@ footer nav div.footer-item div.subscribe-buttons {
 footer div.footer-footer {
   position: relative;
   right: 10px;
+  top: 5px;
   height: 65px;
   border-top: solid 1px #cacaca;
 }
@@ -1026,6 +1027,7 @@ footer div.footer-footer ul {
     height: 200px;
   }
   footer nav div.footer-footer ul {
+    bottom: 0;
     flex-flow: column nowrap;
     gap: 3vh;
     margin: 40px 0 50px 20px;
