@@ -27,7 +27,7 @@ footer {
 
       ul {
         width: 270px;
-        height: 48*4px;
+        height: 187px;
       }
 
       div.subscribe-buttons {
@@ -39,11 +39,12 @@ footer {
   div.footer-footer {
     position: relative;
     right: 10px;
-    bottom: 5px;
     height: 65px;
     border-top: solid 1px #cacaca;
 
     ul {
+      position: relative;
+      bottom: 5px;
       gap: 1%;
 
       margin: 40px 0 50px 10%;
