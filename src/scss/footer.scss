@@ -87,7 +87,18 @@ footer {
       padding: 0 20px;
 
       div.footer-item {
+        position: relative;
         width: 100%;
+
+        &.footer-item1{
+          bottom: 1px;
+        }
+        &.footer-item2{
+          bottom: 1px;
+        }
+        &.footer-item3{
+          bottom: 5px;
+        }
 
         h2 {
           width: 100%;

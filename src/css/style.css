@@ -1027,7 +1027,17 @@ footer div.footer-footer ul {
     padding: 0 20px;
   }
   footer nav div.footer-item {
+    position: relative;
     width: 100%;
+  }
+  footer nav div.footer-item.footer-item1 {
+    bottom: 1px;
+  }
+  footer nav div.footer-item.footer-item2 {
+    bottom: 1px;
+  }
+  footer nav div.footer-item.footer-item3 {
+    bottom: 5px;
   }
   footer nav div.footer-item h2 {
     width: 100%;
