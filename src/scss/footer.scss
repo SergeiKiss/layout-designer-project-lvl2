@@ -90,13 +90,24 @@ footer {
         position: relative;
         width: 100%;
 
-        &.footer-item1{
+        &.footer-item1 {
           bottom: 1px;
+
+          h2 {
+            position: relative;
+            top: 2px;
+          }
         }
-        &.footer-item2{
+
+        &.footer-item2 {
           bottom: 1px;
+
+          ul {
+            height: 125px;
+          }
         }
-        &.footer-item3{
+
+        &.footer-item3 {
           bottom: 5px;
         }
 
