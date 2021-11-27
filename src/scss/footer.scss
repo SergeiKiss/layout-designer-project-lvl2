@@ -95,7 +95,7 @@ footer {
 
           h2 {
             position: relative;
-            top: 12px;
+            top: 14px;
           }
         }
 
@@ -105,6 +105,11 @@ footer {
           ul {
            li {
              height: 22px;
+
+             a {
+               position: relative;
+               bottom: 3px;
+             }
            }
           }
         }
