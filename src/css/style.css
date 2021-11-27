@@ -1030,9 +1030,11 @@ footer div.footer-footer ul {
     width: 100%;
   }
   footer nav div.footer-item h2 {
+    top: 0;
     width: 100%;
   }
   footer nav div.footer-item ul {
+    top: 0;
     width: 100%;
   }
   footer nav div.footer-item h4 {
