@@ -992,8 +992,11 @@ footer nav div.footer-item .footer-item-contact {
   position: relative;
   top: 10px;
 }
-footer nav div.footer-item .footer-item-contact.footer-item-contact2, footer nav div.footer-item .footer-item-contact.footer-item-contact3 {
-  top: 3px;
+footer nav div.footer-item .footer-item-contact.footer-item-contact2 {
+  top: 9px;
+}
+footer nav div.footer-item .footer-item-contact.footer-item-contact3 {
+  top: 8px;
 }
 footer nav div.footer-item div.subscribe-buttons {
   position: relative;

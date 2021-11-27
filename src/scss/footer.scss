@@ -40,9 +40,12 @@ footer {
         position: relative;
         top: 10px;
 
-        &.footer-item-contact2,
+        &.footer-item-contact2 {
+          top: 9px;
+        }
+
         &.footer-item-contact3 {
-          top: 3px;
+          top: 8px;
         }
       }
 
