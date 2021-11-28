@@ -117,8 +117,16 @@ footer {
         &.footer-item3 {
           bottom: 5px;
 
+          .footer-item-contact1 {
+            top: 9px;
+          }
+
           .footer-item-contact2 {
-            top: 10px;
+            top: 9px;
+          }
+
+          .footer-item-contact3 {
+            top: 6px;
           }
         }
 
@@ -138,19 +146,19 @@ footer {
 
 
       }
+    }
 
-      div.footer-footer {
-        top: 50px;
-        right: 0;
-        height: 200px;
+    div.footer-footer {
+      top: 50px;
+      right: 0;
+      height: 200px;
 
-        ul {
-          bottom: 0;
-          flex-flow: column nowrap;
-          gap: 3vh;
+      ul {
+        bottom: 0;
+        flex-flow: column nowrap;
+        gap: 3vh;
 
-          margin: 40px 0 50px 20px;
-        }
+        margin: 40px 0 50px 20px;
       }
     }
   }

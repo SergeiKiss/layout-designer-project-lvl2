@@ -1050,8 +1050,14 @@ footer div.footer-footer ul {
   footer nav div.footer-item.footer-item3 {
     bottom: 5px;
   }
+  footer nav div.footer-item.footer-item3 .footer-item-contact1 {
+    top: 9px;
+  }
   footer nav div.footer-item.footer-item3 .footer-item-contact2 {
-    top: 10px;
+    top: 9px;
+  }
+  footer nav div.footer-item.footer-item3 .footer-item-contact3 {
+    top: 6px;
   }
   footer nav div.footer-item.footer-item4 {
     position: relative;
@@ -1064,12 +1070,12 @@ footer div.footer-footer ul {
     width: 100%;
     height: 130px;
   }
-  footer nav div.footer-footer {
+  footer div.footer-footer {
     top: 50px;
     right: 0;
     height: 200px;
   }
-  footer nav div.footer-footer ul {
+  footer div.footer-footer ul {
     bottom: 0;
     flex-flow: column nowrap;
     gap: 3vh;
