@@ -116,15 +116,15 @@ footer {
 
         &.footer-item3 {
           bottom: 5px;
-        }
-
-        &.footer-item4 {
-          position: relative;
-          top: 20px;
 
           .footer-item-contact2 {
             top: 10px;
           }
+        }
+
+        &.footer-item4 {
+          position: relative;
+          top: 18px;
         }
 
         h2 {
@@ -140,6 +140,7 @@ footer {
       }
 
       div.footer-footer {
+        top: 50px;
         right: 0;
         height: 200px;
 

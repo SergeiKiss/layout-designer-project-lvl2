@@ -1050,12 +1050,12 @@ footer div.footer-footer ul {
   footer nav div.footer-item.footer-item3 {
     bottom: 5px;
   }
+  footer nav div.footer-item.footer-item3 .footer-item-contact2 {
+    top: 10px;
+  }
   footer nav div.footer-item.footer-item4 {
     position: relative;
-    top: 20px;
-  }
-  footer nav div.footer-item.footer-item4 .footer-item-contact2 {
-    top: 10px;
+    top: 18px;
   }
   footer nav div.footer-item h2 {
     width: 100%;
@@ -1065,6 +1065,7 @@ footer div.footer-footer ul {
     height: 130px;
   }
   footer nav div.footer-footer {
+    top: 50px;
     right: 0;
     height: 200px;
   }
