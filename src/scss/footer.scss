@@ -152,7 +152,6 @@ footer {
       top: 120px;
       right: 0;
       height: 200px;
-      padding: 0 20px;
 
       ul {
         bottom: 5px;
@@ -160,6 +159,10 @@ footer {
         gap: 1.7vh;
 
         margin: 40px 0 50px 20px;
+
+        li {
+          width: 374px;
+        }
       }
     }
   }
