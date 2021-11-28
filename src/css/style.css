@@ -1078,13 +1078,13 @@ footer div.footer-footer ul {
   footer div.footer-footer ul {
     right: 0px;
     bottom: 5px;
-    left: 5px;
+    left: 3px;
     flex-flow: column nowrap;
     gap: 1.7vh;
     margin: 40px 0 50px 20px;
   }
   footer div.footer-footer ul li {
-    width: 374px;
+    width: 370px;
   }
 }
 article#page-popular-track {
