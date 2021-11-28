@@ -1071,13 +1071,14 @@ footer div.footer-footer ul {
     height: 130px;
   }
   footer div.footer-footer {
-    top: 100px;
+    top: 120px;
     right: 0;
     height: 200px;
   }
   footer div.footer-footer ul {
     bottom: 0;
     flex-flow: column nowrap;
+    gap: 1vh;
     margin: 40px 0 50px 20px;
   }
 }
