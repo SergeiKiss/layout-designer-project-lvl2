@@ -1076,7 +1076,6 @@ footer div.footer-footer ul {
     height: 200px;
   }
   footer div.footer-footer ul {
-    top: 1px;
     right: 0px;
     bottom: 5px;
     flex-flow: column nowrap;
