@@ -1078,7 +1078,7 @@ footer div.footer-footer ul {
   footer div.footer-footer ul {
     right: 0px;
     bottom: 5px;
-    left: 10px;
+    left: 5px;
     flex-flow: column nowrap;
     gap: 1.7vh;
     margin: 40px 0 50px 20px;
