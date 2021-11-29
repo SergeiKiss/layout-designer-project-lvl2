@@ -1144,6 +1144,10 @@ article#page-popular-track div.popular-tracks-container div.popular-track div.tr
   article#page-popular-track div.popular-tracks-container div.popular-track {
     width: 88vw;
   }
+  article#page-popular-track div.popular-tracks-container div.popular-track p.sond-duration {
+    position: relative;
+    bottom: 5px;
+  }
 }
 article#page-discography {
   margin: 0 10vw;
