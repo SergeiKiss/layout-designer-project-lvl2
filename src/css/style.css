@@ -1099,8 +1099,13 @@ footer div.footer-footer ul {
 }
 article#page-popular-track {
   width: 1240px;
-  height: 415px;
+  height: 417px;
   margin: 0 10vw;
+}
+article#page-popular-track h2 {
+  position: relative;
+  left: 20px;
+  width: 1200px;
 }
 article#page-popular-track div.popular-tracks-container {
   row-gap: 25px;
@@ -1121,8 +1126,12 @@ article#page-popular-track div.popular-tracks-container div.popular-track div.tr
 @media screen and (max-width: 414px) {
   article#page-popular-track {
     width: 414px;
-    height: 625px;
+    height: 627px;
     margin: 0;
+  }
+  article#page-popular-track h2 {
+    left: 0;
+    width: 400px;
   }
   article#page-popular-track div.popular-tracks-container {
     flex-flow: column nowrap;

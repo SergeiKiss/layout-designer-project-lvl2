@@ -2,8 +2,14 @@
 
 article#page-popular-track {
   width: 1240px;
-  height: 415px;
+  height: 417px;
   margin: 0 10vw;
+
+  h2 {
+    position: relative;
+    left: 20px;
+    width: 1200px;
+  }
 
   div.popular-tracks-container {
     row-gap: 25px;
@@ -31,8 +37,13 @@ article#page-popular-track {
 @media screen and (max-width: 414px) {
   article#page-popular-track {
     width: 414px;
-    height: 625px;
+    height: 627px;
     margin: 0;
+
+    h2 {
+      left: 0;
+      width: 400px;
+    }
 
     div.popular-tracks-container {
       flex-flow: column nowrap;
