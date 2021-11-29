@@ -1150,12 +1150,18 @@ article#page-popular-track div.popular-tracks-container div.popular-track div.tr
     height: 20px;
   }
   article#page-popular-track div.popular-tracks-container div.popular-track p.song-duration.song-duration1 {
-    right: 10px;
+    right: 15px;
   }
   article#page-popular-track div.popular-tracks-container div.popular-track p.song-duration.song-duration2 {
-    right: 5px;
+    right: 10px;
   }
   article#page-popular-track div.popular-tracks-container div.popular-track p.song-duration.song-duration3 {
+    right: 10px;
+  }
+  article#page-popular-track div.popular-tracks-container div.popular-track p.song-duration.song-duration4 {
+    right: 5px;
+  }
+  article#page-popular-track div.popular-tracks-container div.popular-track p.song-duration.song-duration5 {
     right: 5px;
   }
   article#page-popular-track div.popular-tracks-container div.popular-track p.song-duration.song-duration6 {
