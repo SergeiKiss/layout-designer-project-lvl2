@@ -1149,6 +1149,29 @@ article#page-popular-track div.popular-tracks-container div.popular-track div.tr
     bottom: 10px;
     left: 15px;
   }
+  article#page-popular-track div.popular-tracks-container div.popular-track p.song-duration.song-duration1 {
+    top: 5px;
+    right: 10px;
+  }
+  article#page-popular-track div.popular-tracks-container div.popular-track p.song-duration.song-duration2 {
+    top: 5px;
+    right: 10px;
+  }
+  article#page-popular-track div.popular-tracks-container div.popular-track p.song-duration.song-duration3 {
+    top: 5px;
+    right: 10px;
+  }
+  article#page-popular-track div.popular-tracks-container div.popular-track p.song-duration.song-duration4 {
+    top: 5px;
+    right: 10px;
+  }
+  article#page-popular-track div.popular-tracks-container div.popular-track p.song-duration.song-duration5 {
+    right: 10px;
+  }
+  article#page-popular-track div.popular-tracks-container div.popular-track p.song-duration.song-duration6 {
+    top: 5px;
+    right: 10px;
+  }
 }
 article#page-discography {
   margin: 0 10vw;
