@@ -1146,8 +1146,8 @@ article#page-popular-track div.popular-tracks-container div.popular-track div.tr
   }
   article#page-popular-track div.popular-tracks-container div.popular-track p.song-duration {
     position: relative;
-    bottom: 5px;
-    left: 5px;
+    bottom: 10px;
+    left: 15px;
   }
 }
 article#page-discography {
