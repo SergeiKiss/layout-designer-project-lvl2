@@ -39,7 +39,7 @@ article#page-popular-track {
 @media screen and (max-width: 414px) {
   article#page-popular-track {
     width: 414px;
-    height: 629px;
+    height: 630px;
     margin: 0;
 
     h2 {
@@ -50,7 +50,7 @@ article#page-popular-track {
       flex-flow: column nowrap;
 
       div.popular-track {
-        width: 100%;
+        width: 83vw;
       }
     }
   }

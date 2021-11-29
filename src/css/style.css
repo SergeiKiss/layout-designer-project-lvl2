@@ -1132,7 +1132,7 @@ article#page-popular-track div.popular-tracks-container div.popular-track div.tr
 @media screen and (max-width: 414px) {
   article#page-popular-track {
     width: 414px;
-    height: 629px;
+    height: 630px;
     margin: 0;
   }
   article#page-popular-track h2 {
@@ -1142,7 +1142,7 @@ article#page-popular-track div.popular-tracks-container div.popular-track div.tr
     flex-flow: column nowrap;
   }
   article#page-popular-track div.popular-tracks-container div.popular-track {
-    width: 100%;
+    width: 83vw;
   }
 }
 article#page-discography {
