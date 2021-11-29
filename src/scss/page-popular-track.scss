@@ -55,34 +55,27 @@ article#page-popular-track {
         p.song-duration {
           position: relative;
           bottom: 10px;
-          left: 15px;
 
           &.song-duration1 {
             top: 5px;
-            right: 20px;
           }
 
           &.song-duration2 {
             top: 5px;
-            right: 20px;
           }
 
-          &.song-duration3 {
-            right: 20px;
-          }
+          // &.song-duration3 {
+          // }
 
           &.song-duration4 {
             top: 5px;
-            right: 20px;
           }
 
-          &.song-duration5 {
-            right: 20px;
-          }
+          // &.song-duration5 {
+          // }
 
-          &.song-duration6 {
-            right: 20px;
-          }
+          // &.song-duration6 {
+          // }
         }
       }
     }
