@@ -1064,6 +1064,8 @@ footer div.footer-footer ul {
     top: 18px;
   }
   footer nav div.footer-item h2 {
+    position: relative;
+    bottom: 3px;
     width: 100%;
   }
   footer nav div.footer-item ul {
