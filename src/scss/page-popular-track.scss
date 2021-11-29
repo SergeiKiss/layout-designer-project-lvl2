@@ -1,6 +1,8 @@
 // 1) main styles
 
 article#page-popular-track {
+  width: 1240px;
+  height: 415px;
   margin: 0 10vw;
 
   div.popular-tracks-container {
@@ -28,6 +30,8 @@ article#page-popular-track {
 
 @media screen and (max-width: 414px) {
   article#page-popular-track {
+    width: 414px;
+    height: 625px;
     margin: 0;
 
     div.popular-tracks-container {
