@@ -2,7 +2,7 @@
 
 article#page-popular-track {
   width: 1240px;
-  height: 420px;
+  height: 419px;
   margin: 0 10vw;
 
   h2 {
@@ -19,7 +19,7 @@ article#page-popular-track {
       gap: 15px;
 
       width: 37vw;
-      padding: 0 5px;
+      padding: 0 1px;
 
       img {
         width: 55px;
@@ -38,12 +38,11 @@ article#page-popular-track {
 @media screen and (max-width: 414px) {
   article#page-popular-track {
     width: 414px;
-    height: 630px;
+    height: 629px;
     margin: 0;
 
     h2 {
-      left: 5px;
-      width: 400px;
+      width: 374px;
     }
 
     div.popular-tracks-container {
