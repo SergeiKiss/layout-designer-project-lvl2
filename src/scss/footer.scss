@@ -171,6 +171,11 @@ footer {
         li {
           width: 357px;
           height: 23px;
+
+          &.shop-text {
+            position: relative;
+            bottom: 3px;
+          }
         }
       }
     }

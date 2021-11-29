@@ -1092,6 +1092,10 @@ footer div.footer-footer ul {
     width: 357px;
     height: 23px;
   }
+  footer div.footer-footer ul li.shop-text {
+    position: relative;
+    bottom: 3px;
+  }
 }
 article#page-popular-track {
   margin: 0 10vw;
