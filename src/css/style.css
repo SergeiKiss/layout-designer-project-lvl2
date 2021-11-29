@@ -1144,9 +1144,9 @@ article#page-popular-track div.popular-tracks-container div.popular-track div.tr
   article#page-popular-track div.popular-tracks-container div.popular-track {
     width: 88vw;
   }
-  article#page-popular-track div.popular-tracks-container div.popular-track p.sond-duration {
+  article#page-popular-track div.popular-tracks-container div.popular-track p.song-duration {
     position: relative;
-    bottom: 10px;
+    bottom: 5px;
     left: 5px;
   }
 }
