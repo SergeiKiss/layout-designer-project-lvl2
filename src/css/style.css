@@ -1175,6 +1175,11 @@ article#page-discography div.discography-items-container div.discography-item im
   width: 250px;
   height: 250px;
 }
+article#page-discography div.discography-items-container div.discography-item div.discography-info h3 {
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: bold;
+}
 
 @media screen and (max-width: 414px) {
   article#page-discography {
