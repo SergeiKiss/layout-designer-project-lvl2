@@ -55,7 +55,7 @@ article#page-popular-track {
         .popular-track-img {
           &.popular-track-img1 {
             position: relative;
-            bottom: 5px;
+            bottom: 10px;
           }
 
           &.popular-track-img4 {
@@ -69,33 +69,6 @@ article#page-popular-track {
 
           width: 20px;
           height: 20px;
-
-          // &.song-duration1 {
-          //   top: 10px;
-          //   left: 10px;
-          // }
-
-          // &.song-duration2 {
-          //   top: 10px;
-
-          // }
-
-          // &.song-duration3 {
-          //   top: 10px;
-
-          // }
-
-          // &.song-duration4 {
-          //   top: 10px;
-          // }
-
-          // &.song-duration5 {
-          //   top: 10px;
-          // }
-
-          // &.song-duration6 {
-          //   top: 10px;
-          // }
         }
       }
     }
