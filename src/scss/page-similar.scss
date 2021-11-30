@@ -98,11 +98,11 @@ article#page-similar {
           }
 
           &[alt="Paul Young"] {
-            bottom: 0;
+            bottom: 3px;
           }
 
           &[alt="Chris Rea"] {
-            bottom: 0;
+            bottom: 3px;
           }
         }
 
@@ -117,20 +117,20 @@ article#page-similar {
             top: 3px;
           }
 
-          &.similar-info3 {
-            top: 3px;
-          }
+          // &.similar-info3 {
+          //   top: 3px;
+          // }
 
-          &.similar-info4 {
-            top: 3px;
-          }
+          // &.similar-info4 {
+          //   top: 3px;
+          // }
 
           &.similar-info5 {
-            bottom: 5px;
+            bottom: 6px;
           }
 
           &.similar-info6 {
-            bottom: 5px;
+            bottom: 6px;
           }
         }
       }

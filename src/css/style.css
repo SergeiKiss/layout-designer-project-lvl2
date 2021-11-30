@@ -1329,10 +1329,10 @@ article#page-similar div.similar-items-container div.similar-item div.similar-in
     bottom: 0;
   }
   article#page-similar div.similar-items-container div.similar-item img[alt="Paul Young"] {
-    bottom: 0;
+    bottom: 3px;
   }
   article#page-similar div.similar-items-container div.similar-item img[alt="Chris Rea"] {
-    bottom: 0;
+    bottom: 3px;
   }
   article#page-similar div.similar-items-container div.similar-item div.similar-info {
     width: 137px;
@@ -1343,17 +1343,11 @@ article#page-similar div.similar-items-container div.similar-item div.similar-in
   article#page-similar div.similar-items-container div.similar-item div.similar-info.similar-info2 {
     top: 3px;
   }
-  article#page-similar div.similar-items-container div.similar-item div.similar-info.similar-info3 {
-    top: 3px;
-  }
-  article#page-similar div.similar-items-container div.similar-item div.similar-info.similar-info4 {
-    top: 3px;
-  }
   article#page-similar div.similar-items-container div.similar-item div.similar-info.similar-info5 {
-    bottom: 5px;
+    bottom: 6px;
   }
   article#page-similar div.similar-items-container div.similar-item div.similar-info.similar-info6 {
-    bottom: 5px;
+    bottom: 6px;
   }
 }
 
