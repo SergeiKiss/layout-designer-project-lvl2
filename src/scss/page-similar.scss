@@ -12,7 +12,7 @@ article#page-similar {
 
   div.similar-items-container {
     position: relative;
-    right: 20px;
+    right: 23px;
     row-gap: 25px;
     column-gap: 50px;
 
@@ -57,6 +57,10 @@ article#page-similar {
         img {
           width: 137px;
           height: 137px;
+        }
+
+        div.similar-info {
+          width: 137px;
         }
       }
     }
