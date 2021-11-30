@@ -1296,6 +1296,7 @@ article#page-similar div.similar-items-container div.similar-item div.similar-in
   article#page-similar div.similar-items-container {
     column-gap: 0;
     right: 25px;
+    bottom: 10px;
   }
   article#page-similar div.similar-items-container div.similar-item {
     width: 187px;
