@@ -1305,15 +1305,37 @@ article#page-similar div.similar-items-container div.similar-item div.similar-in
     align-items: center;
   }
   article#page-similar div.similar-items-container div.similar-item img {
+    position: relative;
     width: 137px;
     height: 137px;
     margin-bottom: 23px;
   }
-  article#page-similar div.similar-items-container div.similar-item img[alt=Keane], article#page-similar div.similar-items-container div.similar-item img[alt="Frank Sinatra"], article#page-similar div.similar-items-container div.similar-item img[alt="Paul Young"], article#page-similar div.similar-items-container div.similar-item img[alt="Chris Rea"] {
+  article#page-similar div.similar-items-container div.similar-item img[alt="A-ha band"] {
+    top: 5px;
+  }
+  article#page-similar div.similar-items-container div.similar-item img[alt="Tears for Fears"] {
+    top: 5px;
+  }
+  article#page-similar div.similar-items-container div.similar-item img[alt=Keane] {
+    bottom: 0;
+  }
+  article#page-similar div.similar-items-container div.similar-item img[alt="Frank Sinatra"] {
+    bottom: 0;
+  }
+  article#page-similar div.similar-items-container div.similar-item img[alt="Paul Young"] {
+    bottom: 0;
+  }
+  article#page-similar div.similar-items-container div.similar-item img[alt="Chris Rea"] {
     bottom: 0;
   }
   article#page-similar div.similar-items-container div.similar-item div.similar-info {
     width: 137px;
+  }
+  article#page-similar div.similar-items-container div.similar-item div.similar-info.similar-info1 {
+    top: 5px;
+  }
+  article#page-similar div.similar-items-container div.similar-item div.similar-info.similar-info2 {
+    top: 5px;
   }
 }
 

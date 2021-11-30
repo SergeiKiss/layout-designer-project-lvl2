@@ -68,13 +68,39 @@ article#page-similar {
         align-items: center;
 
         img {
+          position: relative;
           width: 137px;
           height: 137px;
           margin-bottom: 23px;
-          
-          &[alt="Keane"],
-          &[alt="Frank Sinatra"],
-          &[alt="Paul Young"],
+
+          &[alt="A-ha band"] {
+            top: 5px;
+          }
+
+          &[alt="Tears for Fears"] {
+            top: 5px;
+          }
+
+          // &[alt="Duran Duran"] {
+
+          // }
+
+          // &[alt="Jack Savoretti"] {
+
+          // }
+
+          &[alt="Keane"] {
+            bottom: 0;
+          }
+
+          &[alt="Frank Sinatra"] {
+            bottom: 0;
+          }
+
+          &[alt="Paul Young"] {
+            bottom: 0;
+          }
+
           &[alt="Chris Rea"] {
             bottom: 0;
           }
@@ -82,6 +108,14 @@ article#page-similar {
 
         div.similar-info {
           width: 137px;
+
+          &.similar-info1 {
+            top: 5px;
+          }
+
+          &.similar-info2 {
+            top: 5px;
+          }
         }
       }
     }
