@@ -1205,6 +1205,7 @@ article#page-discography div.discography-items-container div.discography-item di
   }
   article#page-discography div.discography-items-container {
     left: 0;
+    column-gap: 25px;
   }
   article#page-discography div.discography-items-container div.discography-item {
     flex: 1 1 0;
@@ -1212,6 +1213,9 @@ article#page-discography div.discography-items-container div.discography-item di
   article#page-discography div.discography-items-container div.discography-item img {
     width: 137px;
     height: 137px;
+  }
+  article#page-discography div.discography-items-container div.discography-item div.discography-info {
+    width: 137px;
   }
 }
 article#page-similar {
