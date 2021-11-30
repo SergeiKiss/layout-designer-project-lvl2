@@ -52,38 +52,48 @@ article#page-popular-track {
       div.popular-track {
         width: 88vw;
 
+        .popular-track-img {
+          &.popular-track-img1 {
+            height: 60px;
+          }
+
+          &.popular-track-img4 {
+            height: 60px;
+          }
+        }
+
         p.song-duration {
           position: relative;
 
           width: 20px;
           height: 20px;
 
-          &.song-duration1 {
-            top: 10px;
-            left: 10px;
-          }
+          // &.song-duration1 {
+          //   top: 10px;
+          //   left: 10px;
+          // }
 
-          &.song-duration2 {
-            top: 10px;
-           
-          }
+          // &.song-duration2 {
+          //   top: 10px;
 
-          &.song-duration3 {
-            top: 10px;
-          
-          }
+          // }
 
-          &.song-duration4 {
-            top: 10px;
-          }
+          // &.song-duration3 {
+          //   top: 10px;
 
-          &.song-duration5 {
-            top: 10px;
-          }
+          // }
 
-          &.song-duration6 {
-            top: 10px;
-          }
+          // &.song-duration4 {
+          //   top: 10px;
+          // }
+
+          // &.song-duration5 {
+          //   top: 10px;
+          // }
+
+          // &.song-duration6 {
+          //   top: 10px;
+          // }
         }
       }
     }
