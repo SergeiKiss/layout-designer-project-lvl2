@@ -1,7 +1,15 @@
 // 1) main styles
 
 article#page-discography {
-  margin: 0 10vw;
+  width: 1240px;
+  height: 880px;
+  margin: 0 20px;
+
+  h2 {
+    position: relative;
+    left: 20px;
+    width: 1200px;
+  }
 
   div.discography-items-container {
     row-gap: 25px;
@@ -28,7 +36,13 @@ article#page-discography {
 
 @media screen and (max-width: 414px) {
   article#page-discography {
+    width: 414px;
+    height: 900;
     margin: 0;
+
+    h2 {
+      width: 374px;
+    }
 
     div.discography-items-container {
       div.discography-item {
