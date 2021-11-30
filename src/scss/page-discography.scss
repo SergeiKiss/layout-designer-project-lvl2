@@ -2,7 +2,7 @@
 
 article#page-discography {
   width: 1240px;
-  height: 875px;
+  height: 873px;
   margin: 0 20px;
 
   h2 {
@@ -24,6 +24,8 @@ article#page-discography {
       }
 
       div.discography-info {
+        position: relative;
+        bottom: 5px;
         h3 {
           font-size: 18px;
           line-height: 27px;
@@ -39,7 +41,7 @@ article#page-discography {
 @media screen and (max-width: 414px) {
   article#page-discography {
     width: 414px;
-    height: 898px;
+    height: 897px;
     margin: 0;
 
     h2 {
