@@ -1317,10 +1317,10 @@ article#page-similar div.similar-items-container div.similar-item div.similar-in
     top: 6px;
   }
   article#page-similar div.similar-items-container div.similar-item img[alt="Duran Duran"] {
-    top: 5px;
+    top: 3px;
   }
   article#page-similar div.similar-items-container div.similar-item img[alt="Jack Savoretti"] {
-    top: 5px;
+    top: 3px;
   }
   article#page-similar div.similar-items-container div.similar-item img[alt=Keane] {
     bottom: 0;
@@ -1344,16 +1344,16 @@ article#page-similar div.similar-items-container div.similar-item div.similar-in
     top: 3px;
   }
   article#page-similar div.similar-items-container div.similar-item div.similar-info.similar-info3 {
-    top: 5px;
+    top: 3px;
   }
   article#page-similar div.similar-items-container div.similar-item div.similar-info.similar-info4 {
-    top: 5px;
+    top: 3px;
   }
   article#page-similar div.similar-items-container div.similar-item div.similar-info.similar-info5 {
-    bottom: 3px;
+    bottom: 5px;
   }
   article#page-similar div.similar-items-container div.similar-item div.similar-info.similar-info6 {
-    bottom: 3px;
+    bottom: 5px;
   }
 }
 
