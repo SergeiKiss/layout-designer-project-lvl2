@@ -1343,6 +1343,18 @@ article#page-similar div.similar-items-container div.similar-item div.similar-in
   article#page-similar div.similar-items-container div.similar-item div.similar-info.similar-info2 {
     top: 3px;
   }
+  article#page-similar div.similar-items-container div.similar-item div.similar-info.similar-info3 {
+    top: 5px;
+  }
+  article#page-similar div.similar-items-container div.similar-item div.similar-info.similar-info4 {
+    top: 5px;
+  }
+  article#page-similar div.similar-items-container div.similar-item div.similar-info.similar-info5 {
+    bottom: 3px;
+  }
+  article#page-similar div.similar-items-container div.similar-item div.similar-info.similar-info6 {
+    bottom: 3px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
