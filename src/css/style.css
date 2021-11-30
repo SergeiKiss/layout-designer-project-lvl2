@@ -1204,8 +1204,7 @@ article#page-discography div.discography-items-container div.discography-item di
     width: 374px;
   }
   article#page-discography div.discography-items-container {
-    left: 0;
-    column-gap: 25px;
+    column-gap: 2px;
   }
   article#page-discography div.discography-items-container div.discography-item {
     flex: 1 1 0;
