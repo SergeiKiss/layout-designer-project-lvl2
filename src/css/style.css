@@ -1262,8 +1262,6 @@ article#page-similar h2 {
   width: 1200px;
 }
 article#page-similar div.similar-items-container {
-  position: relative;
-  left: 20px;
   row-gap: 25px;
   column-gap: 50px;
 }
@@ -1280,7 +1278,7 @@ article#page-similar div.similar-items-container div.similar-item div.similar-in
 @media screen and (max-width: 414px) {
   article#page-similar {
     width: 414px;
-    height: 897px;
+    height: 1088px;
     margin: 0;
   }
   article#page-similar h2 {
