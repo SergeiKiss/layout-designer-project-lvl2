@@ -1316,6 +1316,12 @@ article#page-similar div.similar-items-container div.similar-item div.similar-in
   article#page-similar div.similar-items-container div.similar-item img[alt="Tears for Fears"] {
     top: 6px;
   }
+  article#page-similar div.similar-items-container div.similar-item img[alt="Duran Duran"] {
+    top: 5px;
+  }
+  article#page-similar div.similar-items-container div.similar-item img[alt="Jack Savoretti"] {
+    top: 5px;
+  }
   article#page-similar div.similar-items-container div.similar-item img[alt=Keane] {
     bottom: 0;
   }
