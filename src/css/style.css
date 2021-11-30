@@ -1223,6 +1223,12 @@ article#page-discography div.discography-items-container div.discography-item di
   article#page-discography div.discography-items-container div.discography-item img[alt="Vogts Villa - album cover"] {
     bottom: 5px;
   }
+  article#page-discography div.discography-items-container div.discography-item img[alt="Wild Seed - album cover"] {
+    bottom: 5px;
+  }
+  article#page-discography div.discography-items-container div.discography-item img[alt="Poetenes Evangelium - album cover"] {
+    bottom: 5px;
+  }
   article#page-discography div.discography-items-container div.discography-item div.discography-info {
     width: 137px;
   }
@@ -1233,9 +1239,15 @@ article#page-discography div.discography-items-container div.discography-item di
     bottom: 6px;
   }
   article#page-discography div.discography-items-container div.discography-item div.discography-info.discography-info3 {
-    bottom: 6px;
+    bottom: 8px;
   }
   article#page-discography div.discography-items-container div.discography-item div.discography-info.discography-info4 {
+    bottom: 8px;
+  }
+  article#page-discography div.discography-items-container div.discography-item div.discography-info.discography-info5 {
+    bottom: 6px;
+  }
+  article#page-discography div.discography-items-container div.discography-item div.discography-info.discography-info6 {
     bottom: 6px;
   }
 }

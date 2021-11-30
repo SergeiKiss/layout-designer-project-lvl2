@@ -74,6 +74,14 @@ article#page-discography {
           &[alt="Vogts Villa - album cover"] {
             bottom: 5px;
           }
+
+          &[alt="Wild Seed - album cover"] {
+            bottom: 5px;
+          }
+
+          &[alt="Poetenes Evangelium - album cover"] {
+            bottom: 5px;
+          }
         }
 
         div.discography-info {
@@ -88,10 +96,18 @@ article#page-discography {
           }
 
           &.discography-info3 {
-            bottom: 6px;
+            bottom: 8px;
           }
 
           &.discography-info4 {
+            bottom: 8px;
+          }
+
+          &.discography-info5 {
+            bottom: 6px;
+          }
+
+          &.discography-info6 {
             bottom: 6px;
           }
         }
