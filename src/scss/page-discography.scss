@@ -57,19 +57,27 @@ article#page-discography {
         img {
           position: relative;
           width: 137px;
-          height: 142px;
+          height: 137px;
 
           &[alt="Brother - album cover"] {
-            bottom: 5px;
+            bottom: 3px;
           }
 
           &[alt="Out of My Hands - album cover"] {
-            bottom: 5px;
+            bottom: 3px;
           }
         }
 
         div.discography-info {
           width: 137px;
+
+          &.discography-info1 {
+            bottom: 5px;
+          }
+
+          &.discography-info2 {
+            bottom: 5px;
+          }
         }
       }
     }
