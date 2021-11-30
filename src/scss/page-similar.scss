@@ -2,8 +2,7 @@
 
 article#page-similar {
   width: 1240px;
-  height: 871px;
-  // margin: 0 20px;
+  height: 870px;
 
   h2 {
     position: relative;
@@ -12,6 +11,8 @@ article#page-similar {
   }
 
   div.similar-items-container {
+    position: relative;
+    right: 10px;
     row-gap: 25px;
     column-gap: 50px;
 
@@ -37,7 +38,7 @@ article#page-similar {
 @media screen and (max-width: 414px) {
   article#page-similar {
     width: 414px;
-    height: 1168px;
+    height: 1169px;
     margin: 0;
 
     h2 {
@@ -45,6 +46,8 @@ article#page-similar {
     }
 
     div.similar-items-container {
+      right: 0;
+
       div.similar-item {
         display: flex;
         flex-flow: column nowrap;

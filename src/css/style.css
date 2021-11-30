@@ -1253,7 +1253,7 @@ article#page-discography div.discography-items-container div.discography-item di
 }
 article#page-similar {
   width: 1240px;
-  height: 871px;
+  height: 870px;
 }
 article#page-similar h2 {
   position: relative;
@@ -1261,6 +1261,8 @@ article#page-similar h2 {
   width: 1200px;
 }
 article#page-similar div.similar-items-container {
+  position: relative;
+  right: 10px;
   row-gap: 25px;
   column-gap: 50px;
 }
@@ -1277,11 +1279,14 @@ article#page-similar div.similar-items-container div.similar-item div.similar-in
 @media screen and (max-width: 414px) {
   article#page-similar {
     width: 414px;
-    height: 1168px;
+    height: 1169px;
     margin: 0;
   }
   article#page-similar h2 {
     width: 374px;
+  }
+  article#page-similar div.similar-items-container {
+    right: 0;
   }
   article#page-similar div.similar-items-container div.similar-item {
     display: flex;
