@@ -1145,10 +1145,12 @@ article#page-popular-track div.popular-tracks-container div.popular-track div.tr
     width: 88vw;
   }
   article#page-popular-track div.popular-tracks-container div.popular-track .popular-track-img.popular-track-img1 {
-    height: 60px;
+    position: relative;
+    bottom: 5px;
   }
   article#page-popular-track div.popular-tracks-container div.popular-track .popular-track-img.popular-track-img4 {
-    height: 60px;
+    position: relative;
+    bottom: 5px;
   }
   article#page-popular-track div.popular-tracks-container div.popular-track p.song-duration {
     position: relative;

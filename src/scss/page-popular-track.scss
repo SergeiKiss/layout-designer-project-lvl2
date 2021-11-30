@@ -54,11 +54,13 @@ article#page-popular-track {
 
         .popular-track-img {
           &.popular-track-img1 {
-            height: 60px;
+            position: relative;
+            bottom: 5px;
           }
 
           &.popular-track-img4 {
-            height: 60px;
+            position: relative;
+            bottom: 5px;
           }
         }
 
