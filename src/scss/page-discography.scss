@@ -50,6 +50,7 @@ article#page-discography {
     }
 
     div.discography-items-container {
+      top: 5px;
 
       div.discography-item {
         width: 137px;
@@ -57,7 +58,6 @@ article#page-discography {
         img {
           width: 137px;
           height: 137px;
-          margin-bottom: 20px;
         }
 
         div.discography-info {
