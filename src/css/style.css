@@ -1294,17 +1294,19 @@ article#page-similar div.similar-items-container div.similar-item div.similar-in
     width: 374px;
   }
   article#page-similar div.similar-items-container {
+    column-gap: 0;
     right: 0;
   }
   article#page-similar div.similar-items-container div.similar-item {
+    width: 187px;
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
-    flex: 1 1 0;
   }
   article#page-similar div.similar-items-container div.similar-item img {
     width: 137px;
     height: 137px;
+    bottom: 0;
   }
   article#page-similar div.similar-items-container div.similar-item div.similar-info {
     width: 137px;

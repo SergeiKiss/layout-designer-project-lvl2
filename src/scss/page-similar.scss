@@ -57,17 +57,19 @@ article#page-similar {
     }
 
     div.similar-items-container {
+      column-gap: 0;
       right: 0;
 
       div.similar-item {
+        width: 187px;
         display: flex;
         flex-flow: column nowrap;
         align-items: center;
-        flex: 1 1 0;
 
         img {
           width: 137px;
           height: 137px;
+          bottom: 0;
         }
 
         div.similar-info {
