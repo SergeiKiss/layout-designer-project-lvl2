@@ -53,24 +53,34 @@ article#page-popular-track {
         width: 88vw;
 
         .popular-track-img {
+          position: relative;
+
           &.popular-track-img1 {
-            position: relative;
             bottom: 5px;
-            height: 60px;
+            height: 65px;
           }
 
           &.popular-track-img4 {
-            position: relative;
             bottom: 5px;
           }
         }
 
-        // p.song-duration {
-        //   position: relative;
+        div.song-nameNauthor {
+          position: relative;
 
-        //   width: 20px;
-        //   height: 20px;
-        // }
+          &.song-nameNauthor1 {
+            height: 300px;
+          }
+        }
+
+        time.song-duration {
+          position: relative;
+
+          &.song-duration1 {
+            bottom: 5px;
+            left: 10px;
+          }
+        }
       }
     }
   }

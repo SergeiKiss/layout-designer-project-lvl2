@@ -1144,14 +1144,28 @@ article#page-popular-track div.popular-tracks-container div.popular-track div.tr
   article#page-popular-track div.popular-tracks-container div.popular-track {
     width: 88vw;
   }
-  article#page-popular-track div.popular-tracks-container div.popular-track .popular-track-img.popular-track-img1 {
+  article#page-popular-track div.popular-tracks-container div.popular-track .popular-track-img {
     position: relative;
+  }
+  article#page-popular-track div.popular-tracks-container div.popular-track .popular-track-img.popular-track-img1 {
     bottom: 5px;
-    height: 60px;
+    height: 65px;
   }
   article#page-popular-track div.popular-tracks-container div.popular-track .popular-track-img.popular-track-img4 {
-    position: relative;
     bottom: 5px;
+  }
+  article#page-popular-track div.popular-tracks-container div.popular-track div.song-nameNauthor {
+    position: relative;
+  }
+  article#page-popular-track div.popular-tracks-container div.popular-track div.song-nameNauthor.song-nameNauthor1 {
+    height: 300px;
+  }
+  article#page-popular-track div.popular-tracks-container div.popular-track time.song-duration {
+    position: relative;
+  }
+  article#page-popular-track div.popular-tracks-container div.popular-track time.song-duration.song-duration1 {
+    bottom: 5px;
+    left: 10px;
   }
 }
 article#page-discography {
