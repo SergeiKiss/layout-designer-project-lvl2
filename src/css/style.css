@@ -1253,8 +1253,8 @@ article#page-discography div.discography-items-container div.discography-item di
 }
 article#page-similar {
   width: 1240px;
-  height: 873px;
-  margin: 0 20px;
+  height: 872px;
+  margin: 0 10px;
 }
 article#page-similar h2 {
   position: relative;
@@ -1278,7 +1278,7 @@ article#page-similar div.similar-items-container div.similar-item div.similar-in
 @media screen and (max-width: 414px) {
   article#page-similar {
     width: 414px;
-    height: 1088px;
+    height: 1188px;
     margin: 0;
   }
   article#page-similar h2 {
