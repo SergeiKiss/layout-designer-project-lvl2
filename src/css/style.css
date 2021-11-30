@@ -1207,8 +1207,15 @@ article#page-discography div.discography-items-container div.discography-item di
     width: 137px;
   }
   article#page-discography div.discography-items-container div.discography-item img {
+    position: relative;
     width: 137px;
     height: 137px;
+  }
+  article#page-discography div.discography-items-container div.discography-item img[alt="Brother - album cover"] {
+    bottom: 5px;
+  }
+  article#page-discography div.discography-items-container div.discography-item img[alt="Out of My Hands - album cover"] {
+    bottom: 5px;
   }
   article#page-discography div.discography-items-container div.discography-item div.discography-info {
     width: 137px;
