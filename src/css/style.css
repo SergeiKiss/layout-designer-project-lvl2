@@ -1148,7 +1148,7 @@ article#page-popular-track div.popular-tracks-container div.popular-track div.tr
     position: relative;
   }
   article#page-popular-track div.popular-tracks-container div.popular-track .popular-track-img.popular-track-img1 {
-    bottom: 5px;
+    bottom: 3px;
   }
   article#page-popular-track div.popular-tracks-container div.popular-track .popular-track-img.popular-track-img4 {
     bottom: 5px;
@@ -1157,14 +1157,14 @@ article#page-popular-track div.popular-tracks-container div.popular-track div.tr
     position: relative;
   }
   article#page-popular-track div.popular-tracks-container div.popular-track div.song-nameNauthor.song-nameNauthor1 {
-    top: 5px;
+    bottom: 5px;
     height: 40px;
   }
   article#page-popular-track div.popular-tracks-container div.popular-track time.song-duration {
     position: relative;
   }
   article#page-popular-track div.popular-tracks-container div.popular-track time.song-duration.song-duration1 {
-    bottom: 5.5px;
+    bottom: 5px;
     left: 10px;
   }
 }
