@@ -26,6 +26,7 @@ article#page-discography {
       div.discography-info {
         position: relative;
         bottom: 5px;
+
         h3 {
           font-size: 18px;
           line-height: 27px;
@@ -49,10 +50,9 @@ article#page-discography {
     }
 
     div.discography-items-container {
-      column-gap: 2px;
 
       div.discography-item {
-        flex: 1 1 0;
+        width: 137px;
 
         img {
           width: 137px;

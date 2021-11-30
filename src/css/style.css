@@ -1203,11 +1203,8 @@ article#page-discography div.discography-items-container div.discography-item di
   article#page-discography h2 {
     width: 374px;
   }
-  article#page-discography div.discography-items-container {
-    column-gap: 2px;
-  }
   article#page-discography div.discography-items-container div.discography-item {
-    flex: 1 1 0;
+    width: 137px;
   }
   article#page-discography div.discography-items-container div.discography-item img {
     width: 137px;
