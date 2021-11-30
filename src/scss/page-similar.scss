@@ -58,7 +58,7 @@ article#page-similar {
 
     div.similar-items-container {
       column-gap: 0;
-      right: 0;
+      right: 20px;
 
       div.similar-item {
         width: 187px;
@@ -69,7 +69,13 @@ article#page-similar {
         img {
           width: 137px;
           height: 137px;
-          bottom: 0;
+          
+          &[alt="Keane"],
+          &[alt="Frank Sinatra"],
+          &[alt="Paul Young"],
+          &[alt="Chris Rea"] {
+            bottom: 0;
+          }
         }
 
         div.similar-info {

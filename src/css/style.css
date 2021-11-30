@@ -1295,7 +1295,7 @@ article#page-similar div.similar-items-container div.similar-item div.similar-in
   }
   article#page-similar div.similar-items-container {
     column-gap: 0;
-    right: 0;
+    right: 20px;
   }
   article#page-similar div.similar-items-container div.similar-item {
     width: 187px;
@@ -1306,6 +1306,8 @@ article#page-similar div.similar-items-container div.similar-item div.similar-in
   article#page-similar div.similar-items-container div.similar-item img {
     width: 137px;
     height: 137px;
+  }
+  article#page-similar div.similar-items-container div.similar-item img[alt=Keane], article#page-similar div.similar-items-container div.similar-item img[alt="Frank Sinatra"], article#page-similar div.similar-items-container div.similar-item img[alt="Paul Young"], article#page-similar div.similar-items-container div.similar-item img[alt="Chris Rea"] {
     bottom: 0;
   }
   article#page-similar div.similar-items-container div.similar-item div.similar-info {
