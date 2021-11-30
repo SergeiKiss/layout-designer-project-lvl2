@@ -18,13 +18,22 @@ article#page-similar {
 
     div.similar-item {
       img {
+        position: relative;
         width: 250px;
         height: 250px;
+
+        &[alt="Keane"],
+        &[alt="Frank Sinatra"],
+        &[alt="Paul Young"],
+        &[alt="Chris Rea"] {
+          bottom: 5px;
+        }
       }
 
       div.similar-info {
         position: relative;
         bottom: 5px;
+
         h3 {
           font-size: 18px;
           line-height: 27px;

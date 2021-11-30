@@ -1267,8 +1267,12 @@ article#page-similar div.similar-items-container {
   column-gap: 50px;
 }
 article#page-similar div.similar-items-container div.similar-item img {
+  position: relative;
   width: 250px;
   height: 250px;
+}
+article#page-similar div.similar-items-container div.similar-item img[alt=Keane], article#page-similar div.similar-items-container div.similar-item img[alt="Frank Sinatra"], article#page-similar div.similar-items-container div.similar-item img[alt="Paul Young"], article#page-similar div.similar-items-container div.similar-item img[alt="Chris Rea"] {
+  bottom: 5px;
 }
 article#page-similar div.similar-items-container div.similar-item div.similar-info {
   position: relative;
