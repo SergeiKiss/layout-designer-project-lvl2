@@ -23,6 +23,8 @@ article#page-similar {
       }
 
       div.similar-info {
+        position: relative;
+        bottom: 5px;
         h3 {
           font-size: 18px;
           line-height: 27px;

@@ -1270,6 +1270,10 @@ article#page-similar div.similar-items-container div.similar-item img {
   width: 250px;
   height: 250px;
 }
+article#page-similar div.similar-items-container div.similar-item div.similar-info {
+  position: relative;
+  bottom: 5px;
+}
 article#page-similar div.similar-items-container div.similar-item div.similar-info h3 {
   font-size: 18px;
   line-height: 27px;
