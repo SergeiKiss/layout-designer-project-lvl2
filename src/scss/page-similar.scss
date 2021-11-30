@@ -2,8 +2,8 @@
 
 article#page-similar {
   width: 1240px;
-  height: 872px;
-  margin: 0 10px;
+  height: 871px;
+  // margin: 0 20px;
 
   h2 {
     position: relative;
@@ -37,7 +37,7 @@ article#page-similar {
 @media screen and (max-width: 414px) {
   article#page-similar {
     width: 414px;
-    height: 1188px;
+    height: 1168px;
     margin: 0;
 
     h2 {
