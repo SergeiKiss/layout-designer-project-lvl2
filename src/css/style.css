@@ -1166,7 +1166,7 @@ article#page-popular-track div.popular-tracks-container div.popular-track div.tr
 }
 article#page-discography {
   width: 1240px;
-  height: 877px;
+  height: 876px;
   margin: 0 20px;
 }
 article#page-discography h2 {
@@ -1175,6 +1175,8 @@ article#page-discography h2 {
   width: 1200px;
 }
 article#page-discography div.discography-items-container {
+  position: relative;
+  left: 10px;
   row-gap: 25px;
   column-gap: 50px;
 }
@@ -1191,11 +1193,14 @@ article#page-discography div.discography-items-container div.discography-item di
 @media screen and (max-width: 414px) {
   article#page-discography {
     width: 414px;
-    height: 900px;
+    height: 899px;
     margin: 0;
   }
   article#page-discography h2 {
     width: 374px;
+  }
+  article#page-discography div.discography-items-container {
+    left: 0;
   }
   article#page-discography div.discography-items-container div.discography-item {
     flex: 1 1 0;
