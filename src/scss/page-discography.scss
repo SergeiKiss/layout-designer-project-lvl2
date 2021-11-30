@@ -60,11 +60,19 @@ article#page-discography {
           height: 137px;
 
           &[alt="Brother - album cover"] {
-            bottom: 3px;
+            bottom: 4px;
           }
 
           &[alt="Out of My Hands - album cover"] {
-            bottom: 3px;
+            bottom: 4px;
+          }
+
+          &[alt="Letter from Egypt - album cover"] {
+            bottom: 5px;
+          }
+
+          &[alt="Vogts Villa - album cover"] {
+            bottom: 5px;
           }
         }
 
@@ -72,10 +80,18 @@ article#page-discography {
           width: 137px;
 
           &.discography-info1 {
-            bottom: 5px;
+            bottom: 6px;
           }
 
           &.discography-info2 {
+            bottom: 6px;
+          }
+
+          &.discography-info3 {
+            bottom: 5px;
+          }
+
+          &.discography-info4 {
             bottom: 5px;
           }
         }
