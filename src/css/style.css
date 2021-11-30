@@ -1308,13 +1308,12 @@ article#page-similar div.similar-items-container div.similar-item div.similar-in
     position: relative;
     width: 137px;
     height: 137px;
-    margin-bottom: 23px;
   }
   article#page-similar div.similar-items-container div.similar-item img[alt="A-ha band"] {
-    top: 5px;
+    top: 6px;
   }
   article#page-similar div.similar-items-container div.similar-item img[alt="Tears for Fears"] {
-    top: 5px;
+    top: 6px;
   }
   article#page-similar div.similar-items-container div.similar-item img[alt=Keane] {
     bottom: 0;
