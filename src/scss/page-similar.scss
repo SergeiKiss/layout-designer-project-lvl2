@@ -74,11 +74,11 @@ article#page-similar {
           margin-bottom: 23px;
 
           &[alt="A-ha band"] {
-            top: 6px;
+            top: 7px;
           }
 
           &[alt="Tears for Fears"] {
-            top: 6px;
+            top: 7px;
           }
 
           &[alt="Duran Duran"] {
@@ -117,20 +117,28 @@ article#page-similar {
             top: 3px;
           }
 
-          // &.similar-info3 {
-          //   top: 3px;
-          // }
+          &.similar-info3 {
+            bottom: 4px;
+          }
 
-          // &.similar-info4 {
-          //   top: 3px;
-          // }
+          &.similar-info4 {
+            bottom: 4px;
+          }
 
           &.similar-info5 {
-            bottom: 6px;
+            bottom: 7px;
           }
 
           &.similar-info6 {
-            bottom: 6px;
+            bottom: 7px;
+          }
+
+          &.similar-info7 {
+            bottom: 5px;
+          }
+
+          &.similar-info8 {
+            bottom: 5px;
           }
         }
       }

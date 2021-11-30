@@ -1311,10 +1311,10 @@ article#page-similar div.similar-items-container div.similar-item div.similar-in
     margin-bottom: 23px;
   }
   article#page-similar div.similar-items-container div.similar-item img[alt="A-ha band"] {
-    top: 6px;
+    top: 7px;
   }
   article#page-similar div.similar-items-container div.similar-item img[alt="Tears for Fears"] {
-    top: 6px;
+    top: 7px;
   }
   article#page-similar div.similar-items-container div.similar-item img[alt="Duran Duran"] {
     top: 3px;
@@ -1343,11 +1343,23 @@ article#page-similar div.similar-items-container div.similar-item div.similar-in
   article#page-similar div.similar-items-container div.similar-item div.similar-info.similar-info2 {
     top: 3px;
   }
+  article#page-similar div.similar-items-container div.similar-item div.similar-info.similar-info3 {
+    bottom: 4px;
+  }
+  article#page-similar div.similar-items-container div.similar-item div.similar-info.similar-info4 {
+    bottom: 4px;
+  }
   article#page-similar div.similar-items-container div.similar-item div.similar-info.similar-info5 {
-    bottom: 6px;
+    bottom: 7px;
   }
   article#page-similar div.similar-items-container div.similar-item div.similar-info.similar-info6 {
-    bottom: 6px;
+    bottom: 7px;
+  }
+  article#page-similar div.similar-items-container div.similar-item div.similar-info.similar-info7 {
+    bottom: 5px;
+  }
+  article#page-similar div.similar-items-container div.similar-item div.similar-info.similar-info8 {
+    bottom: 5px;
   }
 }
 
