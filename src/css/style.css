@@ -1166,7 +1166,7 @@ article#page-popular-track div.popular-tracks-container div.popular-track div.tr
 }
 article#page-discography {
   width: 1240px;
-  height: 880px;
+  height: 877px;
   margin: 0 20px;
 }
 article#page-discography h2 {
@@ -1191,7 +1191,7 @@ article#page-discography div.discography-items-container div.discography-item di
 @media screen and (max-width: 414px) {
   article#page-discography {
     width: 414px;
-    height: 900;
+    height: 900px;
     margin: 0;
   }
   article#page-discography h2 {
