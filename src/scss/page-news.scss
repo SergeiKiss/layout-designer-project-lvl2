@@ -119,16 +119,6 @@ article#page-news {
     div.news-item {
       flex-wrap: wrap;
 
-      &.news-item-mobile-2 {
-        position: relative;
-        bottom: 25px;
-
-        & div.news-item-content {
-          position: relative;
-          bottom: 15px;
-        }
-      }
-
       div.news-item-content {
         bottom: 10px;
 
@@ -159,6 +149,16 @@ article#page-news {
         button.btn-to-album {
           position: relative;
           bottom: 20px;
+        }
+      }
+
+      &.news-item-mobile-2 {
+        position: relative;
+        bottom: 25px;
+
+        & div.news-item-content {
+          position: relative;
+          bottom: 15px;
         }
       }
 
