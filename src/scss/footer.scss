@@ -20,7 +20,9 @@ footer {
       h2 {
         position: relative;
         top: 12px;
+
         width: 270px;
+
         font-size: 18px;
         line-height: 27px;
       }
@@ -28,6 +30,7 @@ footer {
       ul {
         position: relative;
         top: 10px;
+
         width: 270px;
         height: 202px;
 
@@ -52,6 +55,7 @@ footer {
       div.subscribe-buttons {
         position: relative;
         top: 10px;
+
         width: 160px;
       }
     }
@@ -60,12 +64,15 @@ footer {
   div.footer-footer {
     position: relative;
     right: 10px;
+
     height: 65px;
+
     border-top: solid 1px #cacaca;
 
     ul {
       position: relative;
       right: 13px;
+
       gap: 1%;
 
       margin: 40px 0 50px 10%;
@@ -88,6 +95,7 @@ footer {
 
       div.footer-item {
         position: relative;
+
         width: 100%;
 
         &.footer-item1 {
@@ -137,6 +145,7 @@ footer {
           h2 {
             position: relative;
             bottom: 3px;
+
             height: 28px;
           }
         }
@@ -157,6 +166,7 @@ footer {
     div.footer-footer {
       top: 120px;
       right: 0;
+
       height: 200px;
 
       ul {
@@ -164,6 +174,7 @@ footer {
         right: 0px;
         bottom: 5px;
         flex-flow: column nowrap;
+        
         gap: 1.7vh;
 
         margin: 40px 0 50px 20px;
