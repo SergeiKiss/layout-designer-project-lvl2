@@ -530,10 +530,10 @@ header#page-description div.headings-n-forms form {
 header#page-description div.headings-n-forms form input {
   width: 42.98%;
   min-height: 50px;
+  padding-left: 22px;
   margin-bottom: 1.5rem;
   color: #fff;
   background-color: transparent;
-  padding-left: 22px;
   border: solid 2px #cacaca;
   border-radius: 3px;
 }
@@ -548,10 +548,10 @@ header#page-description div.headings-n-forms form button[type=submit] {
   height: 57px;
   font-size: 13.3px;
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-  border: none;
-  border-radius: 5px;
   color: #fff;
   background-color: #34c176;
+  border: none;
+  border-radius: 5px;
   cursor: pointer;
 }
 header#page-description div.artistName-n-fans {
