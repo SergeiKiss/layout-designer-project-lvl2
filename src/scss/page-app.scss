@@ -39,14 +39,14 @@ article#page-app {
           height: 53px;
           padding: 16px 40px;
 
+          color: #fff;
+
+          background-color: map-get($colors, red);
+
           border: none;
           border-radius: 32px;
 
-          color: #fff;
-
           cursor: pointer;
-
-          background-color: map-get($colors, red);
         }
       }
     }

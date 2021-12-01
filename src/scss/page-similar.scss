@@ -67,10 +67,10 @@ article#page-similar {
 
       div.similar-item {
         display: flex;
-
-        width: 187px;
         flex-flow: column nowrap;
         align-items: center;
+
+        width: 187px;
 
         img {
           position: relative;

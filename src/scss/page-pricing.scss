@@ -24,10 +24,10 @@ article#page-pricing {
 
       line-height: 1em;
 
-      border-radius: 1rem;
-
       background-position: center;
       background-size: cover;
+
+      border-radius: 1rem;
 
       &.bg-free {
         background-image: url(../images/subscribe_1.png);
@@ -44,7 +44,9 @@ article#page-pricing {
       h3 {
         position: relative;
         bottom: 30px;
+
         width: 318px;
+
         line-height: 36px;
       }
 
@@ -89,6 +91,7 @@ article#page-pricing {
   p.pricing-desc-all {
     position: relative;
     bottom: 40px;
+
     max-width: 1200px;
   }
 }
@@ -101,9 +104,10 @@ article#page-pricing {
     height: 2120px;
 
     h2 {
-      width: 374px;
-      left: 20px;
       position: relative;
+      left: 20px;
+
+      width: 374px;
     }
 
     div.pricing-items {
@@ -119,6 +123,7 @@ article#page-pricing {
           h3 {
             position: relative;
             bottom: 26.5px;
+
             width: 326px;
             height: 26px;
           }
@@ -134,6 +139,7 @@ article#page-pricing {
           a.btn-checkout {
             position: relative;
             top: -7px;
+
             width: 263px;
             height: 25px;
           }
@@ -141,6 +147,7 @@ article#page-pricing {
           p.pricing-footer {
             position: relative;
             top: 57px;
+
             width: 325px;
             height: 57px;
           }
@@ -148,11 +155,10 @@ article#page-pricing {
 
         &.bg-standart {
           position: relative;
-          top: 0px;
+          top: 0;
 
           h3 {
             position: relative;
-            
           }
 
           a.btn-checkout {
@@ -163,6 +169,7 @@ article#page-pricing {
           p.pricing-footer {
             position: relative;
             top: 55px;
+
             width: 323px;
           }
         }
@@ -173,13 +180,14 @@ article#page-pricing {
           top: 10px;
 
           h3 {
-            height: 24px;
             width: 323px;
+            height: 24px;
           }
 
           a.btn-checkout {
             position: relative;
-            bottom: 0px;
+            bottom: 0;
+
             margin-bottom: 13px;
           }
         }
