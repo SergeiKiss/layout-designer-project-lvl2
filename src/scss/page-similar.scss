@@ -7,6 +7,7 @@ article#page-similar {
   h2 {
     position: relative;
     left: 20px;
+
     width: 1200px;
   }
 
@@ -14,11 +15,13 @@ article#page-similar {
     position: relative;
     right: 23px;
     row-gap: 25px;
+
     column-gap: 50px;
 
     div.similar-item {
       img {
         position: relative;
+
         width: 250px;
         height: 250px;
 
@@ -35,9 +38,9 @@ article#page-similar {
         bottom: 5px;
 
         h3 {
+          font-weight: bold;
           font-size: 18px;
           line-height: 27px;
-          font-weight: bold;
         }
       }
     }
@@ -57,18 +60,21 @@ article#page-similar {
     }
 
     div.similar-items-container {
-      column-gap: 0;
       right: 25px;
       bottom: 10px;
 
+      column-gap: 0;
+
       div.similar-item {
-        width: 187px;
         display: flex;
+
+        width: 187px;
         flex-flow: column nowrap;
         align-items: center;
 
         img {
           position: relative;
+
           width: 137px;
           height: 137px;
           margin-bottom: 23px;

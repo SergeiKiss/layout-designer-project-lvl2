@@ -8,6 +8,7 @@ article#page-popular-track {
   h2 {
     position: relative;
     left: 20px;
+
     width: 1200px;
   }
 
@@ -15,6 +16,7 @@ article#page-popular-track {
     position: relative;
     left: 20px;
     row-gap: 25px;
+
     column-gap: 50px;
 
     div.popular-track {
@@ -54,10 +56,6 @@ article#page-popular-track {
 
         .popular-track-img {
           position: relative;
-
-          // &.popular-track-img1 {
-      
-          // }
 
           &.popular-track-img4 {
             bottom: 5px;

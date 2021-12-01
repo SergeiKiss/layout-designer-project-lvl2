@@ -165,52 +165,52 @@ body {
   }
 }
 @font-face {
+  font-weight: normal;
   font-family: "Roboto";
   src: url(../fonts/Roboto/Roboto-Regular.ttf);
-  font-weight: normal;
 }
 @font-face {
+  font-weight: bold;
   font-family: "Roboto";
   src: url(../fonts/Roboto/Roboto-Bold.ttf);
-  font-weight: bold;
 }
 .common-font-rules {
-  font-family: "Roboto", sans-serif;
   font-size: 18px;
-  line-height: 1.5;
+  font-family: "Roboto", sans-serif;
   color: #cacaca;
+  line-height: 1.5;
 }
 
 h1 {
   font-size: 60px;
-  line-height: 90px;
   font-weight: bold;
+  color: #fff;
+  line-height: 90px;
   text-transform: uppercase;
-  color: #ffffff;
 }
 
 h2 {
   font-size: 38px;
-  line-height: 57px;
   font-weight: bold;
+  color: #fff;
+  line-height: 57px;
   text-transform: uppercase;
-  color: #ffffff;
 }
 
 h3 {
   font-size: 24px;
-  line-height: 45px;
   font-weight: normal;
+  color: #fff;
+  line-height: 45px;
   text-transform: uppercase;
-  color: #ffffff;
 }
 
 h4 {
   font-size: 18px;
-  line-height: 27px;
   font-weight: bold;
+  color: #fff;
+  line-height: 27px;
   text-transform: uppercase;
-  color: #ffffff;
 }
 
 @media screen and (max-width: 414px) {
@@ -226,8 +226,8 @@ h4 {
 
   h3 {
     font-size: 16px;
-    line-height: 24px;
     font-weight: bold;
+    line-height: 24px;
   }
 
   h4 {
@@ -473,8 +473,8 @@ header#page-description div.logo-n-navigation .logo-name::before {
   width: 24px;
   height: 24px;
   background-image: url("../images/logo.svg");
-  background-position: center;
   background-repeat: no-repeat;
+  background-position: center;
   background-size: 24px;
   content: "";
 }
@@ -497,9 +497,9 @@ header#page-description div.logo-n-navigation input[type=search] {
   height: 25px;
   padding: 5px 0 5px 10px;
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-  border-radius: 50px;
-  border: none;
   color: #fff;
+  border: none;
+  border-radius: 50px;
   background-color: #3c3b3d;
 }
 header#page-description div.logo-n-navigation input[type=search]::placeholder {
@@ -528,11 +528,11 @@ header#page-description div.headings-n-forms form {
   max-width: 570px;
 }
 header#page-description div.headings-n-forms form input {
-  color: #fff;
   width: 42.98%;
+  color: #fff;
   min-height: 50px;
-  padding-left: 22px;
   margin-bottom: 1.5rem;
+  padding-left: 22px;
   border: solid 2px #cacaca;
   border-radius: 3px;
   background-color: transparent;
@@ -550,7 +550,7 @@ header#page-description div.headings-n-forms form button[type=submit] {
   border-radius: 5px;
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   font-size: 13.3px;
-  color: #ffffff;
+  color: #fff;
   background-color: #34c176;
   cursor: pointer;
 }
@@ -700,8 +700,8 @@ article#page-pricing div.pricing-items div.pricing-item {
   width: 368px;
   height: 615px;
   padding: 1.5rem;
-  border-radius: 1rem;
   line-height: 1em;
+  border-radius: 1rem;
   background-position: center;
   background-size: cover;
 }
@@ -734,9 +734,9 @@ article#page-pricing div.pricing-items div.pricing-item a.btn-checkout {
   width: 256px;
   height: 24px;
   padding: 20px 30px;
+  background-color: transparent;
   border: 1px solid #fff;
   border-radius: 5px;
-  background-color: transparent;
   cursor: pointer;
 }
 article#page-pricing div.pricing-items div.pricing-item a.btn-checkout p {
@@ -838,8 +838,8 @@ article#page-pricing p.pricing-desc-all {
 article#page-news {
   width: 1240px;
   height: 744px;
-  padding-top: 100px;
   margin: 0 10vw;
+  padding-top: 100px;
 }
 article#page-news h2 {
   position: relative;
@@ -891,8 +891,8 @@ article#page-news div.news-item div.news-item-content div.news-footer span.news-
   width: 19px;
   height: 19px;
   background-image: url("../images/avatar.png");
-  background-position: center;
   background-repeat: no-repeat;
+  background-position: center;
   background-size: 19px;
   content: "";
 }
@@ -904,9 +904,9 @@ article#page-news div.news-item div.news-item-content button.btn-to-album {
   width: 135px;
   height: 53px;
   padding: 16px 30px;
+  color: #cacaca;
   border: 1px solid #cacaca;
   border-radius: 5px;
-  color: #cacaca;
   background-color: transparent;
   cursor: pointer;
 }
@@ -940,8 +940,8 @@ article#page-news div.news-item div.news-item-content button.btn-to-album {
   article#page-news div.news-item div.news-item-content h3 {
     top: 10px;
     width: 374px;
-    font-size: 16px;
     font-weight: normal;
+    font-size: 16px;
   }
   article#page-news div.news-item div.news-item-content p {
     bottom: 10px;
@@ -974,8 +974,8 @@ article#page-news div.news-item div.news-item-content button.btn-to-album {
 article#page-app {
   width: 1240px;
   height: 383px;
-  padding-top: 100px;
   margin: 0 10vw;
+  padding-top: 100px;
 }
 article#page-app h2 {
   position: relative;
@@ -1004,8 +1004,8 @@ article#page-app div.page-app-item div.page-app-item-content a button {
   padding: 16px 40px;
   border: none;
   border-radius: 32px;
-  cursor: pointer;
   color: #fff;
+  cursor: pointer;
   background-color: #95390c;
 }
 article#page-app img[alt="iphone image"] {
@@ -1048,6 +1048,18 @@ footer {
   height: 386px;
   margin-top: 100px;
 }
+footer div.footer-footer {
+  position: relative;
+  right: 10px;
+  height: 65px;
+  border-top: solid 1px #cacaca;
+}
+footer div.footer-footer ul {
+  position: relative;
+  right: 13px;
+  gap: 1%;
+  margin: 40px 0 50px 10%;
+}
 footer nav {
   position: relative;
   top: 50px;
@@ -1088,23 +1100,32 @@ footer nav div.footer-item div.subscribe-buttons {
   top: 10px;
   width: 160px;
 }
-footer div.footer-footer {
-  position: relative;
-  right: 10px;
-  height: 65px;
-  border-top: solid 1px #cacaca;
-}
-footer div.footer-footer ul {
-  position: relative;
-  right: 13px;
-  gap: 1%;
-  margin: 40px 0 50px 10%;
-}
 
 @media screen and (max-width: 414px) {
   footer {
     width: 414px;
     height: 956px;
+  }
+  footer div.footer-footer {
+    top: 120px;
+    right: 0;
+    height: 200px;
+  }
+  footer div.footer-footer ul {
+    top: 0.7px;
+    right: 0px;
+    bottom: 5px;
+    flex-flow: column nowrap;
+    gap: 1.7vh;
+    margin: 40px 0 50px 20px;
+  }
+  footer div.footer-footer ul li {
+    width: 357px;
+    height: 23px;
+  }
+  footer div.footer-footer ul li.shop-text {
+    position: relative;
+    bottom: 3px;
   }
   footer nav {
     flex-flow: column nowrap;
@@ -1114,6 +1135,13 @@ footer div.footer-footer ul {
   footer nav div.footer-item {
     position: relative;
     width: 100%;
+  }
+  footer nav div.footer-item h2 {
+    width: 100%;
+  }
+  footer nav div.footer-item ul {
+    width: 100%;
+    height: 130px;
   }
   footer nav div.footer-item.footer-item1 {
     bottom: 1px;
@@ -1152,34 +1180,6 @@ footer div.footer-footer ul {
     position: relative;
     bottom: 3px;
     height: 28px;
-  }
-  footer nav div.footer-item h2 {
-    width: 100%;
-  }
-  footer nav div.footer-item ul {
-    width: 100%;
-    height: 130px;
-  }
-  footer div.footer-footer {
-    top: 120px;
-    right: 0;
-    height: 200px;
-  }
-  footer div.footer-footer ul {
-    top: 0.7px;
-    right: 0px;
-    bottom: 5px;
-    flex-flow: column nowrap;
-    gap: 1.7vh;
-    margin: 40px 0 50px 20px;
-  }
-  footer div.footer-footer ul li {
-    width: 357px;
-    height: 23px;
-  }
-  footer div.footer-footer ul li.shop-text {
-    position: relative;
-    bottom: 3px;
   }
 }
 article#page-popular-track {
@@ -1271,8 +1271,8 @@ article#page-discography div.discography-items-container div.discography-item di
 }
 article#page-discography div.discography-items-container div.discography-item div.discography-info h3 {
   font-size: 18px;
-  line-height: 27px;
   font-weight: bold;
+  line-height: 27px;
 }
 
 @media screen and (max-width: 414px) {
@@ -1360,9 +1360,9 @@ article#page-similar div.similar-items-container div.similar-item div.similar-in
   bottom: 5px;
 }
 article#page-similar div.similar-items-container div.similar-item div.similar-info h3 {
+  font-weight: bold;
   font-size: 18px;
   line-height: 27px;
-  font-weight: bold;
 }
 
 @media screen and (max-width: 414px) {
@@ -1375,13 +1375,13 @@ article#page-similar div.similar-items-container div.similar-item div.similar-in
     width: 374px;
   }
   article#page-similar div.similar-items-container {
-    column-gap: 0;
     right: 25px;
     bottom: 10px;
+    column-gap: 0;
   }
   article#page-similar div.similar-items-container div.similar-item {
-    width: 187px;
     display: flex;
+    width: 187px;
     flex-flow: column nowrap;
     align-items: center;
   }

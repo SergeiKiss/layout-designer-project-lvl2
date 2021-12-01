@@ -34,60 +34,59 @@ body {
   }
 
 }
-
 // 2) fonts
 
 @font-face {
+  font-weight: normal;
   font-family: "Roboto";
   src: url(../fonts/Roboto/Roboto-Regular.ttf);
-  font-weight: normal;
 }
 
 @font-face {
+  font-weight: bold;
   font-family: "Roboto";
   src: url(../fonts/Roboto/Roboto-Bold.ttf);
-  font-weight: bold;
 }
 
 .common-font-rules {
-  font-family: "Roboto", sans-serif;
   font-size: 18px;
-  line-height: 1.5;
+  font-family: "Roboto", sans-serif;
   color: #cacaca;
+  line-height: 1.5;
 }
 
 // 3) headings
 
 h1 {
   font-size: 60px;
-  line-height: 90px;
   font-weight: bold;
-  text-transform: uppercase;
   color: map-get($colors, white);
+  line-height: 90px;
+  text-transform: uppercase;
 }
 
 h2 {
   font-size: 38px;
-  line-height: 57px;
   font-weight: bold;
-  text-transform: uppercase;
   color: map-get($colors, white);
+  line-height: 57px;
+  text-transform: uppercase;
 }
 
 h3 {
   font-size: 24px;
-  line-height: 45px;
   font-weight: normal;
-  text-transform: uppercase;
   color: map-get($colors, white);
+  line-height: 45px;
+  text-transform: uppercase;
 }
 
 h4 {
   font-size: 18px;
-  line-height: 27px;
   font-weight: bold;
-  text-transform: uppercase;
   color: map-get($colors, white);
+  line-height: 27px;
+  text-transform: uppercase;
 }
 
 @media screen and (max-width: 414px) {
@@ -103,8 +102,8 @@ h4 {
 
   h3 {
     font-size: 16px;
-    line-height: 24px;
     font-weight: bold;
+    line-height: 24px;
   }
 
   h4 {

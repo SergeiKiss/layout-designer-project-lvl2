@@ -5,8 +5,8 @@
 article#page-app {
   width: 1240px;
   height: 383px;
-  padding-top: 100px;
   margin: 0 10vw;
+  padding-top: 100px;
 
   h2 {
     position: relative;
@@ -38,12 +38,14 @@ article#page-app {
           width: 131px;
           height: 53px;
           padding: 16px 40px;
+
           border: none;
           border-radius: 32px;
 
+          color: #fff;
+
           cursor: pointer;
 
-          color: #fff;
           background-color: map-get($colors, red);
         }
       }

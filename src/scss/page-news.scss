@@ -5,13 +5,14 @@
 article#page-news {
   width: 1240px;
   height: 744px;
-  padding-top: 100px;
   margin: 0 10vw;
+  padding-top: 100px;
 
   h2 {
     position: relative;
     left: 20px;
     width: 1200px;
+
     margin-bottom: 50px;
   }
 
@@ -71,8 +72,8 @@ article#page-news {
             height: 19px;
 
             background-image: url('../images/avatar.png');
-            background-position: center;
             background-repeat: no-repeat;
+            background-position: center;
             background-size: 19px;
 
             content: "";
@@ -89,10 +90,12 @@ article#page-news {
         width: 135px;
         height: 53px;
         padding: 16px 30px;
+
+        color: #cacaca;
+
         border: 1px solid #cacaca;
         border-radius: 5px;
 
-        color: #cacaca;
         background-color: transparent;
 
         cursor: pointer;
@@ -127,6 +130,7 @@ article#page-news {
 
       div.news-item-content {
         bottom: 10px;
+
         gap: 3vh;
 
         margin: 0;
@@ -136,8 +140,8 @@ article#page-news {
 
           width: 374px;
 
-          font-size: 16px;
           font-weight: normal;
+          font-size: 16px;
         }
 
         p {
