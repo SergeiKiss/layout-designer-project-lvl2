@@ -50,10 +50,8 @@ header#page-description {
     }
 
     nav {
-      right: 15%;
-
       ul {
-        bottom: 2px;
+        right: 15%;
 
         li {
           height: 16px;
@@ -226,8 +224,12 @@ header#page-description {
       left: 20px;
 
       flex-flow: column nowrap;
+<<<<<<< HEAD
       gap: 2.2vh;
       align-items: start;
+=======
+      gap: 2vh;
+>>>>>>> parent of 9fa02b1 (fix logo-n-navigation)
 
       width: 374px;
 
@@ -236,11 +238,11 @@ header#page-description {
       }
 
       nav {
-        right: 0;
-
         ul {
           flex-flow: column nowrap;
           justify-content: center;
+
+          right: 0;
 
           li {
             margin: 0;
@@ -257,8 +259,6 @@ header#page-description {
         width: 100%;
       }
     }
-
-    // 2.1) main page
 
     div.headings-n-forms {
       top: 45px;
@@ -301,8 +301,6 @@ header#page-description {
         }
       }
     }
-
-    // 2.2) artist page
 
     div.artistName-n-fans {
       top: 23px;

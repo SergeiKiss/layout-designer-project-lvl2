@@ -428,10 +428,6 @@ h4 {
   color: #f89202;
 }
 
-.dark-gray {
-  color: #cacaca;
-}
-
 .gray {
   color: #e0e0e0;
 }
@@ -478,11 +474,8 @@ header#page-description div.logo-n-navigation .logo-name::before {
   background-size: 24px;
   content: "";
 }
-header#page-description div.logo-n-navigation nav {
-  right: 15%;
-}
 header#page-description div.logo-n-navigation nav ul {
-  bottom: 2px;
+  right: 15%;
 }
 header#page-description div.logo-n-navigation nav ul li {
   height: 16px;
@@ -602,19 +595,21 @@ header#page-description div.artistName-n-fans div.fans-buttons button.favorite-b
   header#page-description div.logo-n-navigation {
     left: 20px;
     flex-flow: column nowrap;
+<<<<<<< HEAD
     gap: 2.2vh;
     align-items: start;
     width: 374px;
+=======
+    gap: 2vh;
+>>>>>>> parent of 9fa02b1 (fix logo-n-navigation)
   }
   header#page-description div.logo-n-navigation .logo-name {
     left: 40px;
   }
-  header#page-description div.logo-n-navigation nav {
-    right: 0;
-  }
   header#page-description div.logo-n-navigation nav ul {
     flex-flow: column nowrap;
     justify-content: center;
+    right: 0;
   }
   header#page-description div.logo-n-navigation nav ul li {
     margin: 0;
